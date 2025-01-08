@@ -1,0 +1,103 @@
+<!-- /templates/base.html -->
+<!DOCTYPE html>
+<html lang="ar"> <!-- Default to Arabic -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}AI Learning Platform{% endblock %}</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="header-left">
+            <nav>
+                <a href="/" id="home-link"><button class="home-btn" id="home-btn"><i class="fas fa-home"></i></button></a>
+                <a href="/about" id="about-link" class="nav-link">
+                    <span class="ar-text">من نحن</span>
+                    <span class="en-text">About Us</span>
+                </a>
+                <a href="/contact" id="contact-link" class="nav-link">
+                    <span class="ar-text">اتصل بنا</span>
+                    <span class="en-text">Contact Us</span>
+                </a>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="language-switch" id="language-switch">🌐</div>
+        </div>
+    </div>
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+    <div class="footer">
+        <div>© 2023 AI Fun Learning Platform</div>
+        <div class="social-media">
+            <a href="https://www.tiktok.com/@aifunlearning" target="_blank" class="fab fa-tiktok"></a>
+            <a href="https://x.com/aifunlearning" target="_blank" class="fa-brands fa-x-twitter"></a>
+            <a href="https://instagram.com" target="_blank" class="fab fa-instagram"></a>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const languageSwitch = document.getElementById('language-switch');
+            const homeLink = document.getElementById('home-link');
+            const homeBtn = document.getElementById('home-btn');
+            const contentEn = document.getElementById('content-en');
+            const contentAr = document.getElementById('content-ar');
+            const arTexts = document.querySelectorAll('.ar-text');
+            const enTexts = document.querySelectorAll('.en-text');
+
+            let currentLanguage = 'ar';
+
+            // Function to set the text and href based on language
+            function setLanguage(lang) {
+                if (lang === 'en') {
+                    currentLanguage = 'en';
+                    homeBtn.innerHTML = '<i class="fas fa-home"></i>';
+                    contentEn.style.display = 'block';
+                    contentAr.style.display = 'none';
+                    // Switch menu text to English
+                    arTexts.forEach(el => el.style.display = 'none');
+                    enTexts.forEach(el => el.style.display = 'inline-block');
+                } else {
+                    currentLanguage = 'ar';
+                    homeBtn.innerHTML = '<i class="fas fa-home"></i>';
+                    contentEn.style.display = 'none';
+                    contentAr.style.display = 'block';
+                    // Switch menu text to Arabic
+                    arTexts.forEach(el => el.style.display = 'inline-block');
+                    enTexts.forEach(el => el.style.display = 'none');
+                }
+                homeLink.href = `/?lang=${currentLanguage}`;
+                localStorage.setItem('currentLanguage', currentLanguage); // Save the current language in local storage
+
+                // Update all navigation links with the current language
+                const navLinks = document.querySelectorAll('nav a');
+                navLinks.forEach(link => {
+                    const href = link.getAttribute('href');
+                    if (href && !href.startsWith('http')) {
+                        link.href = href.split('?')[0] + `?lang=${currentLanguage}`;
+                    }
+                });
+            }
+
+            // Load saved language from local storage
+            const savedLanguage = localStorage.getItem('currentLanguage');
+            if (savedLanguage) {
+                setLanguage(savedLanguage);
+            } else {
+                setLanguage(currentLanguage);
+            }
+
+            languageSwitch.addEventListener('click', function () {
+                if (currentLanguage === 'ar') {
+                    setLanguage('en');
+                } else {
+                    setLanguage('ar');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

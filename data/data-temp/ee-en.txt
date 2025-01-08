@@ -1,0 +1,160 @@
+{'question': 'What is the SI unit of electric current?', 'A': 'Ampere', 'B': 'Volt', 'C': 'Ohm', 'D': 'Watt', 'answer': 'A'}
+{'question': 'Which of the following is a passive component?', 'A': 'Transistor', 'B': 'Diode', 'C': 'Resistor', 'D': 'LED', 'answer': 'C'}
+{'question': "What is the relationship between voltage, current and resistance according to Ohm's law?", 'A': 'V = IR', 'B': 'I = V/R', 'C': 'R = V/I', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'Which of the following is a type of electrical charge?', 'A': 'Positive', 'B': 'Negative', 'C': 'Neutral', 'D': 'Both A and B', 'answer': 'D'}
+{'question': 'What is the purpose of a fuse in an electrical circuit?', 'A': 'To increase current', 'B': 'To decrease voltage', 'C': 'To protect against overcurrent', 'D': 'To amplify the signal', 'answer': 'C'}
+{'question': 'Which of the following is a type of electrical switch?', 'A': 'SPST', 'B': 'DPDT', 'C': 'SPDT', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a transformer in an electrical circuit?', 'A': 'To convert AC to DC', 'B': 'To increase or decrease voltage', 'C': 'To measure current', 'D': 'To generate electricity', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical motor?', 'A': 'DC motor', 'B': 'AC motor', 'C': 'Stepper motor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a capacitor in an electrical circuit?', 'A': 'To store energy', 'B': 'To block DC signals', 'C': 'To filter out AC signals', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'Which of the following is a type of electrical generator?', 'A': 'Synchronous generator', 'B': 'Induction generator', 'C': 'DC generator', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a resistor in an electrical circuit?', 'A': 'To limit current', 'B': 'To amplify voltage', 'C': 'To generate heat', 'D': 'To store energy', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical relay?', 'A': 'Electromagnetic relay', 'B': 'Solid-state relay', 'C': 'Reed relay', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a diode in an electrical circuit?', 'A': 'To convert AC to DC', 'B': 'To amplify voltage', 'C': 'To generate light', 'D': 'To measure current', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Temperature sensor', 'B': 'Pressure sensor', 'C': 'Light sensor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a transistor in an electrical circuit?', 'A': 'To amplify or switch signals', 'B': 'To convert AC to DC', 'C': 'To measure voltage', 'D': 'To generate heat', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical power supply?', 'A': 'AC power supply', 'B': 'DC power supply', 'C': 'Regulated power supply', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a voltmeter in an electrical circuit?', 'A': 'To measure current', 'B': 'To measure voltage', 'C': 'To measure resistance', 'D': 'To generate electricity', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical cable?', 'A': 'Coaxial cable', 'B': 'Twisted pair cable', 'C': 'Fiber optic cable', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a wattmeter in an electrical circuit?', 'A': 'To measure power', 'B': 'To measure energy', 'C': 'To measure frequency', 'D': 'To measure phase', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical breaker?', 'A': 'Circuit breaker', 'B': 'Fuse', 'C': 'GFCI breaker', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a potentiometer in an electrical circuit?', 'A': 'To measure voltage', 'B': 'To measure current', 'C': 'To measure resistance', 'D': 'To control voltage', 'answer': 'D'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'BNC connector', 'B': 'RCA connector', 'C': 'USB connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a thermistor in an electrical circuit?', 'A': 'To measure temperature', 'B': 'To measure humidity', 'C': 'To measure pressure', 'D': 'To measure light', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical inductor?', 'A': 'Air-core inductor', 'B': 'Iron-core inductor', 'C': 'Ferrite-core inductor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a rectifier in an electrical circuit?', 'A': 'To convert AC to DC', 'B': 'To amplify voltage', 'C': 'To filter out noise', 'D': 'To measure power', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical oscillator?', 'A': 'RC oscillator', 'B': 'LC oscillator', 'C': 'Crystal oscillator', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a comparator in an electrical circuit?', 'A': 'To compare two voltages', 'B': 'To amplify current', 'C': 'To generate a square wave', 'D': 'To measure frequency', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical amplifier?', 'A': 'Operational amplifier', 'B': 'Audio amplifier', 'C': 'RF amplifier', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a filter capacitor in a power supply?', 'A': 'To filter out AC ripple', 'B': 'To increase voltage', 'C': 'To measure current', 'D': 'To generate heat', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Hall effect sensor', 'B': 'Strain gauge', 'C': 'Piezoelectric sensor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a voltage regulator in an electrical circuit?', 'A': 'To increase voltage', 'B': 'To decrease voltage', 'C': 'To maintain a constant voltage', 'D': 'To measure voltage', 'answer': 'C'}
+{'question': 'Which of the following is a type of electrical motor?', 'A': 'Brushless DC motor', 'B': 'Servo motor', 'C': 'Stepper motor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a zener diode in an electrical circuit?', 'A': 'To regulate voltage', 'B': 'To amplify current', 'C': 'To generate light', 'D': 'To measure resistance', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Photodiode', 'B': 'Phototransistor', 'C': 'Photoresistor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a logic gate in a digital circuit?', 'A': 'To perform Boolean operations', 'B': 'To amplify voltage', 'C': 'To generate a clock signal', 'D': 'To measure current', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'HDMI connector', 'B': 'DisplayPort connector', 'C': 'Ethernet connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a microcontroller in an electrical circuit?', 'A': 'To control and process signals', 'B': 'To amplify voltage', 'C': 'To generate a clock signal', 'D': 'To measure resistance', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Accelerometer', 'B': 'Gyroscope', 'C': 'Magnetometer', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a power MOSFET in an electrical circuit?', 'A': 'To switch high currents', 'B': 'To amplify voltage', 'C': 'To generate a clock signal', 'D': 'To measure resistance', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'XLR connector', 'B': 'TRS connector', 'C': 'RJ45 connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a potentiometer in an electrical circuit?', 'A': 'To measure voltage', 'B': 'To measure current', 'C': 'To measure resistance', 'D': 'To control voltage', 'answer': 'D'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'BNC connector', 'B': 'RCA connector', 'C': 'USB connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a thermistor in an electrical circuit?', 'A': 'To measure temperature', 'B': 'To measure humidity', 'C': 'To measure pressure', 'D': 'To measure light', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical inductor?', 'A': 'Air-core inductor', 'B': 'Iron-core inductor', 'C': 'Ferrite-core inductor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a rectifier in an electrical circuit?', 'A': 'To convert AC to DC', 'B': 'To amplify voltage', 'C': 'To filter out noise', 'D': 'To measure power', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical oscillator?', 'A': 'RC oscillator', 'B': 'LC oscillator', 'C': 'Crystal oscillator', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a comparator in an electrical circuit?', 'A': 'To compare two voltages', 'B': 'To amplify current', 'C': 'To generate a square wave', 'D': 'To measure frequency', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical amplifier?', 'A': 'Operational amplifier', 'B': 'Audio amplifier', 'C': 'RF amplifier', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a filter capacitor in a power supply?', 'A': 'To filter out AC ripple', 'B': 'To increase voltage', 'C': 'To measure current', 'D': 'To generate heat', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Hall effect sensor', 'B': 'Strain gauge', 'C': 'Piezoelectric sensor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a voltage regulator in an electrical circuit?', 'A': 'To increase voltage', 'B': 'To decrease voltage', 'C': 'To maintain a constant voltage', 'D': 'To measure voltage', 'answer': 'C'}
+{'question': 'Which of the following is a type of electrical motor?', 'A': 'Brushless DC motor', 'B': 'Servo motor', 'C': 'Stepper motor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a zener diode in an electrical circuit?', 'A': 'To regulate voltage', 'B': 'To amplify current', 'C': 'To generate light', 'D': 'To measure resistance', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Photodiode', 'B': 'Phototransistor', 'C': 'Photoresistor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a logic gate in a digital circuit?', 'A': 'To perform Boolean operations', 'B': 'To amplify voltage', 'C': 'To generate a clock signal', 'D': 'To measure current', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'HDMI connector', 'B': 'DisplayPort connector', 'C': 'Ethernet connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a microcontroller in an electrical circuit?', 'A': 'To control and process signals', 'B': 'To amplify voltage', 'C': 'To generate a clock signal', 'D': 'To measure resistance', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Accelerometer', 'B': 'Gyroscope', 'C': 'Magnetometer', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a power MOSFET in an electrical circuit?', 'A': 'To switch high currents', 'B': 'To amplify voltage', 'C': 'To generate a clock signal', 'D': 'To measure resistance', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'XLR connector', 'B': 'TRS connector', 'C': 'RJ45 connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Strain gauge', 'B': 'Load cell', 'C': 'Pressure sensor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a potentiometer in an electrical circuit?', 'A': 'To measure voltage', 'B': 'To measure current', 'C': 'To control resistance', 'D': 'To amplify signals', 'answer': 'C'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'BNC connector', 'B': 'SMA connector', 'C': 'TNC connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a thermistor in an electrical circuit?', 'A': 'To measure temperature', 'B': 'To measure humidity', 'C': 'To measure pressure', 'D': 'To measure light intensity', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical inductor?', 'A': 'Air-core inductor', 'B': 'Iron-core inductor', 'C': 'Ferrite-core inductor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a rectifier in an electrical circuit?', 'A': 'To convert AC to DC', 'B': 'To amplify voltage', 'C': 'To filter out noise', 'D': 'To measure power', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical oscillator?', 'A': 'RC oscillator', 'B': 'LC oscillator', 'C': 'Crystal oscillator', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a comparator in an electrical circuit?', 'A': 'To compare two voltages', 'B': 'To amplify current', 'C': 'To generate a square wave', 'D': 'To measure frequency', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical amplifier?', 'A': 'Operational amplifier', 'B': 'Audio amplifier', 'C': 'RF amplifier', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a filter capacitor in a power supply?', 'A': 'To filter out AC ripple', 'B': 'To increase voltage', 'C': 'To measure current', 'D': 'To generate heat', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Hall effect sensor', 'B': 'Strain gauge', 'C': 'Piezoelectric sensor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a voltage regulator in an electrical circuit?', 'A': 'To increase voltage', 'B': 'To decrease voltage', 'C': 'To maintain a constant voltage', 'D': 'To measure voltage', 'answer': 'C'}
+{'question': 'Which of the following is a type of electrical motor?', 'A': 'Brushless DC motor', 'B': 'Servo motor', 'C': 'Stepper motor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a zener diode in an electrical circuit?', 'A': 'To regulate voltage', 'B': 'To amplify current', 'C': 'To generate light', 'D': 'To measure resistance', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Photodiode', 'B': 'Phototransistor', 'C': 'Photoresistor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a logic gate in a digital circuit?', 'A': 'To perform Boolean operations', 'B': 'To amplify voltage', 'C': 'To generate a clock signal', 'D': 'To measure current', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'HDMI connector', 'B': 'DisplayPort connector', 'C': 'Ethernet connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a microcontroller in an electrical circuit?', 'A': 'To control and process signals', 'B': 'To amplify voltage', 'C': 'To generate a clock signal', 'D': 'To measure resistance', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Accelerometer', 'B': 'Gyroscope', 'C': 'Magnetometer', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a power MOSFET in an electrical circuit?', 'A': 'To switch high currents', 'B': 'To amplify voltage', 'C': 'To generate a clock signal', 'D': 'To measure resistance', 'answer': 'A'}
+{'question': 'What is the purpose of a voltage multiplier in an electrical circuit?', 'A': 'To increase voltage', 'B': 'To decrease voltage', 'C': 'To regulate voltage', 'D': 'To measure voltage', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical transformer?', 'A': 'Step-up transformer', 'B': 'Step-down transformer', 'C': 'Isolation transformer', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a current limiter in an electrical circuit?', 'A': 'To limit current', 'B': 'To increase voltage', 'C': 'To regulate voltage', 'D': 'To measure current', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical switch?', 'A': 'SPST switch', 'B': 'SPDT switch', 'C': 'DPDT switch', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a voltage doubler in an electrical circuit?', 'A': 'To double voltage', 'B': 'To halve voltage', 'C': 'To regulate voltage', 'D': 'To measure voltage', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Proximity sensor', 'B': 'Infrared sensor', 'C': 'Ultrasonic sensor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a power factor correction (PFC) circuit in an electrical circuit?', 'A': 'To improve power factor', 'B': 'To increase voltage', 'C': 'To regulate voltage', 'D': 'To measure current', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical relay?', 'A': 'Electromagnetic relay', 'B': 'Solid-state relay', 'C': 'Reed relay', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a voltage regulator in an electrical circuit?', 'A': 'To regulate voltage', 'B': 'To increase voltage', 'C': 'To decrease voltage', 'D': 'To measure voltage', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical motor?', 'A': 'DC motor', 'B': 'AC motor', 'C': 'Stepper motor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a current sensor in an electrical circuit?', 'A': 'To measure current', 'B': 'To measure voltage', 'C': 'To regulate voltage', 'D': 'To amplify current', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'USB connector', 'B': 'HDMI connector', 'C': 'Ethernet connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a voltage stabilizer in an electrical circuit?', 'A': 'To stabilize voltage', 'B': 'To increase voltage', 'C': 'To decrease voltage', 'D': 'To measure voltage', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Temperature sensor', 'B': 'Humidity sensor', 'C': 'Pressure sensor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a power amplifier in an electrical circuit?', 'A': 'To amplify power', 'B': 'To increase voltage', 'C': 'To regulate voltage', 'D': 'To measure current', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical switch?', 'A': 'Toggle switch', 'B': 'Push button switch', 'C': 'Rotary switch', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a voltage multiplier in an electrical circuit?', 'A': 'To increase voltage', 'B': 'To decrease voltage', 'C': 'To regulate voltage', 'D': 'To measure voltage', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical transformer?', 'A': 'Step-up transformer', 'B': 'Step-down transformer', 'C': 'Isolation transformer', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a current limiter in an electrical circuit?', 'A': 'To limit current', 'B': 'To increase voltage', 'C': 'To regulate voltage', 'D': 'To measure current', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical switch?', 'A': 'SPST switch', 'B': 'SPDT switch', 'C': 'DPDT switch', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a voltage doubler in an electrical circuit?', 'A': 'To double voltage', 'B': 'To halve voltage', 'C': 'To regulate voltage', 'D': 'To measure voltage', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Proximity sensor', 'B': 'Infrared sensor', 'C': 'Ultrasonic sensor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a power factor correction (PFC) circuit in an electrical circuit?', 'A': 'To improve power factor', 'B': 'To increase voltage', 'C': 'To regulate voltage', 'D': 'To measure current', 'answer': 'A'}
+{'question': 'What is the purpose of a surge protector in an electrical circuit?', 'A': 'To regulate voltage', 'B': 'To protect against voltage spikes', 'C': 'To amplify current', 'D': 'To measure resistance', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical relay?', 'A': 'Latching relay', 'B': 'Mercury relay', 'C': 'Solid-state relay', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a shunt resistor in an electrical circuit?', 'A': 'To measure voltage', 'B': 'To measure current', 'C': 'To regulate voltage', 'D': 'To amplify current', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'D-sub connector', 'B': 'Mini USB connector', 'C': 'Thunderbolt connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a solenoid in an electrical circuit?', 'A': 'To store energy', 'B': 'To convert electrical energy to mechanical energy', 'C': 'To measure resistance', 'D': 'To generate light', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical switch?', 'A': 'Toggle switch', 'B': 'Rotary switch', 'C': 'Push button switch', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a piezoelectric transducer in an electrical circuit?', 'A': 'To measure temperature', 'B': 'To generate electricity from mechanical stress', 'C': 'To amplify current', 'D': 'To regulate voltage', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'SCART connector', 'B': 'VGA connector', 'C': 'DisplayPort connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a current transformer in an electrical circuit?', 'A': 'To measure current', 'B': 'To measure voltage', 'C': 'To regulate voltage', 'D': 'To amplify current', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical switch?', 'A': 'Mercury switch', 'B': 'Reed switch', 'C': 'Limit switch', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a varistor in an electrical circuit?', 'A': 'To regulate voltage', 'B': 'To protect against voltage surges', 'C': 'To amplify current', 'D': 'To measure resistance', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'SCSI connector', 'B': 'HDMI connector', 'C': 'FireWire connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a Hall effect sensor in an electrical circuit?', 'A': 'To measure temperature', 'B': 'To detect magnetic fields', 'C': 'To amplify current', 'D': 'To regulate voltage', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical relay?', 'A': 'Time-delay relay', 'B': 'Thermal relay', 'C': 'Polarized relay', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a neon lamp in an electrical circuit?', 'A': 'To measure voltage', 'B': 'To generate light', 'C': 'To amplify current', 'D': 'To regulate voltage', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'SCSI connector', 'B': 'Thunderbolt connector', 'C': 'MIDI connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a reed relay in an electrical circuit?', 'A': 'To switch high currents', 'B': 'To measure voltage', 'C': 'To detect magnetic fields', 'D': 'To regulate voltage', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical switch?', 'A': 'Foot switch', 'B': 'Key switch', 'C': 'Toggle switch', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a thermocouple in an electrical circuit?', 'A': 'To measure temperature', 'B': 'To measure humidity', 'C': 'To amplify current', 'D': 'To regulate voltage', 'answer': 'A'}
+{'question': 'What is the purpose of a transformer in an electrical circuit?', 'A': 'To convert AC to DC', 'B': 'To increase or decrease voltage', 'C': 'To measure current', 'D': 'To generate electricity', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical motor?', 'A': 'DC motor', 'B': 'AC motor', 'C': 'Stepper motor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a capacitor in an electrical circuit?', 'A': 'To store energy', 'B': 'To block DC signals', 'C': 'To filter out AC signals', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'Which of the following is a type of electrical generator?', 'A': 'Synchronous generator', 'B': 'Induction generator', 'C': 'DC generator', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a resistor in an electrical circuit?', 'A': 'To limit current', 'B': 'To amplify voltage', 'C': 'To generate heat', 'D': 'To store energy', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical relay?', 'A': 'Electromagnetic relay', 'B': 'Solid-state relay', 'C': 'Reed relay', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a diode in an electrical circuit?', 'A': 'To convert AC to DC', 'B': 'To amplify voltage', 'C': 'To generate light', 'D': 'To measure current', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Temperature sensor', 'B': 'Pressure sensor', 'C': 'Light sensor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a transistor in an electrical circuit?', 'A': 'To amplify or switch signals', 'B': 'To convert AC to DC', 'C': 'To measure voltage', 'D': 'To generate heat', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical power supply?', 'A': 'AC power supply', 'B': 'DC power supply', 'C': 'Regulated power supply', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a voltmeter in an electrical circuit?', 'A': 'To measure current', 'B': 'To measure voltage', 'C': 'To measure resistance', 'D': 'To generate electricity', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical cable?', 'A': 'Coaxial cable', 'B': 'Twisted pair cable', 'C': 'Fiber optic cable', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a wattmeter in an electrical circuit?', 'A': 'To measure power', 'B': 'To measure energy', 'C': 'To measure frequency', 'D': 'To measure phase', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical breaker?', 'A': 'Circuit breaker', 'B': 'Fuse', 'C': 'GFCI breaker', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a potentiometer in an electrical circuit?', 'A': 'To measure voltage', 'B': 'To control resistance', 'C': 'To measure current', 'D': 'To amplify signals', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'BNC connector', 'B': 'SMA connector', 'C': 'TNC connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a thermistor in an electrical circuit?', 'A': 'To measure temperature', 'B': 'To measure humidity', 'C': 'To measure pressure', 'D': 'To measure light intensity', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical inductor?', 'A': 'Air-core inductor', 'B': 'Iron-core inductor', 'C': 'Ferrite-core inductor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a rectifier in an electrical circuit?', 'A': 'To convert AC to DC', 'B': 'To amplify voltage', 'C': 'To filter out noise', 'D': 'To measure power', 'answer': 'A'}
+{'question': 'What is the purpose of a transformer in an electrical circuit?', 'A': 'To convert AC to DC', 'B': 'To increase or decrease voltage', 'C': 'To measure current', 'D': 'To generate electricity', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical motor?', 'A': 'DC motor', 'B': 'AC motor', 'C': 'Stepper motor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a capacitor in an electrical circuit?', 'A': 'To store energy', 'B': 'To block DC signals', 'C': 'To filter out AC signals', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'Which of the following is a type of electrical generator?', 'A': 'Synchronous generator', 'B': 'Induction generator', 'C': 'DC generator', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a resistor in an electrical circuit?', 'A': 'To limit current', 'B': 'To amplify voltage', 'C': 'To generate heat', 'D': 'To store energy', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical relay?', 'A': 'Electromagnetic relay', 'B': 'Solid-state relay', 'C': 'Reed relay', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a diode in an electrical circuit?', 'A': 'To convert AC to DC', 'B': 'To amplify voltage', 'C': 'To generate light', 'D': 'To measure current', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical sensor?', 'A': 'Temperature sensor', 'B': 'Pressure sensor', 'C': 'Light sensor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a transistor in an electrical circuit?', 'A': 'To amplify or switch signals', 'B': 'To convert AC to DC', 'C': 'To measure voltage', 'D': 'To generate heat', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical power supply?', 'A': 'AC power supply', 'B': 'DC power supply', 'C': 'Regulated power supply', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a voltmeter in an electrical circuit?', 'A': 'To measure current', 'B': 'To measure voltage', 'C': 'To measure resistance', 'D': 'To generate electricity', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical cable?', 'A': 'Coaxial cable', 'B': 'Twisted pair cable', 'C': 'Fiber optic cable', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a wattmeter in an electrical circuit?', 'A': 'To measure power', 'B': 'To measure energy', 'C': 'To measure frequency', 'D': 'To measure phase', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical breaker?', 'A': 'Circuit breaker', 'B': 'Fuse', 'C': 'GFCI breaker', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a potentiometer in an electrical circuit?', 'A': 'To measure voltage', 'B': 'To control resistance', 'C': 'To measure current', 'D': 'To amplify signals', 'answer': 'B'}
+{'question': 'Which of the following is a type of electrical connector?', 'A': 'BNC connector', 'B': 'SMA connector', 'C': 'TNC connector', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a thermistor in an electrical circuit?', 'A': 'To measure temperature', 'B': 'To measure humidity', 'C': 'To measure pressure', 'D': 'To measure light intensity', 'answer': 'A'}
+{'question': 'Which of the following is a type of electrical inductor?', 'A': 'Air-core inductor', 'B': 'Iron-core inductor', 'C': 'Ferrite-core inductor', 'D': 'All of the above', 'answer': 'D'}
+{'question': 'What is the purpose of a rectifier in an electrical circuit?', 'A': 'To convert AC to DC', 'B': 'To amplify voltage', 'C': 'To filter out noise', 'D': 'To measure power', 'answer': 'A'}

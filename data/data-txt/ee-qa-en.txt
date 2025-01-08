@@ -1,0 +1,160 @@
+Q1: What is the SI unit of electric current?
+Q2: Which of the following is a passive component?
+Q3: What is the relationship between voltage, current and resistance according to Ohm's law?
+Q4: Which of the following is a type of electrical charge?
+Q5: What is the purpose of a fuse in an electrical circuit?
+Q6: Which of the following is a type of electrical switch?
+Q7: What is the purpose of a transformer in an electrical circuit?
+Q8: Which of the following is a type of electrical motor?
+Q9: What is the purpose of a capacitor in an electrical circuit?
+Q10: Which of the following is a type of electrical generator?
+Q11: What is the purpose of a resistor in an electrical circuit?
+Q12: Which of the following is a type of electrical relay?
+Q13: What is the purpose of a diode in an electrical circuit?
+Q14: Which of the following is a type of electrical sensor?
+Q15: What is the purpose of a transistor in an electrical circuit?
+Q16: Which of the following is a type of electrical power supply?
+Q17: What is the purpose of a voltmeter in an electrical circuit?
+Q18: Which of the following is a type of electrical cable?
+Q19: What is the purpose of a wattmeter in an electrical circuit?
+Q20: Which of the following is a type of electrical breaker?
+Q21: What is the purpose of a potentiometer in an electrical circuit?
+Q22: Which of the following is a type of electrical connector?
+Q23: What is the purpose of a thermistor in an electrical circuit?
+Q24: Which of the following is a type of electrical inductor?
+Q25: What is the purpose of a rectifier in an electrical circuit?
+Q26: Which of the following is a type of electrical oscillator?
+Q27: What is the purpose of a comparator in an electrical circuit?
+Q28: Which of the following is a type of electrical amplifier?
+Q29: What is the purpose of a filter capacitor in a power supply?
+Q30: Which of the following is a type of electrical sensor?
+Q31: What is the purpose of a voltage regulator in an electrical circuit?
+Q32: Which of the following is a type of electrical motor?
+Q33: What is the purpose of a zener diode in an electrical circuit?
+Q34: Which of the following is a type of electrical sensor?
+Q35: What is the purpose of a logic gate in a digital circuit?
+Q36: Which of the following is a type of electrical connector?
+Q37: What is the purpose of a microcontroller in an electrical circuit?
+Q38: Which of the following is a type of electrical sensor?
+Q39: What is the purpose of a power MOSFET in an electrical circuit?
+Q40: Which of the following is a type of electrical connector?
+Q41: What is the purpose of a potentiometer in an electrical circuit?
+Q42: Which of the following is a type of electrical connector?
+Q43: What is the purpose of a thermistor in an electrical circuit?
+Q44: Which of the following is a type of electrical inductor?
+Q45: What is the purpose of a rectifier in an electrical circuit?
+Q46: Which of the following is a type of electrical oscillator?
+Q47: What is the purpose of a comparator in an electrical circuit?
+Q48: Which of the following is a type of electrical amplifier?
+Q49: What is the purpose of a filter capacitor in a power supply?
+Q50: Which of the following is a type of electrical sensor?
+Q51: What is the purpose of a voltage regulator in an electrical circuit?
+Q52: Which of the following is a type of electrical motor?
+Q53: What is the purpose of a zener diode in an electrical circuit?
+Q54: Which of the following is a type of electrical sensor?
+Q55: What is the purpose of a logic gate in a digital circuit?
+Q56: Which of the following is a type of electrical connector?
+Q57: What is the purpose of a microcontroller in an electrical circuit?
+Q58: Which of the following is a type of electrical sensor?
+Q59: What is the purpose of a power MOSFET in an electrical circuit?
+Q60: Which of the following is a type of electrical connector?
+Q61: Which of the following is a type of electrical sensor?
+Q62: What is the purpose of a potentiometer in an electrical circuit?
+Q63: Which of the following is a type of electrical connector?
+Q64: What is the purpose of a thermistor in an electrical circuit?
+Q65: Which of the following is a type of electrical inductor?
+Q66: What is the purpose of a rectifier in an electrical circuit?
+Q67: Which of the following is a type of electrical oscillator?
+Q68: What is the purpose of a comparator in an electrical circuit?
+Q69: Which of the following is a type of electrical amplifier?
+Q70: What is the purpose of a filter capacitor in a power supply?
+Q71: Which of the following is a type of electrical sensor?
+Q72: What is the purpose of a voltage regulator in an electrical circuit?
+Q73: Which of the following is a type of electrical motor?
+Q74: What is the purpose of a zener diode in an electrical circuit?
+Q75: Which of the following is a type of electrical sensor?
+Q76: What is the purpose of a logic gate in a digital circuit?
+Q77: Which of the following is a type of electrical connector?
+Q78: What is the purpose of a microcontroller in an electrical circuit?
+Q79: Which of the following is a type of electrical sensor?
+Q80: What is the purpose of a power MOSFET in an electrical circuit?
+Q81: What is the purpose of a voltage multiplier in an electrical circuit?
+Q82: Which of the following is a type of electrical transformer?
+Q83: What is the purpose of a current limiter in an electrical circuit?
+Q84: Which of the following is a type of electrical switch?
+Q85: What is the purpose of a voltage doubler in an electrical circuit?
+Q86: Which of the following is a type of electrical sensor?
+Q87: What is the purpose of a power factor correction (PFC) circuit in an electrical circuit?
+Q88: Which of the following is a type of electrical relay?
+Q89: What is the purpose of a voltage regulator in an electrical circuit?
+Q90: Which of the following is a type of electrical motor?
+Q91: What is the purpose of a current sensor in an electrical circuit?
+Q92: Which of the following is a type of electrical connector?
+Q93: What is the purpose of a voltage stabilizer in an electrical circuit?
+Q94: Which of the following is a type of electrical sensor?
+Q95: What is the purpose of a power amplifier in an electrical circuit?
+Q96: Which of the following is a type of electrical switch?
+Q97: What is the purpose of a voltage multiplier in an electrical circuit?
+Q98: Which of the following is a type of electrical transformer?
+Q99: What is the purpose of a current limiter in an electrical circuit?
+Q100: Which of the following is a type of electrical switch?
+Q101: What is the purpose of a voltage doubler in an electrical circuit?
+Q102: Which of the following is a type of electrical sensor?
+Q103: What is the purpose of a power factor correction (PFC) circuit in an electrical circuit?
+Q104: What is the purpose of a surge protector in an electrical circuit?
+Q105: Which of the following is a type of electrical relay?
+Q106: What is the purpose of a shunt resistor in an electrical circuit?
+Q107: Which of the following is a type of electrical connector?
+Q108: What is the purpose of a solenoid in an electrical circuit?
+Q109: Which of the following is a type of electrical switch?
+Q110: What is the purpose of a piezoelectric transducer in an electrical circuit?
+Q111: Which of the following is a type of electrical connector?
+Q112: What is the purpose of a current transformer in an electrical circuit?
+Q113: Which of the following is a type of electrical switch?
+Q114: What is the purpose of a varistor in an electrical circuit?
+Q115: Which of the following is a type of electrical connector?
+Q116: What is the purpose of a Hall effect sensor in an electrical circuit?
+Q117: Which of the following is a type of electrical relay?
+Q118: What is the purpose of a neon lamp in an electrical circuit?
+Q119: Which of the following is a type of electrical connector?
+Q120: What is the purpose of a reed relay in an electrical circuit?
+Q121: Which of the following is a type of electrical switch?
+Q122: What is the purpose of a thermocouple in an electrical circuit?
+Q123: What is the purpose of a transformer in an electrical circuit?
+Q124: Which of the following is a type of electrical motor?
+Q125: What is the purpose of a capacitor in an electrical circuit?
+Q126: Which of the following is a type of electrical generator?
+Q127: What is the purpose of a resistor in an electrical circuit?
+Q128: Which of the following is a type of electrical relay?
+Q129: What is the purpose of a diode in an electrical circuit?
+Q130: Which of the following is a type of electrical sensor?
+Q131: What is the purpose of a transistor in an electrical circuit?
+Q132: Which of the following is a type of electrical power supply?
+Q133: What is the purpose of a voltmeter in an electrical circuit?
+Q134: Which of the following is a type of electrical cable?
+Q135: What is the purpose of a wattmeter in an electrical circuit?
+Q136: Which of the following is a type of electrical breaker?
+Q137: What is the purpose of a potentiometer in an electrical circuit?
+Q138: Which of the following is a type of electrical connector?
+Q139: What is the purpose of a thermistor in an electrical circuit?
+Q140: Which of the following is a type of electrical inductor?
+Q141: What is the purpose of a rectifier in an electrical circuit?
+Q142: What is the purpose of a transformer in an electrical circuit?
+Q143: Which of the following is a type of electrical motor?
+Q144: What is the purpose of a capacitor in an electrical circuit?
+Q145: Which of the following is a type of electrical generator?
+Q146: What is the purpose of a resistor in an electrical circuit?
+Q147: Which of the following is a type of electrical relay?
+Q148: What is the purpose of a diode in an electrical circuit?
+Q149: Which of the following is a type of electrical sensor?
+Q150: What is the purpose of a transistor in an electrical circuit?
+Q151: Which of the following is a type of electrical power supply?
+Q152: What is the purpose of a voltmeter in an electrical circuit?
+Q153: Which of the following is a type of electrical cable?
+Q154: What is the purpose of a wattmeter in an electrical circuit?
+Q155: Which of the following is a type of electrical breaker?
+Q156: What is the purpose of a potentiometer in an electrical circuit?
+Q157: Which of the following is a type of electrical connector?
+Q158: What is the purpose of a thermistor in an electrical circuit?
+Q159: Which of the following is a type of electrical inductor?
+Q160: What is the purpose of a rectifier in an electrical circuit?

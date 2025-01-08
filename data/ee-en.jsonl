@@ -1,0 +1,129 @@
+{"question": "What is the SI unit of electric current?", "A": "Ampere", "B": "Volt", "C": "Ohm", "D": "Watt", "answer": "A"}
+{"question": "Which of the following is a passive component?", "A": "Transistor", "B": "Diode", "C": "Resistor", "D": "LED", "answer": "C"}
+{"question": "What is the relationship between voltage, current and resistance according to Ohm's law?", "A": "V = IR", "B": "I = V/R", "C": "R = V/I", "D": "All of the above", "answer": "D"}
+{"question": "Which of the following is a type of electrical charge?", "A": "Positive", "B": "Negative", "C": "Neutral", "D": "Both A and B", "answer": "D"}
+{"question": "What is the purpose of a fuse in an electrical circuit?", "A": "To increase current", "B": "To decrease voltage", "C": "To protect against overcurrent", "D": "To amplify the signal", "answer": "C"}
+{"question": "Which of the following is a type of electrical switch?", "A": "SPST", "B": "DPDT", "C": "SPDT", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a transformer in an electrical circuit?", "A": "To convert AC to DC", "B": "To increase or decrease voltage", "C": "To measure current", "D": "To generate electricity", "answer": "B"}
+{"question": "Which of the following is a type of electrical motor?", "A": "DC motor", "B": "AC motor", "C": "Stepper motor", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a capacitor in an electrical circuit?", "A": "To store energy", "B": "To block DC signals", "C": "To filter out AC signals", "D": "All of the above", "answer": "D"}
+{"question": "Which of the following is a type of electrical generator?", "A": "Synchronous generator", "B": "Induction generator", "C": "DC generator", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a resistor in an electrical circuit?", "A": "To limit current", "B": "To amplify voltage", "C": "To generate heat", "D": "To store energy", "answer": "A"}
+{"question": "Which of the following is a type of electrical relay?", "A": "Electromagnetic relay", "B": "Solid-state relay", "C": "Reed relay", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a diode in an electrical circuit?", "A": "To convert AC to DC", "B": "To amplify voltage", "C": "To generate light", "D": "To measure current", "answer": "A"}
+{"question": "Which of the following is a type of electrical sensor?", "A": "Temperature sensor", "B": "Pressure sensor", "C": "Light sensor", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a transistor in an electrical circuit?", "A": "To amplify or switch signals", "B": "To convert AC to DC", "C": "To measure voltage", "D": "To generate heat", "answer": "A"}
+{"question": "Which of the following is a type of electrical power supply?", "A": "AC power supply", "B": "DC power supply", "C": "Regulated power supply", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a voltmeter in an electrical circuit?", "A": "To measure current", "B": "To measure voltage", "C": "To measure resistance", "D": "To generate electricity", "answer": "B"}
+{"question": "Which of the following is a type of electrical cable?", "A": "Coaxial cable", "B": "Twisted pair cable", "C": "Fiber optic cable", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a wattmeter in an electrical circuit?", "A": "To measure power", "B": "To measure energy", "C": "To measure frequency", "D": "To measure phase", "answer": "A"}
+{"question": "Which of the following is a type of electrical breaker?", "A": "Circuit breaker", "B": "Fuse", "C": "GFCI breaker", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a potentiometer in an electrical circuit?", "A": "To measure voltage", "B": "To measure current", "C": "To measure resistance", "D": "To control voltage", "answer": "D"}
+{"question": "Which of the following is a type of electrical connector?", "A": "BNC connector", "B": "RCA connector", "C": "USB connector", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a thermistor in an electrical circuit?", "A": "To measure temperature", "B": "To measure humidity", "C": "To measure pressure", "D": "To measure light", "answer": "A"}
+{"question": "Which of the following is a type of electrical inductor?", "A": "Air-core inductor", "B": "Iron-core inductor", "C": "Ferrite-core inductor", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a rectifier in an electrical circuit?", "A": "To convert AC to DC", "B": "To amplify voltage", "C": "To filter out noise", "D": "To measure power", "answer": "A"}
+{"question": "Which of the following is a type of electrical oscillator?", "A": "RC oscillator", "B": "LC oscillator", "C": "Crystal oscillator", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a comparator in an electrical circuit?", "A": "To compare two voltages", "B": "To amplify current", "C": "To generate a square wave", "D": "To measure frequency", "answer": "A"}
+{"question": "Which of the following is a type of electrical amplifier?", "A": "Operational amplifier", "B": "Audio amplifier", "C": "RF amplifier", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a filter capacitor in a power supply?", "A": "To filter out AC ripple", "B": "To increase voltage", "C": "To measure current", "D": "To generate heat", "answer": "A"}
+{"question": "What is the purpose of a voltage regulator in an electrical circuit?", "A": "To increase voltage", "B": "To decrease voltage", "C": "To maintain a constant voltage", "D": "To measure voltage", "answer": "C"}
+{"question": "What is the purpose of a zener diode in an electrical circuit?", "A": "To regulate voltage", "B": "To amplify current", "C": "To generate light", "D": "To measure resistance", "answer": "A"}
+{"question": "What is the purpose of a logic gate in a digital circuit?", "A": "To perform Boolean operations", "B": "To amplify voltage", "C": "To generate a clock signal", "D": "To measure current", "answer": "A"}
+{"question": "What is the purpose of a microcontroller in an electrical circuit?", "A": "To control and process signals", "B": "To amplify voltage", "C": "To generate a clock signal", "D": "To measure resistance", "answer": "A"}
+{"question": "What is the purpose of a power MOSFET in an electrical circuit?", "A": "To switch high currents", "B": "To amplify voltage", "C": "To generate a clock signal", "D": "To measure resistance", "answer": "A"}
+{"question": "What is the purpose of a voltage multiplier in an electrical circuit?", "A": "To increase voltage", "B": "To decrease voltage", "C": "To regulate voltage", "D": "To measure voltage", "answer": "A"}
+{"question": "Which of the following is a type of electrical transformer?", "A": "Step-up transformer", "B": "Step-down transformer", "C": "Isolation transformer", "D": "All of the above", "answer": "D"}
+{"question": "What is the purpose of a current limiter in an electrical circuit?", "A": "To limit current", "B": "To increase voltage", "C": "To regulate voltage", "D": "To measure current", "answer": "A"}
+{"question": "What is the purpose of a voltage doubler in an electrical circuit?", "A": "To double voltage", "B": "To halve voltage", "C": "To regulate voltage", "D": "To measure voltage", "answer": "A"}
+{"question": "What is the purpose of a power factor correction (PFC) circuit in an electrical circuit?", "A": "To improve power factor", "B": "To increase voltage", "C": "To regulate voltage", "D": "To measure current", "answer": "A"}
+{"question": "What is the purpose of a current sensor in an electrical circuit?", "A": "To measure current", "B": "To measure voltage", "C": "To regulate voltage", "D": "To amplify current", "answer": "A"}
+{"question": "What is the purpose of a voltage stabilizer in an electrical circuit?", "A": "To stabilize voltage", "B": "To increase voltage", "C": "To decrease voltage", "D": "To measure voltage", "answer": "A"}
+{"question": "What is the purpose of a power amplifier in an electrical circuit?", "A": "To amplify power", "B": "To increase voltage", "C": "To regulate voltage", "D": "To measure current", "answer": "A"}
+{"question": "What is the purpose of a surge protector in an electrical circuit?", "A": "To regulate voltage", "B": "To protect against voltage spikes", "C": "To amplify current", "D": "To measure resistance", "answer": "B"}
+{"question": "What is the purpose of a shunt resistor in an electrical circuit?", "A": "To measure voltage", "B": "To measure current", "C": "To regulate voltage", "D": "To amplify current", "answer": "B"}
+{"question": "What is the purpose of a solenoid in an electrical circuit?", "A": "To store energy", "B": "To convert electrical energy to mechanical energy", "C": "To measure resistance", "D": "To generate light", "answer": "B"}
+{"question": "What is the purpose of a piezoelectric transducer in an electrical circuit?", "A": "To measure temperature", "B": "To generate electricity from mechanical stress", "C": "To amplify current", "D": "To regulate voltage", "answer": "B"}
+{"question": "What is the purpose of a current transformer in an electrical circuit?", "A": "To measure current", "B": "To measure voltage", "C": "To regulate voltage", "D": "To amplify current", "answer": "A"}
+{"question": "What is the purpose of a varistor in an electrical circuit?", "A": "To regulate voltage", "B": "To protect against voltage surges", "C": "To amplify current", "D": "To measure resistance", "answer": "B"}
+{"question": "What is the purpose of a Hall effect sensor in an electrical circuit?", "A": "To measure temperature", "B": "To detect magnetic fields", "C": "To amplify current", "D": "To regulate voltage", "answer": "B"}
+{"question": "What is the purpose of a neon lamp in an electrical circuit?", "A": "To measure voltage", "B": "To generate light", "C": "To amplify current", "D": "To regulate voltage", "answer": "B"}
+{"question": "What is the purpose of a reed relay in an electrical circuit?", "A": "To switch high currents", "B": "To measure voltage", "C": "To detect magnetic fields", "D": "To regulate voltage", "answer": "A"}
+{"question": "What is the purpose of a thermocouple in an electrical circuit?", "A": "To measure temperature", "B": "To measure humidity", "C": "To amplify current", "D": "To regulate voltage", "answer": "A"}
+{"question": "What is the principle of operation of an induction motor?", "A": "Electromagnetic induction", "B": "Electrostatic force", "C": "Piezoelectric effect", "D": "Magnetoresistance", "answer": "A"}
+{"question": "What is Kirchhoff's Current Law?", "A": "The total current entering a junction equals the total current leaving the junction", "B": "The voltage around a closed circuit is zero", "C": "Potential difference equals the product of current and resistance", "D": "Power is the product of voltage and current", "answer": "A"}
+{"question": "Which material is commonly used as a conductor in electrical wiring?", "A": "Silver", "B": "Copper", "C": "Gold", "D": "Aluminum", "answer": "B"}
+{"question": "What is the function of a diode in an electrical circuit?", "A": "To store energy", "B": "To emit light", "C": "To allow current to flow in one direction only", "D": "To generate current", "answer": "C"}
+{"question": "How is electrical power calculated?", "A": "Current divided by voltage", "B": "Voltage divided by resistance", "C": "Current times resistance", "D": "Voltage times current", "answer": "D"}
+{"question": "What is the typical function of a transformer?", "A": "To convert AC to DC", "B": "To step up or step down voltage", "C": "To amplify current", "D": "To measure resistance", "answer": "B"}
+{"question": "What is the purpose of a circuit breaker?", "A": "To connect the circuit", "B": "To protect the circuit from overcurrent", "C": "To regulate voltage", "D": "To convert AC to DC", "answer": "B"}
+{"question": "What type of current does a battery provide?", "A": "Alternating Current (AC)", "B": "Direct Current (DC)", "C": "Pulsating Current", "D": "Leakage Current", "answer": "B"}
+{"question": "What unit is used to measure resistance?", "A": "Volt", "B": "Ampere", "C": "Ohm", "D": "Watt", "answer": "C"}
+{"question": "Which of the following components is used to store charge?", "A": "Resistor", "B": "Inductor", "C": "Diode", "D": "Capacitor", "answer": "D"}
+{"question": "What is the unit of capacitance?", "A": "Farad", "B": "Henry", "C": "Ohm", "D": "Watt", "answer": "A"}
+{"question": "What is the primary function of a resistor in a circuit?", "A": "To store energy", "B": "To limit current", "C": "To increase voltage", "D": "To amplify current", "answer": "B"}
+{"question": "What device is used to measure electrical potential difference?", "A": "Ammeter", "B": "Voltmeter", "C": "Ohmmeter", "D": "Wattmeter", "answer": "B"}
+{"question": "What is the principle of operation of a photovoltaic cell?", "A": "Electromagnetic induction", "B": "Photoelectric effect", "C": "Thermoelectric effect", "D": "Piezoelectric effect", "answer": "B"}
+{"question": "Which component is used to store electric charge?", "A": "Capacitor", "B": "Resistor", "C": "Inductor", "D": "Transformer", "answer": "A"}
+{"question": "What type of device is a transistor?", "A": "Passive", "B": "Active", "C": "Electromechanical", "D": "None of the above", "answer": "B"}
+{"question": "Which law states that the sum of voltage drops around any closed loop in a circuit is zero?", "A": "Ohm's Law", "B": "Faraday's Law", "C": "Kirchhoff's Voltage Law", "D": "Joule's Law", "answer": "C"}
+{"question": "What is the frequency of standard AC power supply in most parts of the world?", "A": "50 Hz", "B": "60 Hz", "C": "100 Hz", "D": "120 Hz", "answer": "A"}
+{"question": "What is the main purpose of a fuse in an electrical circuit?", "A": "To store charge", "B": "To limit voltage", "C": "To conduct current", "D": "To protect from overcurrent", "answer": "D"}
+{"question": "What kind of current is rectified to produce DC?", "A": "Pulsating current", "B": "Alternating current", "C": "Direct current", "D": "Leakage current", "answer": "B"}
+{"question": "What is the SI unit of electric charge?", "A": "Coulomb", "B": "Volt", "C": "Ampere", "D": "Ohm", "answer": "A"}
+{"question": "What does a voltmeter measure?", "A": "Voltage", "B": "Current", "C": "Resistance", "D": "Capacitance", "answer": "A"}
+{"question": "What is the principle of a thermocouple?", "A": "Seebeck effect", "B": "Photoelectric effect", "C": "Faraday’s law", "D": "Joule’s law", "answer": "A"}
+{"question": "Which law explains the relationship between voltage, current, and resistance?", "A": "Ohm's Law", "B": "Newton's Law", "C": "Faraday's Law", "D": "Einstein's Law", "answer": "A"}
+{"question": "What type of current flows in only one direction?", "A": "Direct Current", "B": "Alternating Current", "C": "Pulsating Current", "D": "Oscillating Current", "answer": "A"}
+{"question": "What is a common use for an operational amplifier?", "A": "To amplify small signals", "B": "To store charge", "C": "To rectify AC", "D": "To measure resistance", "answer": "A"}
+{"question": "What is the primary use of a capacitor in a circuit?", "A": "To store electrical energy", "B": "To amplify signals", "C": "To measure current", "D": "To break circuits", "answer": "A"}
+{"question": "What kind of component is a diode?", "A": "Semiconductor", "B": "Conductor", "C": "Resistor", "D": "Capacitor", "answer": "A"}
+{"question": "What is the function of a resistor in a circuit?", "A": "To limit current", "B": "To store charge", "C": "To measure voltage", "D": "To generate power", "answer": "A"}
+{"question": "What does a schematic diagram represent?", "A": "The components and connections in a circuit", "B": "The physical layout of components", "C": "The software architecture", "D": "The mechanical structure", "answer": "A"}
+{"question": "What is the primary function of an inductor in an electrical circuit?", "A": "Store energy in a magnetic field", "B": "Convert AC to DC", "C": "Amplify signals", "D": "Measure voltage", "answer": "A"}
+{"question": "What is the main characteristic of a semiconductor?", "A": "Variable conductivity", "B": "Permanent magnetism", "C": "Constant resistance", "D": "Infinite capacitance", "answer": "A"}
+{"question": "What does a transformer do?", "A": "Changes the voltage level", "B": "Stores electrical energy", "C": "Regulates current", "D": "Amplifies signals", "answer": "A"}
+{"question": "What is the full form of LED?", "A": "Light Emitting Diode", "B": "Linear Electric Device", "C": "Luminant Energy Disk", "D": "Light Energy Device", "answer": "A"}
+{"question": "What is a primary use of a resistor?", "A": "To limit current", "B": "To generate light", "C": "To store energy", "D": "To convert AC to DC", "answer": "A"}
+{"question": "What is capacitance measured in?", "A": "Farads", "B": "Ohms", "C": "Volts", "D": "Henrys", "answer": "A"}
+{"question": "What is the function of a diode in a circuit?", "A": "Allow current to flow in one direction", "B": "Amplify current", "C": "Store energy", "D": "Generate light", "answer": "A"}
+{"question": "What is the unit of electrical resistance?", "A": "Ohm", "B": "Farad", "C": "Henry", "D": "Volt", "answer": "A"}
+{"question": "Which component can be used to store charge?", "A": "Capacitor", "B": "Resistor", "C": "Inductor", "D": "Transformer", "answer": "A"}
+{"question": "What does a rectifier do?", "A": "Converts AC to DC", "B": "Measures voltage", "C": "Stores current", "D": "Regulates resistance", "answer": "A"}
+{"question": "What is an electrical circuit composed of?", "A": "Conductors, power source, and load", "B": "Insulators", "C": "Semiconductors", "D": "Dielectrics", "answer": "A"}
+{"question": "What does an ammeter measure?", "A": "Current", "B": "Voltage", "C": "Resistance", "D": "Capacitance", "answer": "A"}
+{"question": "What is the role of a relay in an electrical circuit?", "A": "Switching", "B": "Amplification", "C": "Rectification", "D": "Induction", "answer": "A"}
+{"question": "What is the purpose of a fuse?", "A": "To prevent overcurrent", "B": "To store energy", "C": "To emit light", "D": "To convert AC to DC", "answer": "A"}
+{"question": "What is the main use of a capacitor?", "A": "To store electrical energy", "B": "To increase current", "C": "To induce magnetic fields", "D": "To decrease voltage", "answer": "A"}
+{"question": "What is the unit of inductance?", "A": "Henry", "B": "Farad", "C": "Ohm", "D": "Tesla", "answer": "A"}
+{"question": "What is the function of a transistor?", "A": "To amplify and switch electronic signals", "B": "To measure current", "C": "To prevent short circuits", "D": "To power devices", "answer": "A"}
+{"question": "Which of these is a passive electronic component?", "A": "Resistor", "B": "Transistor", "C": "Integrated Circuit", "D": "Microcontroller", "answer": "A"}
+{"question": "What is a voltmeter used for?", "A": "To measure electrical potential difference", "B": "To measure electrical insulation", "C": "To measure magnetic fields", "D": "To measure light intensity", "answer": "A"}
+{"question": "What is the primary function of a potentiometer?", "A": "To adjust voltage", "B": "To measure current", "C": "To store charge", "D": "To convert AC to DC", "answer": "A"}
+{"question": "What is the purpose of an oscilloscope?", "A": "To visualize electrical signals", "B": "To measure temperature", "C": "To generate power", "D": "To switch circuits", "answer": "A"}
+{"question": "What is the role of a rectifier circuit?", "A": "To convert AC to DC", "B": "To convert DC to AC", "C": "To amplify signals", "D": "To filter noise", "answer": "A"}
+{"question": "What type of current is supplied by a solar cell?", "A": "Direct Current (DC)", "B": "Alternating Current (AC)", "C": "Pulsating Current", "D": "Variable Current", "answer": "A"}
+{"question": "Which component is used to oppose changes in current?", "A": "Inductor", "B": "Capacitor", "C": "Resistor", "D": "Transformer", "answer": "A"}
+{"question": "What unit is used to measure inductance?", "A": "Henry", "B": "Farad", "C": "Ohm", "D": "Watt", "answer": "A"}
+{"question": "Which type of material is commonly used for electrical insulation?", "A": "Plastic", "B": "Copper", "C": "Aluminum", "D": "Steel", "answer": "A"}
+{"question": "What is the function of a Zener diode?", "A": "To regulate voltage", "B": "To amplify signals", "C": "To store charge", "D": "To convert AC to DC", "answer": "A"}
+{"question": "What is the principle of operation of a thermistor?", "A": "Change in resistance with temperature", "B": "Electromagnetic induction", "C": "Photoelectric effect", "D": "Piezoelectric effect", "answer": "A"}
+{"question": "What does a ground wire provide in an electrical circuit?", "A": "Safe path for current to return to the earth", "B": "Increase circuit resistance", "C": "Store electric charge", "D": "Convert AC to DC", "answer": "A"}
+{"question": "What is the key characteristic of a ferromagnetic material?", "A": "High magnetic permeability", "B": "High electrical conductivity", "C": "High thermal conductivity", "D": "High resistance", "answer": "A"}
+{"question": "What component is typically used to store energy in an electromagnetic field?", "A": "Inductor", "B": "Capacitor", "C": "Resistor", "D": "Diode", "answer": "A"}
+{"question": "What is the primary function of a relay?", "A": "To switch electrical circuits", "B": "To store energy", "C": "To amplify signals", "D": "To convert AC to DC", "answer": "A"}
+{"question": "Which component is used to convert alternating current (AC) to direct current (DC)?", "A": "Rectifier", "B": "Transformer", "C": "Inductor", "D": "Resistor", "answer": "A"}
+{"question": "What is a common application of a photodiode?", "A": "Light detection", "B": "Amplifying signals", "C": "Storing energy", "D": "Generating heat", "answer": "A"}
+{"question": "What is the main property of a superconducting material?", "A": "Zero electrical resistance", "B": "High thermal resistance", "C": "High electrical conductivity", "D": "Low magnetic permeability", "answer": "A"}
+{"question": "What function does a voltage regulator perform?", "A": "Maintains constant voltage level", "B": "Stores electrical energy", "C": "Amplifies current", "D": "Increases resistance", "answer": "A"}
+{"question": "What is typically measured with a thermocouple in an electrical circuit?", "A": "Temperature", "B": "Current", "C": "Voltage", "D": "Resistance", "answer": "A"}
+{"question": "What is the function of a varistor in an electrical circuit?", "A": "To protect against voltage spikes", "B": "To store energy", "C": "To amplify signals", "D": "To measure current", "answer": "A"}
+{"question": "What does a Hall effect sensor detect?", "A": "Magnetic fields", "B": "Light intensity", "C": "Temperature", "D": "Sound waves", "answer": "A"}
+{"question": "What is the purpose of a reed switch in an electrical circuit?", "A": "To act as a magnetically controlled switch", "B": "To store charge", "C": "To convert AC to DC", "D": "To measure resistance", "answer": "A"}
+{"question": "What is the main advantage of using SMPS over linear power supply?", "A": "Higher efficiency", "B": "Larger size", "C": "More complex circuitry", "D": "Higher cost", "answer": "A"}
+{"question": "What does a GFCI outlet protect against?", "A": "Electrical shock", "B": "Overheating", "C": "Voltage drop", "D": "Circuit overload", "answer": "A"}
+{"question": "What is a triac used for in electronic circuits?", "A": "To control AC power", "B": "To amplify signals", "C": "To store energy", "D": "To convert DC to AC", "answer": "A"}
+{"question": "What is the purpose of a thermocouple?", "A": "To measure temperature", "B": "To store charge", "C": "To amplify voltage", "D": "To rectify current", "answer": "A"}
+{"question": "Which component is used to filter out noise in power supplies?", "A": "Capacitor", "B": "Inductor", "C": "Resistor", "D": "Diode", "answer": "A"}
+{"question": "What does PWM stand for?", "A": "Pulse Width Modulation", "B": "Power Width Modulation", "C": "Pulse Wave Modulation", "D": "Power Wave Modulation", "answer": "A"}
+{"question": "What is the purpose of an EMI filter in electronics?", "A": "To reduce electromagnetic interference", "B": "To amplify signals", "C": "To store electrical energy", "D": "To switch circuits", "answer": "A"}

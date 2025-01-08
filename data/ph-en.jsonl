@@ -1,0 +1,155 @@
+{"question": "What is the unit of force?", "A": "Newton", "B": "Joule", "C": "Watt", "D": "Pascal", "answer": "A"}
+{"question": "Which of the following is a vector quantity?", "A": "Speed", "B": "Mass", "C": "Velocity", "D": "Temperature", "answer": "C"}
+{"question": "What is the acceleration due to gravity on Earth?", "A": "9.8 m/s²", "B": "10 m/s²", "C": "8.9 m/s²", "D": "9.2 m/s²", "answer": "A"}
+{"question": "What is the first law of thermodynamics?", "A": "Energy can be created or destroyed", "B": "Energy cannot be created or destroyed", "C": "Entropy of a system always increases", "D": "Entropy of a system always decreases", "answer": "B"}
+{"question": "Which law explains why we need to wear seat belts?", "A": "Newton's First Law", "B": "Newton's Second Law", "C": "Newton's Third Law", "D": "Law of Gravitation", "answer": "A"}
+{"question": "What is the speed of light in a vacuum?", "A": "3.00 x 10^8 m/s", "B": "3.00 x 10^6 m/s", "C": "3.00 x 10^10 m/s", "D": "3.00 x 10^4 m/s", "answer": "A"}
+{"question": "What is the formula for kinetic energy?", "A": "mv", "B": "mgh", "C": "1/2 mv^2", "D": "mc^2", "answer": "C"}
+{"question": "Which of the following is a scalar quantity?", "A": "Acceleration", "B": "Force", "C": "Velocity", "D": "Temperature", "answer": "D"}
+{"question": "What is Ohm's Law?", "A": "V = IR", "B": "P = IV", "C": "F = ma", "D": "E = mc^2", "answer": "A"}
+{"question": "Which particle has no electric charge?", "A": "Proton", "B": "Electron", "C": "Neutron", "D": "Positron", "answer": "C"}
+{"question": "What does a voltmeter measure?", "A": "Current", "B": "Voltage", "C": "Resistance", "D": "Power", "answer": "B"}
+{"question": "Which of the following best describes inertia?", "A": "Force that keeps objects moving", "B": "Resistance to change in motion", "C": "Tendency to speed up", "D": "Tendency to slow down", "answer": "B"}
+{"question": "What is the unit of electrical resistance?", "A": "Ohm", "B": "Volt", "C": "Ampere", "D": "Watt", "answer": "A"}
+{"question": "Which wave phenomenon explains the bending of light as it passes through different mediums?", "A": "Reflection", "B": "Refraction", "C": "Diffraction", "D": "Interference", "answer": "B"}
+{"question": "What is the principle behind hydraulic systems?", "A": "Pascal's Law", "B": "Archimedes' Principle", "C": "Bernoulli's Principle", "D": "Hooke's Law", "answer": "A"}
+{"question": "Which of the following is an example of potential energy?", "A": "A moving car", "B": "A compressed spring", "C": "Flowing water", "D": "Sound waves", "answer": "B"}
+{"question": "What does the slope of a distance-time graph represent?", "A": "Acceleration", "B": "Speed", "C": "Displacement", "D": "Force", "answer": "B"}
+{"question": "Which element is most essential for nuclear reactions in stars?", "A": "Hydrogen", "B": "Helium", "C": "Carbon", "D": "Oxygen", "answer": "A"}
+{"question": "What is the primary cause of tides on Earth?", "A": "Wind", "B": "Sun's radiation", "C": "Earth's rotation", "D": "Gravitational pull of the Moon", "answer": "D"}
+{"question": "Which of the following is a unit of power?", "A": "Joule", "B": "Watt", "C": "Newton", "D": "Pascal", "answer": "B"}
+{"question": "What is the primary function of a transformer?", "A": "Convert AC to DC", "B": "Increase or decrease voltage", "C": "Store electrical energy", "D": "Measure electrical current", "answer": "B"}
+{"question": "What type of lens converges light rays to a focal point?", "A": "Concave lens", "B": "Convex lens", "C": "Cylindrical lens", "D": "Planar lens", "answer": "B"}
+{"question": "Which quantity is conserved in an elastic collision?", "A": "Momentum", "B": "Kinetic energy", "C": "Both momentum and kinetic energy", "D": "Neither momentum nor kinetic energy", "answer": "C"}
+{"question": "What is the unit of frequency?", "A": "Hertz", "B": "Tesla", "C": "Joule", "D": "Henry", "answer": "A"}
+{"question": "Which principle states that the buoyant force on an object is equal to the weight of the fluid displaced by the object?", "A": "Archimedes' Principle", "B": "Pascal's Principle", "C": "Bernoulli's Principle", "D": "Hooke's Law", "answer": "A"}
+{"question": "What is the name given to the energy possessed by an object due to its motion?", "A": "Potential energy", "B": "Kinetic energy", "C": "Thermal energy", "D": "Chemical energy", "answer": "B"}
+{"question": "What is the charge of an electron?", "A": "+1", "B": "-1", "C": "0", "D": "+2", "answer": "B"}
+{"question": "Which of the following elements is a good conductor of electricity?", "A": "Sulfur", "B": "Oxygen", "C": "Copper", "D": "Silicon", "answer": "C"}
+{"question": "What is the SI unit of work?", "A": "Newton", "B": "Joule", "C": "Watt", "D": "Pascal", "answer": "B"}
+{"question": "Which fundamental force is responsible for the attraction between protons and electrons?", "A": "Gravitational force", "B": "Electromagnetic force", "C": "Strong nuclear force", "D": "Weak nuclear force", "answer": "B"}
+{"question": "What is the term for materials that allow electricity to flow through them easily?", "A": "Insulators", "B": "Semiconductors", "C": "Conductors", "D": "Superconductors", "answer": "C"}
+{"question": "What does the term 'absolute zero' refer to?", "A": "0°C", "B": "0°F", "C": "0 K", "D": "100 K", "answer": "C"}
+{"question": "What is the most common state of matter in the universe?", "A": "Solid", "B": "Liquid", "C": "Gas", "D": "Plasma", "answer": "D"}
+{"question": "Which law states that the pressure of a gas is inversely proportional to its volume?", "A": "Boyle's Law", "B": "Charles's Law", "C": "Avogadro's Law", "D": "Gay-Lussac's Law", "answer": "A"}
+{"question": "What is the potential difference between two points in a circuit called?", "A": "Current", "B": "Voltage", "C": "Resistance", "D": "Power", "answer": "B"}
+{"question": "Which type of wave requires a medium to travel through?", "A": "Electromagnetic wave", "B": "Transverse wave", "C": "Mechanical wave", "D": "Longitudinal wave", "answer": "C"}
+{"question": "What is the primary cause of electromagnetic induction?", "A": "Static electricity", "B": "Changing magnetic fields", "C": "Constant electric fields", "D": "Magnetic monopoles", "answer": "B"}
+{"question": "What does a spectrometer measure?", "A": "Mass", "B": "Temperature", "C": "Wavelength of light", "D": "Electric current", "answer": "C"}
+{"question": "Which property of light allows it to bend around obstacles?", "A": "Reflection", "B": "Refraction", "C": "Diffraction", "D": "Absorption", "answer": "C"}
+{"question": "What is the unit of magnetic field strength?", "A": "Volt", "B": "Tesla", "C": "Coulomb", "D": "Farad", "answer": "B"}
+{"question": "What is the main principle behind the operation of a lever?", "A": "Gravitational force", "B": "Centrifugal force", "C": "Mechanical advantage", "D": "Thermodynamic efficiency", "answer": "C"}
+{"question": "What property of a wave is measured in hertz?", "A": "Amplitude", "B": "Wavelength", "C": "Frequency", "D": "Speed", "answer": "C"}
+{"question": "Which of the following is an example of a non-renewable energy source?", "A": "Solar energy", "B": "Wind energy", "C": "Coal", "D": "Hydropower", "answer": "C"}
+{"question": "What is the smallest unit of an element that retains its chemical properties?", "A": "Molecule", "B": "Atom", "C": "Electron", "D": "Neutron", "answer": "B"}
+{"question": "Which of the following is a unit of pressure?", "A": "Pascal", "B": "Newton", "C": "Watt", "D": "Coulomb", "answer": "A"}
+{"question": "Which physical law states that energy cannot be created or destroyed?", "A": "Law of Conservation of Mass", "B": "First Law of Thermodynamics", "C": "Second Law of Thermodynamics", "D": "Newton's First Law", "answer": "B"}
+{"question": "What is the primary purpose of a capacitor in an electrical circuit?", "A": "Store electrical energy", "B": "Convert AC to DC", "C": "Increase resistance", "D": "Generate magnetic fields", "answer": "A"}
+{"question": "What is the term for the change in direction of a wave when it passes from one medium to another?", "A": "Reflection", "B": "Refraction", "C": "Diffraction", "D": "Interference", "answer": "B"}
+{"question": "What is the unit of electric current?", "A": "Volt", "B": "Ohm", "C": "Ampere", "D": "Watt", "answer": "C"}
+{"question": "Which of the following particles is found in the nucleus of an atom?", "A": "Electron", "B": "Proton", "C": "Photon", "D": "Neutrino", "answer": "B"}
+{"question": "What type of mirror can produce a real image?", "A": "Plane mirror", "B": "Concave mirror", "C": "Convex mirror", "D": "None of the above", "answer": "B"}
+{"question": "What is the result of mixing all colors of light?", "A": "Black", "B": "White", "C": "Red", "D": "Blue", "answer": "B"}
+{"question": "What phenomenon explains why a pencil looks bent when placed in a glass of water?", "A": "Reflection", "B": "Diffraction", "C": "Refraction", "D": "Absorption", "answer": "C"}
+{"question": "What does a Newton's cradle demonstrate?", "A": "Conservation of energy", "B": "Conservation of momentum", "C": "Both conservation of energy and momentum", "D": "Conservation of mass", "answer": "C"}
+{"question": "Which of the following quantities is measured in meters per second squared?", "A": "Velocity", "B": "Speed", "C": "Acceleration", "D": "Force", "answer": "C"}
+{"question": "What is the term for the amount of space an object occupies?", "A": "Mass", "B": "Density", "C": "Volume", "D": "Weight", "answer": "C"}
+{"question": "Which type of electromagnetic wave has the highest energy?", "A": "Radio waves", "B": "Microwaves", "C": "X-rays", "D": "Gamma rays", "answer": "D"}
+{"question": "What is the phenomenon where a material emits light when heated?", "A": "Incandescence", "B": "Luminescence", "C": "Phosphorescence", "D": "Fluorescence", "answer": "A"}
+{"question": "What type of quantity is speed?", "A": "Vector", "B": "Scalar", "C": "Tensor", "D": "Matrix", "answer": "B"}
+{"question": "Which device is used to measure atmospheric pressure?", "A": "Thermometer", "B": "Barometer", "C": "Hygrometer", "D": "Anemometer", "answer": "B"}
+{"question": "What is the phenomenon where a wave changes direction due to a change in its speed?", "A": "Reflection", "B": "Refraction", "C": "Diffraction", "D": "Interference", "answer": "B"}
+{"question": "What is the unit of inductance?", "A": "Farad", "B": "Ohm", "C": "Henry", "D": "Tesla", "answer": "C"}
+{"question": "What is the term for the energy stored in an object due to its position or height?", "A": "Kinetic energy", "B": "Thermal energy", "C": "Potential energy", "D": "Chemical energy", "answer": "C"}
+{"question": "What is the force that opposes the relative motion or tendency of such motion of two surfaces in contact?", "A": "Tension", "B": "Compression", "C": "Friction", "D": "Gravity", "answer": "C"}
+{"question": "What is the SI unit of power?", "A": "Joule", "B": "Watt", "C": "Newton", "D": "Pascal", "answer": "B"}
+{"question": "What principle explains the lift force on an airplane wing?", "A": "Pascal's Principle", "B": "Archimedes' Principle", "C": "Bernoulli's Principle", "D": "Hooke's Law", "answer": "C"}
+{"question": "What is the rate of change of velocity called?", "A": "Speed", "B": "Displacement", "C": "Acceleration", "D": "Force", "answer": "C"}
+{"question": "Which law states that the current through a conductor between two points is directly proportional to the voltage across the two points?", "A": "Faraday's Law", "B": "Lenz's Law", "C": "Ohm's Law", "D": "Kirchhoff's Law", "answer": "C"}
+{"question": "What is the property of a material that resists the flow of electric current?", "A": "Conductance", "B": "Resistance", "C": "Inductance", "D": "Capacitance", "answer": "B"}
+{"question": "What is the unit of electric charge?", "A": "Volt", "B": "Ampere", "C": "Coulomb", "D": "Ohm", "answer": "C"}
+{"question": "What is the principle that states that the total energy of an isolated system remains constant?", "A": "Law of Conservation of Mass", "B": "Law of Conservation of Energy", "C": "First Law of Thermodynamics", "D": "Second Law of Thermodynamics", "answer": "B"}
+{"question": "What type of current changes direction periodically?", "A": "Direct current (DC)", "B": "Alternating current (AC)", "C": "Static current", "D": "Pulsed current", "answer": "B"}
+{"question": "Which scientist is known for the three laws of motion?", "A": "Albert Einstein", "B": "Galileo Galilei", "C": "Isaac Newton", "D": "Nikola Tesla", "answer": "C"}
+{"question": "What is the term for the amount of matter in an object?", "A": "Weight", "B": "Density", "C": "Volume", "D": "Mass", "answer": "D"}
+{"question": "What is the measure of the average kinetic energy of the particles in a substance?", "A": "Heat", "B": "Temperature", "C": "Thermal energy", "D": "Internal energy", "answer": "B"}
+{"question": "What is the relationship between voltage, current, and resistance in an electrical circuit?", "A": "P = IV", "B": "V = IR", "C": "E = mc^2", "D": "F = ma", "answer": "B"}
+{"question": "What is the speed of sound in air at room temperature?", "A": "150 m/s", "B": "300 m/s", "C": "343 m/s", "D": "400 m/s", "answer": "C"}
+{"question": "What is the effect of increasing the temperature of a gas at constant volume?", "A": "Decreases pressure", "B": "Increases pressure", "C": "Decreases density", "D": "Increases mass", "answer": "B"}
+{"question": "What type of bond involves the sharing of electron pairs between atoms?", "A": "Ionic bond", "B": "Covalent bond", "C": "Metallic bond", "D": "Hydrogen bond", "answer": "B"}
+{"question": "What is the device used to detect and measure small electric currents?", "A": "Voltmeter", "B": "Ammeter", "C": "Ohmmeter", "D": "Galvanometer", "answer": "D"}
+{"question": "What type of wave is sound?", "A": "Transverse wave", "B": "Longitudinal wave", "C": "Surface wave", "D": "Electromagnetic wave", "answer": "B"}
+{"question": "Which scientist is known for his theory of relativity?", "A": "Niels Bohr", "B": "Isaac Newton", "C": "Albert Einstein", "D": "Galileo Galilei", "answer": "C"}
+{"question": "What is the term for the force exerted by a fluid on an object moving through it?", "A": "Buoyant force", "B": "Drag force", "C": "Lift force", "D": "Gravitational force", "answer": "B"}
+{"question": "What is the unit of work in the International System of Units (SI)?", "A": "Newton", "B": "Joule", "C": "Watt", "D": "Pascal", "answer": "B"}
+{"question": "What is the name of the effect where light spreads as it passes through a narrow opening?", "A": "Reflection", "B": "Refraction", "C": "Diffraction", "D": "Interference", "answer": "C"}
+{"question": "Which law of thermodynamics states that entropy of an isolated system always increases?", "A": "First law", "B": "Second law", "C": "Third law", "D": "Zeroth law", "answer": "B"}
+{"question": "What is the basic unit of electric charge?", "A": "Volt", "B": "Ampere", "C": "Coulomb", "D": "Ohm", "answer": "C"}
+{"question": "What is the principle behind the operation of a hydraulic lift?", "A": "Pascal's Principle", "B": "Archimedes' Principle", "C": "Bernoulli's Principle", "D": "Newton's Third Law", "answer": "A"}
+{"question": "What is the frequency range of human hearing?", "A": "0 to 1,000 Hz", "B": "20 to 20,000 Hz", "C": "20 to 200,000 Hz", "D": "200 to 20,000 Hz", "answer": "B"}
+{"question": "What is the device used to measure the intensity of light?", "A": "Thermometer", "B": "Anemometer", "C": "Photometer", "D": "Hygrometer", "answer": "C"}
+{"question": "What happens to the wavelength of a wave as its frequency increases?", "A": "Increases", "B": "Decreases", "C": "Remains the same", "D": "Doubles", "answer": "B"}
+{"question": "What is the name of the phenomenon where two waves superpose to form a resultant wave?", "A": "Diffraction", "B": "Interference", "C": "Reflection", "D": "Refraction", "answer": "B"}
+{"question": "What is the property of a material that allows it to return to its original shape after being stretched or compressed?", "A": "Plasticity", "B": "Elasticity", "C": "Viscosity", "D": "Density", "answer": "B"}
+{"question": "Which device is used to measure electric potential difference?", "A": "Ammeter", "B": "Voltmeter", "C": "Ohmmeter", "D": "Galvanometer", "answer": "B"}
+{"question": "What is the main component of the sun's energy production?", "A": "Nuclear fission", "B": "Nuclear fusion", "C": "Chemical combustion", "D": "Radioactive decay", "answer": "B"}
+{"question": "What is the velocity of an object at rest?", "A": "0 m/s", "B": "9.8 m/s", "C": "10 m/s", "D": "Variable", "answer": "A"}
+{"question": "Which property measures the resistance of a liquid to flow?", "A": "Density", "B": "Viscosity", "C": "Surface tension", "D": "Buoyancy", "answer": "B"}
+{"question": "Which principle explains why the pressure in a moving fluid decreases as its velocity increases?", "A": "Archimedes' Principle", "B": "Bernoulli's Principle", "C": "Pascal's Principle", "D": "Hooke's Law", "answer": "B"}
+{"question": "What type of current is produced by a battery?", "A": "Alternating current (AC)", "B": "Direct current (DC)", "C": "Pulsating current", "D": "Induced current", "answer": "B"}
+{"question": "What is the term for the transfer of heat through a fluid (liquid or gas) caused by molecular motion?", "A": "Conduction", "B": "Convection", "C": "Radiation", "D": "Evaporation", "answer": "B"}
+{"question": "What is the unit of magnetic flux?", "A": "Weber", "B": "Tesla", "C": "Gauss", "D": "Henry", "answer": "A"}
+{"question": "What is the phenomenon of producing an electromotive force across an electrical conductor in a changing magnetic field?", "A": "Electrolysis", "B": "Electromagnetic induction", "C": "Electroplating", "D": "Electromagnetic radiation", "answer": "B"}
+{"question": "Which particle is responsible for the strong nuclear force?", "A": "Photon", "B": "Gluon", "C": "Electron", "D": "Neutrino", "answer": "B"}
+{"question": "What is the measure of the disorder or randomness in a system?", "A": "Enthalpy", "B": "Entropy", "C": "Energy", "D": "Exergy", "answer": "B"}
+{"question": "Which law states that the volume of a gas is directly proportional to its temperature, provided the pressure remains constant?", "A": "Boyle's Law", "B": "Charles's Law", "C": "Avogadro's Law", "D": "Gay-Lussac's Law", "answer": "B"}
+{"question": "What is the term for the rate at which work is done?", "A": "Energy", "B": "Power", "C": "Force", "D": "Momentum", "answer": "B"}
+{"question": "What is the property of a sound wave that determines its pitch?", "A": "Amplitude", "B": "Frequency", "C": "Wavelength", "D": "Velocity", "answer": "B"}
+{"question": "Which type of bond forms between atoms when electrons are transferred from one atom to another?", "A": "Covalent bond", "B": "Ionic bond", "C": "Metallic bond", "D": "Hydrogen bond", "answer": "B"}
+{"question": "What is the primary factor that determines the strength of gravitational force between two objects?", "A": "Volume of the objects", "B": "Mass of the objects", "C": "Density of the objects", "D": "Temperature of the objects", "answer": "B"}
+{"question": "What is the term for the number of protons in the nucleus of an atom?", "A": "Atomic mass", "B": "Atomic number", "C": "Mass number", "D": "Isotope number", "answer": "B"}
+{"question": "Which device converts electrical energy into mechanical energy?", "A": "Generator", "B": "Transformer", "C": "Motor", "D": "Rectifier", "answer": "C"}
+{"question": "What is the principle that states that pressure applied to a confined fluid is transmitted undiminished in all directions?", "A": "Bernoulli's Principle", "B": "Archimedes' Principle", "C": "Pascal's Principle", "D": "Hooke's Law", "answer": "C"}
+{"question": "What is the term for the smallest quantity of electromagnetic radiation?", "A": "Electron", "B": "Photon", "C": "Proton", "D": "Neutron", "answer": "B"}
+{"question": "Which scientist is credited with the discovery of the electron?", "A": "Albert Einstein", "B": "Isaac Newton", "C": "J.J. Thomson", "D": "Niels Bohr", "answer": "C"}
+{"question": "What is the name of the hypothetical particle that mediates the gravitational force?", "A": "Photon", "B": "Gluon", "C": "Graviton", "D": "Higgs boson", "answer": "C"}
+{"question": "What type of wave can travel through a vacuum?", "A": "Sound wave", "B": "Mechanical wave", "C": "Electromagnetic wave", "D": "Seismic wave", "answer": "C"}
+{"question": "Which phenomenon causes a moving clock to run slower compared to a stationary clock?", "A": "Gravitational time dilation", "B": "Length contraction", "C": "Time dilation", "D": "Doppler effect", "answer": "C"}
+{"question": "What is the term for the bending of light as it passes around an object or through a slit?", "A": "Reflection", "B": "Refraction", "C": "Diffraction", "D": "Interference", "answer": "C"}
+{"question": "What is the unit of electric potential difference?", "A": "Ampere", "B": "Ohm", "C": "Volt", "D": "Watt", "answer": "C"}
+{"question": "What is the principle that the buoyant force on an object is equal to the weight of the fluid displaced by the object?", "A": "Archimedes' Principle", "B": "Bernoulli's Principle", "C": "Pascal's Principle", "D": "Hooke's Law", "answer": "A"}
+{"question": "What is the SI unit of capacitance?", "A": "Ohm", "B": "Ampere", "C": "Farad", "D": "Volt", "answer": "C"}
+{"question": "What is the SI unit of frequency?", "A": "Hertz", "B": "Newton", "C": "Pascal", "D": "Watt", "answer": "A"}
+{"question": "What is the phenomenon where a wave bounces off a surface?", "A": "Reflection", "B": "Refraction", "C": "Diffraction", "D": "Interference", "answer": "A"}
+{"question": "What is the property of a material that opposes the flow of electric current?", "A": "Conductance", "B": "Resistivity", "C": "Capacitance", "D": "Inductance", "answer": "B"}
+{"question": "Which of the following is an example of a force?", "A": "Mass", "B": "Velocity", "C": "Acceleration", "D": "Gravity", "answer": "D"}
+{"question": "What is the SI unit of magnetic flux density?", "A": "Weber", "B": "Tesla", "C": "Henry", "D": "Gauss", "answer": "B"}
+{"question": "What is the term for the force that opposes the relative motion or tendency of such motion between two surfaces in contact?", "A": "Tension", "B": "Friction", "C": "Gravity", "D": "Momentum", "answer": "B"}
+{"question": "What is the property of a material that allows it to deform under stress?", "A": "Plasticity", "B": "Elasticity", "C": "Viscosity", "D": "Density", "answer": "B"}
+{"question": "What is the SI unit of pressure?", "A": "Newton", "B": "Pascal", "C": "Watt", "D": "Joule", "answer": "B"}
+{"question": "What is the principle that states that an object submerged in a fluid experiences an upward buoyant force equal to the weight of the fluid displaced by the object?", "A": "Archimedes' Principle", "B": "Pascal's Principle", "C": "Bernoulli's Principle", "D": "Newton's Third Law", "answer": "A"}
+{"question": "What is the formula for the period of a wave?", "A": "T = 1/f", "B": "T = fλ", "C": "T = mgh", "D": "T = 2π√(m/k)", "answer": "A"}
+{"question": "Which of the following is a type of mechanical wave?", "A": "Light wave", "B": "Sound wave", "C": "Radio wave", "D": "X-ray", "answer": "B"}
+{"question": "What is the phenomenon where a wave bends as it passes from one medium to another at an angle?", "A": "Reflection", "B": "Refraction", "C": "Diffraction", "D": "Interference", "answer": "B"}
+{"question": "What is the SI unit of work and energy?", "A": "Joule", "B": "Newton", "C": "Watt", "D": "Pascal", "answer": "A"}
+{"question": "Which law of thermodynamics states that the entropy of any isolated system always increases over time?", "A": "First Law", "B": "Second Law", "C": "Third Law", "D": "Zeroth Law", "answer": "B"}
+{"question": "What is the rate of change of displacement called?", "A": "Velocity", "B": "Speed", "C": "Acceleration", "D": "Momentum", "answer": "A"}
+{"question": "What is the SI unit of temperature?", "A": "Kelvin", "B": "Celsius", "C": "Fahrenheit", "D": "Rankine", "answer": "A"}
+{"question": "What is the measure of the amount of matter in an object?", "A": "Weight", "B": "Volume", "C": "Mass", "D": "Density", "answer": "C"}
+{"question": "What is the term for the energy associated with the motion of an object?", "A": "Potential energy", "B": "Kinetic energy", "C": "Mechanical energy", "D": "Thermal energy", "answer": "B"}
+{"question": "Which of the following is a unit of electric charge?", "A": "Ampere", "B": "Volt", "C": "Coulomb", "D": "Watt", "answer": "C"}
+{"question": "What is the SI unit of force?", "A": "Newton", "B": "Pascal", "C": "Joule", "D": "Watt", "answer": "A"}
+{"question": "What type of force holds the nucleus of an atom together?", "A": "Electromagnetic force", "B": "Gravitational force", "C": "Weak nuclear force", "D": "Strong nuclear force", "answer": "D"}
+{"question": "What is the formula for calculating density?", "A": "Density = mass × volume", "B": "Density = volume ÷ mass", "C": "Density = mass ÷ volume", "D": "Density = mass + volume", "answer": "C"}
+{"question": "What is the SI unit of electric current?", "A": "Watt", "B": "Volt", "C": "Ampere", "D": "Ohm", "answer": "C"}
+{"question": "What is the phenomenon where light waves change direction as they pass from one medium to another?", "A": "Reflection", "B": "Refraction", "C": "Diffraction", "D": "Interference", "answer": "B"}
+{"question": "Which law states that the pressure of a gas is inversely proportional to its volume, given constant temperature?", "A": "Boyle's Law", "B": "Charles's Law", "C": "Avogadro's Law", "D": "Gay-Lussac's Law", "answer": "A"}
+{"question": "What is the force that opposes the motion of objects through a fluid?", "A": "Friction", "B": "Gravity", "C": "Tension", "D": "Drag", "answer": "D"}
+{"question": "What is the phenomenon where an object continues in its state of rest or uniform motion unless acted upon by an external force?", "A": "Newton's First Law", "B": "Newton's Second Law", "C": "Newton's Third Law", "D": "Law of Gravitation", "answer": "A"}
+{"question": "What is the name of the constant that relates the energy of a photon to its frequency?", "A": "Planck's constant", "B": "Boltzmann constant", "C": "Avogadro constant", "D": "Speed of light", "answer": "A"}
+{"question": "Which type of energy does an object possess due to its motion?", "A": "Potential energy", "B": "Kinetic energy", "C": "Mechanical energy", "D": "Thermal energy", "answer": "B"}
+{"question": "What is the SI unit of electric potential difference?", "A": "Watt", "B": "Volt", "C": "Ampere", "D": "Ohm", "answer": "B"}
+{"question": "What is the property of a material that describes its ability to store electrical energy?", "A": "Resistance", "B": "Capacitance", "C": "Inductance", "D": "Conductance", "answer": "B"}
+{"question": "Which law states that the total energy of an isolated system remains constant over time?", "A": "First Law of Thermodynamics", "B": "Second Law of Thermodynamics", "C": "Conservation of Energy", "D": "Zeroth Law of Thermodynamics", "answer": "A"}
+{"question": "What is the measure of the gravitational force exerted on an object?", "A": "Mass", "B": "Weight", "C": "Density", "D": "Volume", "answer": "B"}
+{"question": "What is the phenomenon where light waves combine to form areas of increased and decreased amplitude?", "A": "Reflection", "B": "Refraction", "C": "Diffraction", "D": "Interference", "answer": "D"}

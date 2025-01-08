@@ -1,0 +1,161 @@
+Q1: What is the chemical symbol for water?
+Q2: What is the pH of a neutral solution?
+Q3: Which element is known as the 'King of Chemicals'?
+Q4: Which gas is essential for respiration?
+Q5: What is the chemical formula for table salt?
+Q6: Which of the following is a noble gas?
+Q7: What is the atomic number of carbon?
+Q8: What type of bond involves the sharing of electron pairs between atoms?
+Q9: Which of the following substances is an acid?
+Q10: Which element is liquid at room temperature?
+Q11: What is the most abundant gas in the Earth's atmosphere?
+Q12: Which element is represented by the symbol 'K'?
+Q13: What is the main component of natural gas?
+Q14: Which type of reaction involves the exchange of ions between two compounds?
+Q15: What is the common name for dihydrogen monoxide?
+Q16: Which element is the best conductor of electricity?
+Q17: What is the process called when a liquid changes into a gas?
+Q18: What is the name given to the horizontal rows in the periodic table?
+Q19: Which of the following is an alkali metal?
+Q20: What is the chemical formula for ammonia?
+Q21: What is the name of the process by which plants make their food using sunlight?
+Q22: Which element is commonly used in batteries?
+Q23: What is the chemical formula for carbon dioxide?
+Q24: Which of the following is an organic compound?
+Q25: What is the pH range of acidic solutions?
+Q26: Which particle is found in the nucleus of an atom?
+Q27: Which type of bond is formed when one atom donates an electron to another atom?
+Q28: What is the charge of an electron?
+Q29: Which element has the highest atomic number in the periodic table?
+Q30: What is the name of the element with the symbol 'Fe'?
+Q31: Which of the following is a chemical property?
+Q32: Which gas is used in the Haber process to produce ammonia?
+Q33: What is the primary gas found in the bubbles of carbonated beverages?
+Q34: Which of the following is a halogen?
+Q35: What is the chemical formula for sulfuric acid?
+Q36: Which state of matter has a definite shape and volume?
+Q37: What is the main component of the air we breathe?
+Q38: What type of chemical reaction is represented by the equation A + B -> AB?
+Q39: Which of the following is not an alloy?
+Q40: What is the term for a solution that cannot dissolve any more solute at a given temperature?
+Q41: What is the most abundant element in the Earth's crust?
+Q42: Which type of reaction involves the breaking down of a compound into two or more simpler substances?
+Q43: Which of the following is an example of a chemical change?
+Q44: What is the name of the element with the symbol 'Ag'?
+Q45: What is the chemical formula for methane?
+Q46: Which of the following elements is a metalloid?
+Q47: What is the term for the energy required to start a chemical reaction?
+Q48: Which of the following is a base?
+Q49: What is the chemical formula for glucose?
+Q50: Which gas is produced when an acid reacts with a metal?
+Q51: What is the periodic table?
+Q52: What is the chemical formula for hydrochloric acid?
+Q53: Which type of bond is formed between two nonmetals?
+Q54: Which of the following is a physical property?
+Q55: What is the main purpose of a catalyst in a chemical reaction?
+Q56: What is the atomic number of hydrogen?
+Q57: What is the chemical formula for ethanol?
+Q58: Which of the following is a chemical element?
+Q59: What is the term for a substance that cannot be broken down into simpler substances by chemical means?
+Q60: Which of the following is an exothermic reaction?
+Q61: What is the common name for sodium bicarbonate?
+Q62: Which of the following is a characteristic of metals?
+Q63: What is the chemical formula for acetic acid?
+Q64: What type of chemical reaction is represented by AB -> A + B?
+Q65: Which of the following is an alkali earth metal?
+Q66: What is the term for the smallest unit of a chemical element that retains its chemical properties?
+Q67: Which element is known as the building block of life?
+Q68: What is the process called when a gas changes directly into a solid?
+Q69: What is the main component of limestone?
+Q70: Which of the following is a nonpolar molecule?
+Q71: What is the term for a solution that contains more solute than it can theoretically hold at a given temperature?
+Q72: Which of the following is an example of a homogeneous mixture?
+Q73: What is the pH of pure water?
+Q74: Which element is essential for the formation of hemoglobin in blood?
+Q75: What type of bond is formed between two atoms with a large difference in electronegativity?
+Q76: What is the molecular formula of ozone?
+Q77: What is the most reactive group of nonmetals?
+Q78: Which of the following compounds is commonly known as laughing gas?
+Q79: What is the main use of chlorine in water treatment?
+Q80: Which element has the chemical symbol 'Pb'?
+Q81: What is the main component of natural gas?
+Q82: Which of the following is a nonmetal?
+Q83: What is the name of the process by which a liquid turns into a solid?
+Q84: Which element is used in the manufacturing of computer chips?
+Q85: What is the molecular formula for nitrogen gas?
+Q86: Which of the following is a chemical property?
+Q87: Which of the following is a compound?
+Q88: What type of bond is formed when atoms share electrons?
+Q89: What is the process of a solid turning directly into a gas called?
+Q90: Which gas is produced by plants during photosynthesis?
+Q91: What is the most abundant element in the universe?
+Q92: What is the chemical symbol for gold?
+Q93: Which of the following is an example of an exothermic reaction?
+Q94: What is the chemical name for table sugar?
+Q95: Which of the following elements is a noble gas?
+Q96: What is the process called when a liquid changes into a gas?
+Q97: Which of the following is an acid?
+Q98: What is the common name for H2O2?
+Q99: What type of mixture is a solution?
+Q100: Which metal is liquid at room temperature?
+Q101: Which of the following is the chemical formula for sulfuric acid?
+Q102: What is the main component of vinegar?
+Q103: Which of the following is an example of a halogen?
+Q104: What is the chemical symbol for potassium?
+Q105: Which of the following is a product of the combustion of hydrocarbons?
+Q106: What is the main component of natural gas?
+Q107: What is the chemical formula for ammonia?
+Q108: Which of the following is a transition metal?
+Q109: What is the process called when a solid changes directly into a gas?
+Q110: Which element is the most abundant in the Earth's atmosphere?
+Q111: What is the chemical formula for hydrogen peroxide?
+Q112: Which of the following is a property of metals?
+Q113: What is the process of a liquid changing into a gas at a temperature below its boiling point called?
+Q114: Which gas is produced when a metal reacts with an acid?
+Q115: What is the chemical symbol for silver?
+Q116: Which of the following is a characteristic of nonmetals?
+Q117: What is the chemical formula for sodium chloride?
+Q118: Which of the following is a noble gas?
+Q119: What is the name of the process by which plants make their food using sunlight?
+Q120: What is the chemical formula for carbon monoxide?
+Q121: What is the chemical formula for hydrochloric acid?
+Q122: Which of the following is a metalloid?
+Q123: What is the process called when a gas changes directly into a solid?
+Q124: Which of the following elements is a halogen?
+Q125: What is the chemical formula for sulfur dioxide?
+Q126: Which of the following is a product of photosynthesis?
+Q127: What is the main component of natural gas?
+Q128: What is the chemical formula for ammonia?
+Q129: Which of the following is a transition metal?
+Q130: What is the process called when a solid changes directly into a gas?
+Q131: Which element is the most abundant in the Earth's atmosphere?
+Q132: What is the chemical formula for hydrogen peroxide?
+Q133: Which of the following is a property of metals?
+Q134: What is the process of a liquid changing into a gas at a temperature below its boiling point called?
+Q135: Which gas is produced when a metal reacts with an acid?
+Q136: What is the chemical symbol for silver?
+Q137: Which of the following is a characteristic of nonmetals?
+Q138: What is the chemical formula for sodium chloride?
+Q139: Which of the following is a noble gas?
+Q140: What is the name of the process by which plants make their food using sunlight?
+Q141: What is the chemical formula for carbon monoxide?
+Q142: What is the chemical symbol for potassium?
+Q143: Which of the following is a noble gas?
+Q144: What is the main component of natural gas?
+Q145: What is the chemical formula for ammonia?
+Q146: Which of the following is a transition metal?
+Q147: What is the process called when a solid changes directly into a gas?
+Q148: Which element is the most abundant in the Earth's atmosphere?
+Q149: What is the chemical formula for hydrogen peroxide?
+Q150: Which of the following is a property of metals?
+Q151: What is the process of a liquid changing into a gas at a temperature below its boiling point called?
+Q152: Which gas is produced when a metal reacts with an acid?
+Q153: What is the chemical symbol for silver?
+Q154: Which of the following is a characteristic of nonmetals?
+Q155: What is the chemical formula for sodium chloride?
+Q156: Which of the following is a noble gas?
+Q157: What is the name of the process by which plants make their food using sunlight?
+Q158: What is the chemical formula for carbon monoxide?
+Q159: What is the chemical formula for hydrochloric acid?
+Q160: Which of the following is a metalloid?
+Q161: What is the process called when a gas changes directly into a solid?

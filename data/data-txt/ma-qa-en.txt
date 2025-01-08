@@ -1,0 +1,158 @@
+Q1: What is the value of pi?
+Q2: What is the square root of 16?
+Q3: What is the result of 5+7?
+Q4: What is the result of 9-4?
+Q5: What is the result of 7*6?
+Q6: What is the result of 36/6?
+Q7: What is the remainder of 17 divided by 5?
+Q8: What is the value of x in the equation 2x = 10?
+Q9: What is the value of y in the equation 4y + 3 = 15?
+Q10: What is the value of z in the equation 3z - 2 = 7?
+Q11: What is the area of a rectangle with length 7 and width 3?
+Q12: What is the perimeter of a rectangle with length 7 and width 3?
+Q13: What is the area of a circle with radius 3 (use pi = 3.14)?
+Q14: What is the circumference of a circle with radius 3 (use pi = 3.14)?
+Q15: What is the volume of a cube with side length 3?
+Q16: What is the volume of a rectangular prism with length 3, width 2, and height 4?
+Q17: What is the value of x in the equation 3x^2 = 27?
+Q18: What is the value of y in the equation sqrt(y) = 4?
+Q19: What is the value of z in the equation z^3 = 8?
+Q20: What is the value of x in the equation 2^x = 8?
+Q21: What is the value of x in the equation 5x = 25?
+Q22: What is the value of y in the equation 2y + 3 = 11?
+Q23: What is the value of z in the equation 4z - 3 = 9?
+Q24: What is the area of a rectangle with length 8 and width 4?
+Q25: What is the perimeter of a rectangle with length 8 and width 4?
+Q26: What is the area of a circle with radius 4 (use pi = 3.14)?
+Q27: What is the circumference of a circle with radius 4 (use pi = 3.14)?
+Q28: What is the volume of a cube with side length 4?
+Q29: What is the volume of a rectangular prism with length 4, width 3, and height 5?
+Q30: What is the value of x in the equation 4x^2 = 36?
+Q31: What is the value of y in the equation sqrt(y) = 5?
+Q32: What is the value of z in the equation z^3 = 27?
+Q33: What is the value of x in the equation 3^x = 27?
+Q34: What is the result of 8+9?
+Q35: What is the result of 15-7?
+Q36: What is the result of 8*7?
+Q37: What is the result of 42/6?
+Q38: What is the remainder of 23 divided by 5?
+Q39: What is the result of 9+8?
+Q40: What is the result of 14-6?
+Q41: What is the result of 9*7?
+Q42: What is the result of 48/6?
+Q43: What is the remainder of 29 divided by 5?
+Q44: What is the value of x in the equation 4x = 20?
+Q45: What is the value of y in the equation 5y + 4 = 19?
+Q46: What is the value of z in the equation 5z - 3 = 12?
+Q47: What is the area of a rectangle with length 9 and width 4?
+Q48: What is the perimeter of a rectangle with length 9 and width 4?
+Q49: What is the area of a circle with radius 5 (use pi = 3.14)?
+Q50: What is the circumference of a circle with radius 5 (use pi = 3.14)?
+Q51: What is the volume of a cube with side length 5?
+Q52: What is the volume of a rectangular prism with length 5, width 4, and height 6?
+Q53: What is the value of x in the equation 5x^2 = 50?
+Q54: What is the value of y in the equation sqrt(y) = 6?
+Q55: What is the value of z in the equation z^3 = 64?
+Q56: What is the value of x in the equation 4^x = 64?
+Q57: What is the result of 10+11?
+Q58: What is the result of 18-7?
+Q59: What is the result of 9*8?
+Q60: What is the result of 54/6?
+Q61: What is the remainder of 35 divided by 6?
+Q62: What is the value of x in the equation 6x = 30?
+Q63: What is the value of y in the equation 6y + 5 = 23?
+Q64: What is the value of z in the equation 6z - 4 = 14?
+Q65: What is the area of a rectangle with length 10 and width 5?
+Q66: What is the perimeter of a rectangle with length 10 and width 5?
+Q67: What is the area of a circle with radius 6 (use pi = 3.14)?
+Q68: What is the circumference of a circle with radius 6 (use pi = 3.14)?
+Q69: What is the volume of a cube with side length 6?
+Q70: What is the volume of a rectangular prism with length 6, width 5, and height 7?
+Q71: What is the value of x in the equation 6x^2 = 72?
+Q72: What is the value of y in the equation sqrt(y) = 7?
+Q73: What is the value of z in the equation z^3 = 125?
+Q74: What is the value of x in the equation 5^x = 125?
+Q75: What is the result of 11+12?
+Q76: What is the result of 21-8?
+Q77: What is the result of 10*8?
+Q78: What is the result of 60/6?
+Q79: Which of the following numbers is NOT a multiple of 3?
+Q80: Simplify the expression: 3x + 5 when x = 4
+Q81: What is the square root of 16?
+Q82: Which of the following numbers is prime?
+Q83: Solve for y: 2x + 3y = 10, when x = 2
+Q84: Which of the following is NOT a factor of 48?
+Q85: What is the percentage of 25/100 as a fraction in simplest form?
+Q86: Simplify the expression: (4^2) * (3^2)
+Q87: Which of the following is equal to 7%
+Q88: Find the mode of the following set of numbers: 3, 5, 7, 5, 8, 5, 10
+Q89: Which of the following numbers is NOT a square number?
+Q90: What is the sum of the first 5 odd numbers?
+Q91: What is the product of 2/3 and 4/5?
+Q92: Which of the following numbers is a palindrome?
+Q93: Simplify the expression: 3!(4^2)
+Q94: What is the greatest common factor of 18 and 36?
+Q95: A rectangle has a length of 6 cm and a width of 4 cm. What is its area?
+Q96: Simplify the expression: sqrt(16) + 2^3
+Q97: Which of the following numbers is a multiple of both 4 and 6?
+Q98: What is the value of 5^2 * 3^3?
+Q99: What is the value of π (pi) to two decimal places?
+Q100: What is the square root of 64?
+Q101: What is 5 + 7?
+Q102: What is 9 x 9?
+Q103: What is the value of 2^3?
+Q104: What is 15% of 200?
+Q105: Which of the following is a prime number?
+Q106: What is the sum of the angles in a triangle?
+Q107: What is the formula for the area of a circle?
+Q108: What is 45 divided by 5?
+Q109: What is the next prime number after 7?
+Q110: What is the perimeter of a square with side length 4?
+Q111: What is the result of 7 - 3?
+Q112: If a triangle has sides of 3, 4, and 5, what type of triangle is it?
+Q113: What is the least common multiple (LCM) of 4 and 5?
+Q114: What is the decimal equivalent of 1/4?
+Q115: What is the result of 12 x 12?
+Q116: Which of the following is an even number?
+Q117: What is the mode of the set {3, 1, 3, 2, 4}?
+Q118: What is the value of 7 + 6 / 2?
+Q119: What is the definition of a prime number?
+Q120: What is the least prime number?
+Q121: What is the smallest positive integer?
+Q122: What is the sum of the first five prime numbers?
+Q123: Which of the following is a rational number?
+Q124: What is the value of the expression 2^5?
+Q125: What is the result of the expression 5! (5 factorial)?
+Q126: In a right-angled triangle, what is the side opposite the right angle called?
+Q127: What is the area of a rectangle with length 5 and width 3?
+Q128: What is the circumference of a circle with a radius of 4 (use π = 3.14)?
+Q129: What is the formula to calculate the slope of a line?
+Q130: What is the greatest common divisor (GCD) of 24 and 36?
+Q131: Which of the following is a linear equation?
+Q132: What is the next number in the sequence 1, 4, 9, 16, ...?
+Q133: What is the derivative of the function f(x) = x^2?
+Q134: What is the integral of the function f(x) = 2x?
+Q135: What is the name of a polygon with eight sides?
+Q136: What is the value of the expression (2 + 3) * (4 - 1)?
+Q137: What is the solution to the equation 2x + 3 = 7?
+Q138: Which of the following represents an exponential function?
+Q139: What is the sum of the angles in a quadrilateral?
+Q140: What is the derivative of the function f(x) = 3x^3?
+Q141: What is the value of the expression 7 - 4 * 3?
+Q142: Which of the following is an irrational number?
+Q143: What is the value of x in the equation 3x - 5 = 16?
+Q144: What is the perimeter of a triangle with sides 3, 4, and 5?
+Q145: What is the measure of each interior angle of a regular hexagon?
+Q146: What is the volume of a cube with side length 3?
+Q147: Which of the following is a solution to the equation x^2 = 16?
+Q148: What is the formula for the area of a triangle?
+Q149: What is the value of the expression 10/2 + 5?
+Q150: Which of the following is an odd number?
+Q151: What is the value of 0.1 + 0.2?
+Q152: What is the reciprocal of 5?
+Q153: What is the slope of a horizontal line?
+Q154: What is the value of the expression 4 + 3 * (2 - 1)?
+Q155: Which of the following represents the associative property of addition?
+Q156: What is the least common multiple (LCM) of 6 and 8?
+Q157: What is the value of the expression 2^4?
+Q158: What is the midpoint of the line segment with endpoints (2, 3) and (4, 7)?

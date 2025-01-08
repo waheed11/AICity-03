@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI City Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles-questions.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">AI City</h1>
+        
+        <div id="quiz" class="quiz-container">
+            <div class="question">
+                <h2>{{ question.question }}</h2>
+            </div>
+            
+            <form id="quiz-form" class="options">
+                <div class="option">
+                    <input type="radio" id="A" name="answer" value="A">
+                    <label for="A">A: {{ question.A }}</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="B" name="answer" value="B">
+                    <label for="B">B: {{ question.B }}</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="C" name="answer" value="C">
+                    <label for="C">C: {{ question.C }}</label>
+                </div>
+                <div class="option">
+                    <input type="radio" id="D" name="answer" value="D">
+                    <label for="D">D: {{ question.D }}</label>
+                </div>
+                <input type="hidden" name="question_index" value="{{ question_index }}">
+                <button type="submit" id="submit-btn" class="submit-btn">Submit Answer</button>
+            </form>
+        </div>
+        
+        <div id="result" class="result-container"></div>
+        <div id="continue-message" class="continue-message"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const questionId = '{{ question_index }}';
+            const storedSubmissionState = localStorage.getItem(`questionSubmitted_${questionId}`);
+            console.log('Stored Submission State:', storedSubmissionState, 'for Question ID:', questionId); // For debugging
+
+            if (storedSubmissionState === 'true') {
+                disableUIComponents();
+                showContinueMessage();
+            }
+
+            // Load or initialize the global question counter
+            let globalQuestionCount = localStorage.getItem('globalQuestionCount') ? parseInt(localStorage.getItem('globalQuestionCount')) : 0;
+            console.log('Global Question Count:', globalQuestionCount); // For debugging
+
+            // Initially disable the submit button
+            const submitButton = document.getElementById('submit-btn');
+            submitButton.disabled = true;
+            submitButton.classList.add('disabled');
+
+            // Enable the submit button when an option is selected
+            const radioButtons = document.querySelectorAll('input[type="radio"]');
+            radioButtons.forEach(radio => {
+                radio.addEventListener('change', function() {
+                    submitButton.disabled = false;
+                    submitButton.classList.remove('disabled');
+                });
+            });
+        });
+
+        document.getElementById('quiz-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            const selectedAnswer = formData.get('answer');
+            const questionIndex = formData.get('question_index');
+
+            if (!selectedAnswer) {
+                // Ensure an answer is selected before submission
+                alert('Please select an answer before submitting');
+                return;
+            }
+
+            // Increment global question count and update local storage
+            let globalQuestionCount = localStorage.getItem('globalQuestionCount') ? parseInt(localStorage.getItem('globalQuestionCount')) : 0;
+            globalQuestionCount++;
+            localStorage.setItem('globalQuestionCount', globalQuestionCount);
+            console.log('Global Question Count after update:', globalQuestionCount); // For debugging
+
+            // Check if the global threshold is reached
+            if (globalQuestionCount >= 16) {
+                clearLocalStorage();
+                globalQuestionCount = 0; // Reset the global question count
+                localStorage.setItem('globalQuestionCount', globalQuestionCount);
+            }
+
+            // Store the submission state for the current question
+            disableUIComponents();
+            localStorage.setItem(`questionSubmitted_${questionIndex}`, 'true');
+            console.log('Question Submitted:', questionIndex, 'Selected Answer:', selectedAnswer);
+
+            fetch('/check_answer', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    selected_answer: selectedAnswer,
+                    question_id: questionIndex,
+                    subject: '{{ request.path.split("-")[0][1:] }}',
+                    lang: '{{ lang }}'
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                const resultDiv = document.getElementById('result');
+                resultDiv.innerHTML = data.response;
+                resultDiv.classList.add('fade-in');
+
+                if (data.response.includes('green')) {
+                    playAudio('/static/audio/correct_answer.wav');
+                    resultDiv.classList.add('correct');
+                } else {
+                    playAudio('/static/audio/wrong_answer.wav');
+                    resultDiv.classList.add('incorrect');
+                }
+
+                // Show continue message
+                showContinueMessage();
+
+                setTimeout(() => {
+                    resultDiv.classList.remove('fade-in', 'correct', 'incorrect');
+                }, 3000);
+            });
+        });
+
+        function playAudio(url) {
+            new Audio(url).play().catch(error => console.log('Audio playback failed:', error));
+        }
+
+        function disableUIComponents() {
+            // Disable radio buttons
+            const radioButtons = document.querySelectorAll('input[type="radio"]');
+            radioButtons.forEach(radio => {
+                radio.disabled = true;
+            });
+
+            // Disable submit button
+            const submitButton = document.getElementById('submit-btn');
+            submitButton.disabled = true;
+            submitButton.classList.add('disabled');
+
+            // Add visual indication that options are disabled
+            const options = document.querySelectorAll('.option label');
+            options.forEach(option => {
+                option.classList.add('disabled');
+            });
+        }
+
+        function showContinueMessage() {
+            const continueMessageDiv = document.getElementById('continue-message');
+            continueMessageDiv.textContent = "Scan the QR code again to generate a new question";
+            continueMessageDiv.classList.add('fade-in');
+        }
+
+        function clearLocalStorage() {
+            // Clear all items in local storage
+            localStorage.clear();
+            console.log('Local storage cleared'); // For debugging
+        }
+    </script>
+</body>
+</html>

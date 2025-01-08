@@ -1,0 +1,134 @@
+{"question": "What is the chemical symbol for water?", "A": "H2O", "B": "O2", "C": "CO2", "D": "H2", "answer": "A"}
+{"question": "What is the pH of a neutral solution?", "A": "0", "B": "7", "C": "14", "D": "1", "answer": "B"}
+{"question": "Which element is known as the 'King of Chemicals'?", "A": "Oxygen", "B": "Nitrogen", "C": "Sulfur", "D": "Chlorine", "answer": "C"}
+{"question": "Which gas is essential for respiration?", "A": "Oxygen", "B": "Nitrogen", "C": "Carbon Dioxide", "D": "Helium", "answer": "A"}
+{"question": "What is the chemical formula for table salt?", "A": "NaCl", "B": "KCl", "C": "NaOH", "D": "KNO3", "answer": "A"}
+{"question": "Which of the following is a noble gas?", "A": "Oxygen", "B": "Nitrogen", "C": "Helium", "D": "Hydrogen", "answer": "C"}
+{"question": "What is the atomic number of carbon?", "A": "6", "B": "12", "C": "14", "D": "8", "answer": "A"}
+{"question": "What type of bond involves the sharing of electron pairs between atoms?", "A": "Ionic bond", "B": "Covalent bond", "C": "Metallic bond", "D": "Hydrogen bond", "answer": "B"}
+{"question": "Which of the following substances is an acid?", "A": "NaOH", "B": "HCl", "C": "NH3", "D": "CH4", "answer": "B"}
+{"question": "Which element is liquid at room temperature?", "A": "Iron", "B": "Mercury", "C": "Sodium", "D": "Potassium", "answer": "B"}
+{"question": "What is the most abundant gas in the Earth's atmosphere?", "A": "Oxygen", "B": "Carbon Dioxide", "C": "Nitrogen", "D": "Hydrogen", "answer": "C"}
+{"question": "Which element is represented by the symbol 'K'?", "A": "Calcium", "B": "Krypton", "C": "Potassium", "D": "Magnesium", "answer": "C"}
+{"question": "What is the main component of natural gas?", "A": "Methane", "B": "Ethane", "C": "Propane", "D": "Butane", "answer": "A"}
+{"question": "Which type of reaction involves the exchange of ions between two compounds?", "A": "Synthesis", "B": "Decomposition", "C": "Single displacement", "D": "Double displacement", "answer": "D"}
+{"question": "What is the common name for dihydrogen monoxide?", "A": "Ammonia", "B": "Water", "C": "Methane", "D": "Salt", "answer": "B"}
+{"question": "Which element is the best conductor of electricity?", "A": "Iron", "B": "Gold", "C": "Copper", "D": "Silver", "answer": "D"}
+{"question": "What is the process called when a liquid changes into a gas?", "A": "Condensation", "B": "Sublimation", "C": "Evaporation", "D": "Melting", "answer": "C"}
+{"question": "What is the name given to the horizontal rows in the periodic table?", "A": "Groups", "B": "Periods", "C": "Families", "D": "Columns", "answer": "B"}
+{"question": "Which of the following is an alkali metal?", "A": "Calcium", "B": "Magnesium", "C": "Sodium", "D": "Aluminum", "answer": "C"}
+{"question": "What is the chemical formula for ammonia?", "A": "NH3", "B": "NH4", "C": "NO2", "D": "N2O", "answer": "A"}
+{"question": "What is the name of the process by which plants make their food using sunlight?", "A": "Respiration", "B": "Photosynthesis", "C": "Digestion", "D": "Fermentation", "answer": "B"}
+{"question": "Which element is commonly used in batteries?", "A": "Helium", "B": "Lithium", "C": "Carbon", "D": "Nitrogen", "answer": "B"}
+{"question": "What is the chemical formula for carbon dioxide?", "A": "CO", "B": "CO2", "C": "C2O", "D": "C2O2", "answer": "B"}
+{"question": "Which of the following is an organic compound?", "A": "NaCl", "B": "H2O", "C": "C6H12O6", "D": "O2", "answer": "C"}
+{"question": "What is the pH range of acidic solutions?", "A": "0-7", "B": "7-14", "C": "0-14", "D": "7-8", "answer": "A"}
+{"question": "Which particle is found in the nucleus of an atom?", "A": "Electron", "B": "Neutron", "C": "Proton", "D": "Both B and C", "answer": "D"}
+{"question": "Which type of bond is formed when one atom donates an electron to another atom?", "A": "Covalent bond", "B": "Hydrogen bond", "C": "Ionic bond", "D": "Metallic bond", "answer": "C"}
+{"question": "What is the charge of an electron?", "A": "Positive", "B": "Negative", "C": "Neutral", "D": "Varies", "answer": "B"}
+{"question": "Which element has the highest atomic number in the periodic table?", "A": "Uranium", "B": "Oganesson", "C": "Plutonium", "D": "Radon", "answer": "B"}
+{"question": "What is the name of the element with the symbol 'Fe'?", "A": "Lead", "B": "Silver", "C": "Iron", "D": "Gold", "answer": "C"}
+{"question": "Which of the following is a chemical property?", "A": "Density", "B": "Color", "C": "Reactivity", "D": "Boiling point", "answer": "C"}
+{"question": "Which gas is used in the Haber process to produce ammonia?", "A": "Oxygen", "B": "Nitrogen", "C": "Carbon dioxide", "D": "Hydrogen", "answer": "B"}
+{"question": "What is the primary gas found in the bubbles of carbonated beverages?", "A": "Oxygen", "B": "Nitrogen", "C": "Carbon dioxide", "D": "Hydrogen", "answer": "C"}
+{"question": "Which of the following is a halogen?", "A": "Fluorine", "B": "Argon", "C": "Helium", "D": "Neon", "answer": "A"}
+{"question": "What is the chemical formula for sulfuric acid?", "A": "HCl", "B": "H2SO4", "C": "HNO3", "D": "H2O", "answer": "B"}
+{"question": "Which state of matter has a definite shape and volume?", "A": "Solid", "B": "Liquid", "C": "Gas", "D": "Plasma", "answer": "A"}
+{"question": "What is the main component of the air we breathe?", "A": "Oxygen", "B": "Carbon dioxide", "C": "Nitrogen", "D": "Hydrogen", "answer": "C"}
+{"question": "What type of chemical reaction is represented by the equation A + B -> AB?", "A": "Decomposition", "B": "Single displacement", "C": "Double displacement", "D": "Synthesis", "answer": "D"}
+{"question": "Which of the following is not an alloy?", "A": "Steel", "B": "Brass", "C": "Bronze", "D": "Copper", "answer": "D"}
+{"question": "What is the term for a solution that cannot dissolve any more solute at a given temperature?", "A": "Dilute", "B": "Saturated", "C": "Unsaturated", "D": "Supersaturated", "answer": "B"}
+{"question": "What is the most abundant element in the Earth's crust?", "A": "Oxygen", "B": "Silicon", "C": "Aluminum", "D": "Iron", "answer": "A"}
+{"question": "Which type of reaction involves the breaking down of a compound into two or more simpler substances?", "A": "Synthesis", "B": "Decomposition", "C": "Combustion", "D": "Single displacement", "answer": "B"}
+{"question": "Which of the following is an example of a chemical change?", "A": "Melting ice", "B": "Boiling water", "C": "Rusting iron", "D": "Breaking glass", "answer": "C"}
+{"question": "What is the chemical formula for methane?", "A": "CH4", "B": "C2H6", "C": "C3H8", "D": "C4H10", "answer": "A"}
+{"question": "Which of the following elements is a metalloid?", "A": "Sodium", "B": "Silicon", "C": "Sulfur", "D": "Silver", "answer": "B"}
+{"question": "What is the term for the energy required to start a chemical reaction?", "A": "Activation energy", "B": "Bond energy", "C": "Ionization energy", "D": "Kinetic energy", "answer": "A"}
+{"question": "Which of the following is a base?", "A": "HCl", "B": "H2SO4", "C": "NaOH", "D": "CH3COOH", "answer": "C"}
+{"question": "What is the chemical formula for glucose?", "A": "C6H12O6", "B": "C12H22O11", "C": "C6H6", "D": "CH3OH", "answer": "A"}
+{"question": "Which gas is produced when an acid reacts with a metal?", "A": "Oxygen", "B": "Hydrogen", "C": "Nitrogen", "D": "Carbon dioxide", "answer": "B"}
+{"question": "What is the periodic table?", "A": "A table showing all known isotopes", "B": "A table showing all known molecules", "C": "A table showing all known elements", "D": "A table showing all known compounds", "answer": "C"}
+{"question": "What is the chemical formula for hydrochloric acid?", "A": "HCl", "B": "H2SO4", "C": "HNO3", "D": "HF", "answer": "A"}
+{"question": "Which type of bond is formed between two nonmetals?", "A": "Ionic bond", "B": "Covalent bond", "C": "Metallic bond", "D": "Hydrogen bond", "answer": "B"}
+{"question": "Which of the following is a physical property?", "A": "Flammability", "B": "Reactivity", "C": "Melting point", "D": "Toxicity", "answer": "C"}
+{"question": "What is the main purpose of a catalyst in a chemical reaction?", "A": "To increase the yield of products", "B": "To change the products formed", "C": "To speed up the reaction", "D": "To be consumed in the reaction", "answer": "C"}
+{"question": "What is the atomic number of hydrogen?", "A": "1", "B": "2", "C": "3", "D": "4", "answer": "A"}
+{"question": "What is the chemical formula for ethanol?", "A": "C2H4O", "B": "C2H5OH", "C": "C2H6O2", "D": "C3H8O", "answer": "B"}
+{"question": "Which of the following is a chemical element?", "A": "Water", "B": "Salt", "C": "Air", "D": "Oxygen", "answer": "D"}
+{"question": "What is the term for a substance that cannot be broken down into simpler substances by chemical means?", "A": "Compound", "B": "Mixture", "C": "Element", "D": "Solution", "answer": "C"}
+{"question": "Which of the following is an exothermic reaction?", "A": "Photosynthesis", "B": "Melting ice", "C": "Combustion of gasoline", "D": "Boiling water", "answer": "C"}
+{"question": "What is the common name for sodium bicarbonate?", "A": "Baking soda", "B": "Table salt", "C": "Epsom salt", "D": "Sugar", "answer": "A"}
+{"question": "Which of the following is a characteristic of metals?", "A": "Brittleness", "B": "Poor conductivity", "C": "Ductility", "D": "Opacity", "answer": "C"}
+{"question": "What is the chemical formula for acetic acid?", "A": "C2H5OH", "B": "CH3COOH", "C": "C6H12O6", "D": "H2CO3", "answer": "B"}
+{"question": "What type of chemical reaction is represented by AB -> A + B?", "A": "Synthesis", "B": "Decomposition", "C": "Combustion", "D": "Single displacement", "answer": "B"}
+{"question": "Which of the following is an alkali earth metal?", "A": "Sodium", "B": "Calcium", "C": "Iron", "D": "Copper", "answer": "B"}
+{"question": "What is the term for the smallest unit of a chemical element that retains its chemical properties?", "A": "Molecule", "B": "Atom", "C": "Ion", "D": "Compound", "answer": "B"}
+{"question": "Which element is known as the building block of life?", "A": "Oxygen", "B": "Carbon", "C": "Hydrogen", "D": "Nitrogen", "answer": "B"}
+{"question": "What is the process called when a gas changes directly into a solid?", "A": "Condensation", "B": "Deposition", "C": "Sublimation", "D": "Melting", "answer": "B"}
+{"question": "What is the main component of limestone?", "A": "Calcium carbonate", "B": "Sodium chloride", "C": "Silicon dioxide", "D": "Magnesium oxide", "answer": "A"}
+{"question": "Which of the following is a nonpolar molecule?", "A": "H2O", "B": "NH3", "C": "CH4", "D": "HCl", "answer": "C"}
+{"question": "What is the term for a solution that contains more solute than it can theoretically hold at a given temperature?", "A": "Dilute", "B": "Saturated", "C": "Unsaturated", "D": "Supersaturated", "answer": "D"}
+{"question": "Which of the following is an example of a homogeneous mixture?", "A": "Sand and salt", "B": "Oil and water", "C": "Salt water", "D": "Chocolate chip cookies", "answer": "C"}
+{"question": "What is the pH of pure water?", "A": "4", "B": "5", "C": "6", "D": "7", "answer": "D"}
+{"question": "Which element is essential for the formation of hemoglobin in blood?", "A": "Calcium", "B": "Iron", "C": "Magnesium", "D": "Potassium", "answer": "B"}
+{"question": "What type of bond is formed between two atoms with a large difference in electronegativity?", "A": "Covalent bond", "B": "Ionic bond", "C": "Metallic bond", "D": "Van der Waals bond", "answer": "B"}
+{"question": "What is the molecular formula of ozone?", "A": "O", "B": "O2", "C": "O3", "D": "O4", "answer": "C"}
+{"question": "What is the most reactive group of nonmetals?", "A": "Alkali metals", "B": "Alkaline earth metals", "C": "Noble gases", "D": "Halogens", "answer": "D"}
+{"question": "Which of the following compounds is commonly known as laughing gas?", "A": "Carbon dioxide", "B": "Nitrous oxide", "C": "Sulfur dioxide", "D": "Ammonia", "answer": "B"}
+{"question": "What is the main use of chlorine in water treatment?", "A": "To remove hardness", "B": "To add nutrients", "C": "To disinfect", "D": "To remove color", "answer": "C"}
+{"question": "Which element has the chemical symbol 'Pb'?", "A": "Lead", "B": "Platinum", "C": "Phosphorus", "D": "Palladium", "answer": "A"}
+{"question": "Which of the following is a nonmetal?", "A": "Iron", "B": "Copper", "C": "Sulfur", "D": "Aluminum", "answer": "C"}
+{"question": "What is the name of the process by which a liquid turns into a solid?", "A": "Melting", "B": "Freezing", "C": "Sublimation", "D": "Condensation", "answer": "B"}
+{"question": "Which element is used in the manufacturing of computer chips?", "A": "Silicon", "B": "Gold", "C": "Silver", "D": "Copper", "answer": "A"}
+{"question": "What is the molecular formula for nitrogen gas?", "A": "N", "B": "N2", "C": "N3", "D": "NO2", "answer": "B"}
+{"question": "Which of the following is a compound?", "A": "Oxygen", "B": "Gold", "C": "Water", "D": "Helium", "answer": "C"}
+{"question": "What type of bond is formed when atoms share electrons?", "A": "Ionic bond", "B": "Covalent bond", "C": "Metallic bond", "D": "Hydrogen bond", "answer": "B"}
+{"question": "What is the process of a solid turning directly into a gas called?", "A": "Melting", "B": "Freezing", "C": "Sublimation", "D": "Condensation", "answer": "C"}
+{"question": "Which gas is produced by plants during photosynthesis?", "A": "Oxygen", "B": "Carbon dioxide", "C": "Nitrogen", "D": "Methane", "answer": "A"}
+{"question": "What is the most abundant element in the universe?", "A": "Oxygen", "B": "Hydrogen", "C": "Carbon", "D": "Helium", "answer": "B"}
+{"question": "What is the chemical symbol for gold?", "A": "Au", "B": "Ag", "C": "Pb", "D": "Fe", "answer": "A"}
+{"question": "Which of the following is an example of an exothermic reaction?", "A": "Melting ice", "B": "Evaporating water", "C": "Freezing water", "D": "Combustion of gasoline", "answer": "D"}
+{"question": "What is the chemical name for table sugar?", "A": "Glucose", "B": "Fructose", "C": "Sucrose", "D": "Lactose", "answer": "C"}
+{"question": "Which of the following elements is a noble gas?", "A": "Hydrogen", "B": "Nitrogen", "C": "Neon", "D": "Oxygen", "answer": "C"}
+{"question": "Which of the following is an acid?", "A": "NaOH", "B": "H2SO4", "C": "NH3", "D": "CH4", "answer": "B"}
+{"question": "What is the common name for H2O2?", "A": "Water", "B": "Hydrogen peroxide", "C": "Hydrochloric acid", "D": "Sulfuric acid", "answer": "B"}
+{"question": "What type of mixture is a solution?", "A": "Heterogeneous", "B": "Homogeneous", "C": "Colloidal", "D": "Suspension", "answer": "B"}
+{"question": "Which metal is liquid at room temperature?", "A": "Iron", "B": "Gold", "C": "Mercury", "D": "Aluminum", "answer": "C"}
+{"question": "Which of the following is the chemical formula for sulfuric acid?", "A": "H2SO3", "B": "H2SO4", "C": "H2S", "D": "HSO4", "answer": "B"}
+{"question": "What is the main component of vinegar?", "A": "Ethanol", "B": "Acetic acid", "C": "Citric acid", "D": "Lactic acid", "answer": "B"}
+{"question": "Which of the following is an example of a halogen?", "A": "Fluorine", "B": "Calcium", "C": "Sodium", "D": "Potassium", "answer": "A"}
+{"question": "What is the chemical symbol for potassium?", "A": "K", "B": "P", "C": "Pt", "D": "Po", "answer": "A"}
+{"question": "Which of the following is a product of the combustion of hydrocarbons?", "A": "Oxygen", "B": "Carbon dioxide", "C": "Water", "D": "Nitrogen", "answer": "B"}
+{"question": "Which of the following is a transition metal?", "A": "Calcium", "B": "Iron", "C": "Potassium", "D": "Sodium", "answer": "B"}
+{"question": "What is the process called when a solid changes directly into a gas?", "A": "Sublimation", "B": "Evaporation", "C": "Condensation", "D": "Deposition", "answer": "A"}
+{"question": "Which element is the most abundant in the Earth's atmosphere?", "A": "Oxygen", "B": "Nitrogen", "C": "Carbon", "D": "Hydrogen", "answer": "B"}
+{"question": "What is the chemical formula for hydrogen peroxide?", "A": "H2O", "B": "H2O2", "C": "HO2", "D": "HO", "answer": "B"}
+{"question": "Which of the following is a property of metals?", "A": "Low melting point", "B": "Poor conductivity", "C": "Malleability", "D": "Brittleness", "answer": "C"}
+{"question": "What is the process of a liquid changing into a gas at a temperature below its boiling point called?", "A": "Vaporization", "B": "Evaporation", "C": "Sublimation", "D": "Condensation", "answer": "B"}
+{"question": "Which gas is produced when a metal reacts with an acid?", "A": "Oxygen", "B": "Hydrogen", "C": "Carbon dioxide", "D": "Nitrogen", "answer": "B"}
+{"question": "What is the chemical symbol for silver?", "A": "Si", "B": "Sr", "C": "Ag", "D": "Au", "answer": "C"}
+{"question": "Which of the following is a characteristic of nonmetals?", "A": "High electrical conductivity", "B": "Malleability", "C": "Brittleness", "D": "Ductility", "answer": "C"}
+{"question": "What is the chemical formula for sodium chloride?", "A": "NaCl", "B": "Na2Cl", "C": "NaCl2", "D": "Na2Cl2", "answer": "A"}
+{"question": "What is the chemical formula for carbon monoxide?", "A": "CO", "B": "CO2", "C": "C", "D": "C2O", "answer": "A"}
+{"question": "Which of the following is a metalloid?", "A": "Sodium", "B": "Arsenic", "C": "Copper", "D": "Iron", "answer": "B"}
+{"question": "Which of the following elements is a halogen?", "A": "Sodium", "B": "Chlorine", "C": "Potassium", "D": "Calcium", "answer": "B"}
+{"question": "What is the chemical formula for sulfur dioxide?", "A": "SO2", "B": "SO3", "C": "H2SO4", "D": "H2S", "answer": "A"}
+{"question": "Which of the following is a product of photosynthesis?", "A": "Carbon dioxide", "B": "Oxygen", "C": "Nitrogen", "D": "Water", "answer": "B"}
+{"question": "What is the element symbol for gold?", "A": "Ag", "B": "Au", "C": "Pb", "D": "Pt", "answer": "B"}
+{"question": "What is the most abundant element in the human body?", "A": "Carbon", "B": "Oxygen", "C": "Nitrogen", "D": "Hydrogen", "answer": "B"}
+{"question": "What is the boiling point of water in Celsius?", "A": "90", "B": "95", "C": "100", "D": "105", "answer": "C"}
+{"question": "What is the formula for ethanol?", "A": "C2H6", "B": "C2H5OH", "C": "C2H6O2", "D": "C2H4", "answer": "B"}
+{"question": "What is the common name for NaHCO3?", "A": "Table Salt", "B": "Baking Soda", "C": "Vinegar", "D": "Bleach", "answer": "B"}
+{"question": "What is the atomic number of helium?", "A": "1", "B": "2", "C": "3", "D": "4", "answer": "B"}
+{"question": "Which gas do plants absorb from the atmosphere?", "A": "Oxygen", "B": "Nitrogen", "C": "Carbon Dioxide", "D": "Methane", "answer": "C"}
+{"question": "Which metal is the best conductor of electricity?", "A": "Gold", "B": "Silver", "C": "Copper", "D": "Aluminum", "answer": "B"}
+{"question": "What is the main gas found in the air we breathe?", "A": "Oxygen", "B": "Carbon Dioxide", "C": "Nitrogen", "D": "Hydrogen", "answer": "C"}
+{"question": "Which substance is known as the universal solvent?", "A": "Ethanol", "B": "Acetone", "C": "Water", "D": "Methanol", "answer": "C"}
+{"question": "Which element has the atomic number 1?", "A": "Helium", "B": "Hydrogen", "C": "Lithium", "D": "Beryllium", "answer": "B"}
+{"question": "What is the state of matter with a definite shape and volume?", "A": "Liquid", "B": "Solid", "C": "Gas", "D": "Plasma", "answer": "B"}
+{"question": "Which gas is used in the synthesis of ammonia in the Haber process?", "A": "Oxygen", "B": "Nitrogen", "C": "Carbon dioxide", "D": "Hydrogen", "answer": "B"}
+{"question": "What is the formula for calcium carbonate?", "A": "CaCO3", "B": "CaO", "C": "Ca(OH)2", "D": "CaCl2", "answer": "A"}
+{"question": "Which element has the highest electronegativity?", "A": "Fluorine", "B": "Chlorine", "C": "Oxygen", "D": "Nitrogen", "answer": "A"}
+{"question": "What is the electron configuration of potassium?", "A": "1s2 2s2 2p6 3s1", "B": "1s2 2s2 2p6 3s2 3p6", "C": "1s2 2s2 2p6 3s2 3p6 4s1", "D": "1s2 2s2 2p6 3s2 3p6 4s2", "answer": "C"}
+{"question": "Which gas is commonly known as laughing gas?", "A": "Nitrogen dioxide", "B": "Nitrous oxide", "C": "Carbon monoxide", "D": "Sulfur dioxide", "answer": "B"}
+{"question": "What element is diamond primarily composed of?", "A": "Carbon", "B": "Oxygen", "C": "Sulfur", "D": "Silicon", "answer": "A"}

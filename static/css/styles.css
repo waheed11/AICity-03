@@ -1,0 +1,220 @@
+/* /static/css/styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+/* Header Styles */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #f8f8f8;
+    box-sizing: border-box;
+    z-index: 1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-left nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+.nav-link:hover {
+    background-color: #e9ecef;
+}
+.nav-link span {
+    display: inline-block;
+}
+.nav-link .ar-text,
+.nav-link .en-text {
+    display: none; /* Initially hidden, will be controlled by JavaScript */
+}
+/* For RTL support */
+[lang="ar"] .nav-link .ar-text {
+    direction: rtl;
+}
+.hamburger-menu, .language-switch {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.ai-city-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+}
+
+.home-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    color: #333;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.home-btn i {
+    font-size: 24px;
+}
+
+.home-btn:hover {
+    background-color: #e9ecef;
+}
+
+.language-switch {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.value-proposition {
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #f8f8f8;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer a {
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social-media {
+        justify-content: space-around;
+        width: 100%;
+        order: -1; /* Move icons before the text */
+    }
+}
+
+/* Additional styles for other elements */
+.hero-section {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.product-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-description {
+    padding: 20px;
+    text-align: center;
+}
+
+.call-to-action {
+    text-align: center;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block; 
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.coming-soon {
+    text-align: center;
+    margin-top: 20px;
+}
+.ar-text {
+    display: block;
+}
+.en-text {
+    display: none;
+}

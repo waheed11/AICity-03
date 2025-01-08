@@ -1,0 +1,59 @@
+<!-- /templates/ai-city.html -->
+{% extends "base.html" %}
+
+{% block title %}AI City - Product Page{% endblock %}
+
+{% block content %}
+  <div id="content-ar" style="display: none;">
+    <div class="hero-section">
+      <h1>مرحبًا بكم في مدينة الذكاء الاصطناعي!</h1>
+      <p>اكتشف عالم الذكاء الاصطناعي من خلال لعبة لوحية ممتعة وتفاعلية.</p>
+    </div>
+      
+    <div class="product-image">
+      <img src="/static/image/ai-city.jpg" alt="لعبة مدينة الذكاء الاصطناعي">
+    </div>
+
+    <div class="product-description">
+      <p>مدينة الذكاء الاصطناعي هي لعبة لوحية ابتكارية تحاكي مجموعة من العلماء والمهندسين يعملون على تدريب أنظمة الذكاء الاصطناعي الخاص بمدينتهم عن طريق توفير إجابات صحيحة كلا في مجال تخصصه. الفريق العلمي والهندسي الأكثر دقة في تدريب أنظمة الذكاء الاصطناعي سيتم تعيينهم من قبل إدارة المدينة لإدارة مركز الأبحاث العلمية الخاص بالمدينة. </p>
+    </div>
+
+    <div class="call-to-action">
+      <a href="/purchase-ai-city" class="cta-button">اشتري الآن</a>
+    </div>
+  </div>
+
+  <div id="content-en" style="display: none;">
+    <div class="hero-section">
+      <h1>Welcome to AI City!</h1>
+      <p>Experience the world of artificial intelligence through an engaging and interactive board game.</p>
+    </div>
+    
+    <div class="product-image">
+      <img src="/static/image/ai-city.jpg" alt="AI City Board Game">
+    </div>
+
+    <div class="product-description">
+      <p>AI City is an innovative board game simulates a group of scientists and engineers are working on training artificial intelligence systems of their city by providing accurate answers, each within their specialized field. The most precise scientific and engineering team in training artificial intelligence systems will be appointed by the city management to oversee the city’s scientific research center.</p>
+    </div>
+
+    <div class="call-to-action">
+      <a href="/purchase-ai-city" class="cta-button">Buy Now</a>
+    </div>
+  </div>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const lang = urlParams.get('lang') || 'ar';
+        
+        if (lang === 'en') {
+            document.getElementById('content-en').style.display = 'block';
+            document.getElementById('content-ar').style.display = 'none';
+        } else {
+            document.getElementById('content-en').style.display = 'none';
+            document.getElementById('content-ar').style.display = 'block';
+        }
+    });
+  </script>
+{% endblock %}

@@ -1,0 +1,164 @@
+Q1: Which of the following is NOT a macromolecule?
+Q2: What is the powerhouse of the cell?
+Q3: Which of the following is NOT a characteristic of living organisms?
+Q4: Which of the following is NOT a type of tissue in the human body?
+Q5: What is the largest organ in the human body?
+Q6: What is the function of the red blood cells?
+Q7: What is the main function of the respiratory system?
+Q8: Which of the following is NOT part of the digestive system?
+Q9: Which of the following is responsible for carrying genetic information?
+Q10: What is the process by which plants make their own food called?
+Q11: Which of the following is NOT a function of the skeletal system?
+Q12: What is the main function of the nervous system?
+Q13: Which of the following is NOT a type of muscle tissue?
+Q14: What is the function of the immune system?
+Q15: What is the main function of the circulatory system?
+Q16: Which of the following is NOT a component of blood?
+Q17: What is the primary function of the kidneys?
+Q18: Which of the following is NOT a type of cell division?
+Q19: What is the function of the endocrine system?
+Q20: Which of the following is NOT a function of the integumentary system?
+Q21: What is the basic unit of life?
+Q22: Which organelle is known as the control center of the cell?
+Q23: Which process do plants use to convert sunlight into food?
+Q24: What is the genetic material in a cell?
+Q25: Which of the following is a type of symbiotic relationship where both species benefit?
+Q26: Which kingdom do mushrooms belong to?
+Q27: What is the term for a change in the DNA sequence?
+Q28: What is the molecule that carries oxygen in the blood?
+Q29: Which part of the brain controls balance and coordination?
+Q30: What is the primary function of white blood cells?
+Q31: Which of the following is a structural carbohydrate found in plants?
+Q32: What type of bond holds the two strands of DNA together?
+Q33: Which enzyme breaks down starches into sugars?
+Q34: What is the primary pigment used in photosynthesis?
+Q35: What is the process by which cells divide to form two identical daughter cells?
+Q36: Which gas is a byproduct of photosynthesis?
+Q37: What is the main purpose of the large intestine?
+Q38: Which of the following is a producer in an ecosystem?
+Q39: What type of cell lacks a nucleus?
+Q40: Which organ is responsible for producing insulin?
+Q41: Which of the following is an example of a prokaryotic organism?
+Q42: What is the main structural component of the plant cell wall?
+Q43: What is the process by which cells obtain energy from glucose?
+Q44: Which of the following is a lipid?
+Q45: Which of the following is an example of a prokaryotic organism?
+Q46: What is the main structural component of the plant cell wall?
+Q47: What is the process by which cells obtain energy from glucose?
+Q48: Which of the following is a lipid?
+Q49: What type of macromolecule is an enzyme?
+Q50: What is the basic unit of heredity?
+Q51: Which part of the cell is responsible for producing ribosomes?
+Q52: What is the primary function of the mitochondria?
+Q53: Which of the following is NOT found in a prokaryotic cell?
+Q54: What is the name of the process by which plants lose water vapor through their leaves?
+Q55: What is the primary function of the ribosomes?
+Q56: Which of the following is a nitrogenous base found in DNA?
+Q57: What is the process by which a cell divides into two identical daughter cells?
+Q58: Which molecule carries amino acids to the ribosome for protein synthesis?
+Q59: What is the function of chloroplasts?
+Q60: Which of the following structures is found in plant cells but not animal cells?
+Q61: What is the function of the lysosomes?
+Q62: Which type of RNA is involved in translating the genetic code into proteins?
+Q63: What is the name of the process by which cells develop different functions?
+Q64: Which part of the cell cycle is responsible for DNA replication?
+Q65: What is the smallest unit of an element that retains the properties of that element?
+Q66: Which organelle is responsible for packaging and distributing proteins?
+Q67: What type of bond involves the sharing of electron pairs between atoms?
+Q68: Which organ system is responsible for transporting blood throughout the body?
+Q69: What type of organism makes its own food using light or chemical energy?
+Q70: Which of the following is a polysaccharide that is used for energy storage in animals?
+Q71: What is the primary role of the large intestine in the digestive system?
+Q72: Which part of the brain is responsible for regulating heart rate and breathing?
+Q73: What is the name of the structure that controls the movement of substances into and out of a cell?
+Q74: Which of the following is a primary function of the roots in plants?
+Q75: Which phase of mitosis involves the chromosomes lining up in the middle of the cell?
+Q76: Which of the following elements is most abundant in the human body?
+Q77: What is the term for a group of similar cells that perform a specific function?
+Q78: Which type of blood vessel carries blood away from the heart?
+Q79: What is the primary function of the excretory system?
+Q80: Which of the following is the main component of cell membranes?
+Q81: What is the genetic disorder caused by having an extra chromosome 21?
+Q82: Which organ in the human body produces bile?
+Q83: What type of cell division results in four daughter cells each with half the number of chromosomes of the parent cell?
+Q84: Which of the following is NOT a function of proteins in the body?
+Q85: Which of the following is a nonrenewable resource?
+Q86: What is the term for the variety of different species in a given area?
+Q87: Which of the following processes does not release carbon dioxide into the atmosphere?
+Q88: What is the primary function of the xylem in plants?
+Q89: What is the main function of hemoglobin in the blood?
+Q90: Which of the following is a type of asexual reproduction?
+Q91: What is the main difference between plant and animal cells?
+Q92: What is the term for an organism's role in its environment?
+Q93: Which process results in the formation of gametes?
+Q94: What is the main function of the small intestine?
+Q95: Which element is essential for the production of thyroid hormones?
+Q96: What is the process by which plants release water vapor into the air?
+Q97: Which part of the human brain is responsible for voluntary movements?
+Q98: What is the primary function of platelets in the blood?
+Q99: Which of the following structures is responsible for photosynthesis in plant cells?
+Q100: What is the term for the movement of molecules from an area of higher concentration to an area of lower concentration?
+Q101: What type of symmetry do humans have?
+Q102: What is the basic unit of structure and function in living organisms?
+Q103: Which of the following organisms is an example of a decomposer?
+Q104: What is the term for the relationship where one organism benefits and the other is neither helped nor harmed?
+Q105: What is the primary site of protein synthesis in a cell?
+Q106: Which of the following is not a macronutrient?
+Q107: What is the powerhouse of the cell?
+Q108: Which of the following is an example of passive transport?
+Q109: What is the function of the vacuole in plant cells?
+Q110: Which organ system is responsible for protecting the body from external damage?
+Q111: Which type of tissue lines the internal and external surfaces of the body?
+Q112: Which process describes the formation of gametes?
+Q113: What is the term for a substance that speeds up a chemical reaction without being consumed?
+Q114: Which of the following is a greenhouse gas?
+Q115: What is the main component of the cytoskeleton?
+Q116: Which of the following best describes osmosis?
+Q117: What type of bond is formed between amino acids?
+Q118: Which vitamin is produced when the skin is exposed to sunlight?
+Q119: What is the primary function of red blood cells?
+Q120: Which of the following structures protects the genetic material in a eukaryotic cell?
+Q121: What is the term for a molecule that carries genetic information?
+Q122: Which of the following is not part of the cell theory?
+Q123: What is the name of the process by which plants convert carbon dioxide and water into glucose and oxygen?
+Q124: What is the term for the movement of water from an area of low solute concentration to an area of high solute concentration?
+Q125: What is the powerhouse of the cell?
+Q126: Which type of cell division results in two identical daughter cells?
+Q127: What is the primary pigment involved in photosynthesis?
+Q128: What molecule carries genetic information?
+Q129: Which organelle is known as the 'brain' of the cell?
+Q130: What type of macromolecule are enzymes?
+Q131: Which organ is responsible for filtering blood in the human body?
+Q132: What is the main function of the white blood cells?
+Q133: What is the basic unit of life?
+Q134: Which process involves the movement of water across a semipermeable membrane?
+Q135: What is the term for the physical and functional unit of heredity?
+Q136: Which type of tissue covers body surfaces and lines body cavities?
+Q137: What is the role of ribosomes in a cell?
+Q138: Which of the following is a component of the cell membrane?
+Q139: Which process is used by plants to convert sunlight into chemical energy?
+Q140: What is the term for the process by which cells obtain energy from glucose?
+Q141: What type of bond holds the two strands of DNA together?
+Q142: Which of the following is not a function of the skeletal system?
+Q143: What is the term for the programmed death of cells?
+Q144: Which organelle is responsible for modifying, sorting, and packaging proteins for secretion?
+Q145: What is the primary function of the chloroplast?
+Q146: Which molecule is the main source of energy for cellular processes?
+Q147: What is the basic structural unit of all living organisms?
+Q148: What is the term for organisms that can make their own food?
+Q149: Which part of the cell is responsible for controlling cell activities?
+Q150: What are the building blocks of proteins?
+Q151: Which phase of the cell cycle involves the division of the cell's nucleus?
+Q152: What is the role of the mitochondria in the cell?
+Q153: What type of macromolecule are DNA and RNA?
+Q154: Which organelle is involved in detoxifying chemicals and metabolizing drugs?
+Q155: What is the main function of the lysosome?
+Q156: What structure in plant cells provides support and protection?
+Q157: Which of the following is a product of cellular respiration?
+Q158: What is the process by which plants lose water vapor through their leaves?
+Q159: Which blood vessels carry blood away from the heart?
+Q160: What is the term for the diffusion of water across a selectively permeable membrane?
+Q161: Which organ system is responsible for removing waste products from the body?
+Q162: What is the term for the semi-fluid substance inside a cell, excluding the nucleus?
+Q163: Which part of the brain regulates balance and coordination?
+Q164: What is the genetic material found in the nucleus of a cell?

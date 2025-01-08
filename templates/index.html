@@ -1,0 +1,43 @@
+<!-- /templates/index.html -->
+{% extends "base.html" %}
+
+{% block title %}Home - AI Learning Platform{% endblock %}
+
+{% block content %}
+  <div id="content-ar" style="display: block;">
+    <div class="value-proposition">
+      <h1>حول التعلم الى متعة معززة بالذكاء الاصطناعي</h1>
+      <p>أطلق العنان لقدراتك من خلال منصتنا عبر الإنترنت، حيث يلتقي الذكاء الاصطناعي بالترفيه لإحداث ثورة في تجربة التعلم الخاصة بك. تمزج منتجاتنا المبتكرة بين أحدث تقنيات الذكاء الاصطناعي والمحتوى التفاعلي الجذاب، مما يجعل التعليم ممتعًا وفعالاً للمتعلمين من جميع الأعمار</p>
+    </div>
+    <div class="call-to-action">
+      <a href="/ai-city?lang=ar" class="cta-button" id="learn-more-ar">اكتشف المزيد</a>
+    </div>
+    <img src="/static/image/2-logo.png" alt="AI Learning Platform Logo" class="logo">
+  </div>
+  
+  <div id="content-en" style="display: none;">
+    <div class="value-proposition">
+      <h1>Transform Learning with AI-Powered Fun</h1>
+      <p>Unlock your potential with our online platform, where artificial intelligence meets entertainment to revolutionize your learning experience. Our innovative products blend cutting-edge AI technology with engaging, interactive content, making education enjoyable and effective for learners of all ages.</p>
+    </div>
+    <div class="call-to-action">
+      <a href="/ai-city?lang=en" class="cta-button" id="learn-more-en">Learn More</a>
+    </div>
+    <img src="/static/image/2-logo.png" alt="AI Learning Platform Logo" class="logo">
+  </div>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const lang = urlParams.get('lang') || 'ar';
+        
+        if (lang === 'en') {
+            document.getElementById('content-en').style.display = 'block';
+            document.getElementById('content-ar').style.display = 'none';
+        } else {
+            document.getElementById('content-en').style.display = 'none';
+            document.getElementById('content-ar').style.display = 'block';
+        }
+    });
+  </script>
+{% endblock %}

@@ -1,0 +1,161 @@
+Q1: What is the primary function of a computer's CPU?
+Q2: Which of the following is a type of computer memory?
+Q3: What is the purpose of an operating system?
+Q4: Which of the following is a type of input device?
+Q5: What is the purpose of a computer program?
+Q6: Which of the following is a type of output device?
+Q7: What is the purpose of a computer network?
+Q8: Which of the following is a type of software?
+Q9: What is the purpose of a database?
+Q10: Which of the following is a type of programming language?
+Q11: What is the purpose of an algorithm?
+Q12: Which of the following is a type of data structure?
+Q13: What is the purpose of a compiler?
+Q14: Which of the following is a type of computer architecture?
+Q15: What is the purpose of a computer bus?
+Q16: Which of the following is a type of computer storage?
+Q17: What is the purpose of a computer firewall?
+Q18: Which of the following is a type of computer interface?
+Q19: What is the purpose of a computer virus?
+Q20: Which of the following is a type of computer network topology?
+Q21: What is the purpose of a computer motherboard?
+Q22: Which of the following is a type of computer peripheral?
+Q23: What is the function of a computer graphics card?
+Q24: Which of the following is a type of computer input/output port?
+Q25: What is the purpose of a computer power supply unit?
+Q26: Which of the following is a type of computer cooling system?
+Q27: What is the function of a computer mouse?
+Q28: Which of the following is a type of computer software application?
+Q29: What is the purpose of a computer modem?
+Q30: Which of the following is a type of computer virus protection software?
+Q31: What is the function of a computer scanner?
+Q32: Which of the following is a type of computer file format?
+Q33: What is the purpose of a computer cache memory?
+Q34: Which of the following is a type of computer network protocol?
+Q35: What is the function of a computer webcam?
+Q36: Which of the following is a type of computer display technology?
+Q37: What is the purpose of a computer backup system?
+Q38: Which of the following is a type of computer input device?
+Q39: What is the function of a computer touchpad?
+Q40: Which of the following is a type of computer programming paradigm?
+Q41: What is the purpose of a computer firewall?
+Q42: Which of the following is a type of computer interface?
+Q43: What is the purpose of a computer virus?
+Q44: Which of the following is a type of computer network topology?
+Q45: What is the function of a computer router?
+Q46: Which of the following is a type of computer peripheral device?
+Q47: What is the purpose of a computer BIOS?
+Q48: Which of the following is a type of computer network protocol?
+Q49: What is the function of a computer optical drive?
+Q50: Which of the following is a type of computer software license?
+Q51: What is the purpose of a computer cache memory?
+Q52: Which of the following is a type of computer network device?
+Q53: What is the function of a computer microphone?
+Q54: Which of the following is a type of computer display resolution?
+Q55: What is the purpose of a computer UPS (Uninterruptible Power Supply)?
+Q56: Which of the following is a type of computer input device?
+Q57: What is the function of a computer firewall?
+Q58: Which of the following is a type of computer programming language?
+Q59: What is the purpose of a computer webcam?
+Q60: Which of the following is a type of computer network security measure?
+Q61: What is the purpose of a computer algorithm?
+Q62: Which of the following is a type of computer network architecture?
+Q63: What is the function of a computer joystick?
+Q64: Which of the following is a type of computer file system?
+Q65: What is the purpose of a computer network switch?
+Q66: Which of the following is a type of computer peripheral interface?
+Q67: What is the function of a computer barcode scanner?
+Q68: Which of the following is a type of computer software development tool?
+Q69: What is the purpose of a computer network router?
+Q70: Which of the following is a type of computer security authentication method?
+Q71: What is the function of a computer touch screen?
+Q72: Which of the following is a type of computer network protocol suite?
+Q73: What is the purpose of a computer backup software?
+Q74: Which of the following is a type of computer input/output device?
+Q75: What is the function of a computer virtual reality headset?
+Q76: Which of the following is a type of computer display technology?
+Q77: What is the purpose of a computer encryption software?
+Q78: Which of the following is a type of computer input device?
+Q79: What is the function of a computer network hub?
+Q80: What is the purpose of a computer operating system?
+Q81: Which of the following is a type of computer memory?
+Q82: What is the function of a computer graphics processing unit (GPU)?
+Q83: Which of the following is a type of computer file format?
+Q84: What is the purpose of a computer network firewall?
+Q85: Which of the following is a type of computer input device?
+Q86: What is the function of a computer network bridge?
+Q87: Which of the following is a type of computer software license?
+Q88: What is the purpose of a computer network gateway?
+Q89: Which of the following is a type of computer input/output interface?
+Q90: What is the function of a computer network access control list (ACL)?
+Q91: Which of the following is a type of computer software development methodology?
+Q92: What is the purpose of a computer network intrusion detection system (IDS)?
+Q93: Which of the following is a type of computer input/output bus?
+Q94: What is the function of a computer network load balancer?
+Q95: Which of the following is a type of computer software development tool?
+Q96: What is the purpose of a computer network virtual private network (VPN)?
+Q97: Which of the following is a type of computer input/output protocol?
+Q98: What is the function of a computer network intrusion prevention system (IPS)?
+Q99: Which of the following is a type of computer software development paradigm?
+Q100: What is the purpose of a computer network router?
+Q101: Which of the following is a type of computer peripheral?
+Q102: What is the function of a computer webcam?
+Q103: Which of the following is a type of computer network topology?
+Q104: What is the purpose of a computer antivirus software?
+Q105: Which of the following is a type of computer input device?
+Q106: What is the function of a computer sound card?
+Q107: Which of the following is a type of computer software application?
+Q108: What is the purpose of a computer network switch?
+Q109: Which of the following is a type of computer programming language?
+Q110: What is the function of a computer touch screen?
+Q111: Which of the following is a type of computer network protocol?
+Q112: What is the purpose of a computer backup system?
+Q113: Which of the following is a type of computer display technology?
+Q114: What is the function of a computer network modem?
+Q115: Which of the following is a type of computer storage device?
+Q116: What is the purpose of a computer firewall?
+Q117: Which of the following is a type of computer interface?
+Q118: What is the function of a computer optical mouse?
+Q119: Which of the following is a type of computer network security measure?
+Q120: What is the purpose of a computer network access control list (ACL)?
+Q121: Which of the following is a type of computer software development methodology?
+Q122: What is the function of a computer network intrusion prevention system (IPS)?
+Q123: Which of the following is a type of computer software development paradigm?
+Q124: What is the purpose of a computer network virtual private network (VPN)?
+Q125: Which of the following is a type of computer input/output protocol?
+Q126: What is the function of a computer network load balancer?
+Q127: Which of the following is a type of computer software development tool?
+Q128: What is the purpose of a computer network intrusion detection system (IDS)?
+Q129: Which of the following is a type of computer input/output bus?
+Q130: What is the function of a computer network gateway?
+Q131: Which of the following is a type of computer software license?
+Q132: What is the purpose of a computer network bridge?
+Q133: Which of the following is a type of computer input device?
+Q134: What is the function of a computer network firewall?
+Q135: Which of the following is a type of computer file format?
+Q136: What is the purpose of a computer network gateway?
+Q137: Which of the following is a type of computer input/output interface?
+Q138: What is the function of a computer network access control list (ACL)?
+Q139: Which of the following is a type of computer software development methodology?
+Q140: What is the purpose of a computer network switch?
+Q141: Which of the following is a type of computer programming language?
+Q142: What is the function of a computer touch screen?
+Q143: Which of the following is a type of computer network protocol?
+Q144: What is the purpose of a computer backup system?
+Q145: Which of the following is a type of computer display technology?
+Q146: What is the function of a computer network modem?
+Q147: Which of the following is a type of computer storage device?
+Q148: What is the purpose of a computer firewall?
+Q149: Which of the following is a type of computer interface?
+Q150: What is the function of a computer optical mouse?
+Q151: Which of the following is a type of computer network security measure?
+Q152: What is the purpose of a computer network access control list (ACL)?
+Q153: Which of the following is a type of computer software development methodology?
+Q154: What is the function of a computer network intrusion prevention system (IPS)?
+Q155: Which of the following is a type of computer software development paradigm?
+Q156: What is the purpose of a computer network virtual private network (VPN)?
+Q157: Which of the following is a type of computer input/output protocol?
+Q158: What is the function of a computer network load balancer?
+Q159: Which of the following is a type of computer software development tool?
+Q160: What is the purpose of a computer network intrusion detection system (IDS)?
+Q161: Which of the following is a type of computer input/output bus?

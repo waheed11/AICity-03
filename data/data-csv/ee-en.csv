@@ -1,0 +1,161 @@
+﻿question,A,B,C,D,answer
+What is the SI unit of electric current?,Ampere,Volt,Ohm,Watt,A
+Which of the following is a passive component?,Transistor,Diode,Resistor,LED,C
+"What is the relationship between voltage, current and resistance according to Ohm's law?",V = IR,I = V/R,R = V/I,All of the above,D
+Which of the following is a type of electrical charge?,Positive,Negative,Neutral,Both A and B,D
+What is the purpose of a fuse in an electrical circuit?,To increase current,To decrease voltage,To protect against overcurrent,To amplify the signal,C
+Which of the following is a type of electrical switch?,SPST,DPDT,SPDT,All of the above,D
+What is the purpose of a transformer in an electrical circuit?,To convert AC to DC,To increase or decrease voltage,To measure current,To generate electricity,B
+Which of the following is a type of electrical motor?,DC motor,AC motor,Stepper motor,All of the above,D
+What is the purpose of a capacitor in an electrical circuit?,To store energy,To block DC signals,To filter out AC signals,All of the above,D
+Which of the following is a type of electrical generator?,Synchronous generator,Induction generator,DC generator,All of the above,D
+What is the purpose of a resistor in an electrical circuit?,To limit current,To amplify voltage,To generate heat,To store energy,A
+Which of the following is a type of electrical relay?,Electromagnetic relay,Solid-state relay,Reed relay,All of the above,D
+What is the purpose of a diode in an electrical circuit?,To convert AC to DC,To amplify voltage,To generate light,To measure current,A
+Which of the following is a type of electrical sensor?,Temperature sensor,Pressure sensor,Light sensor,All of the above,D
+What is the purpose of a transistor in an electrical circuit?,To amplify or switch signals,To convert AC to DC,To measure voltage,To generate heat,A
+Which of the following is a type of electrical power supply?,AC power supply,DC power supply,Regulated power supply,All of the above,D
+What is the purpose of a voltmeter in an electrical circuit?,To measure current,To measure voltage,To measure resistance,To generate electricity,B
+Which of the following is a type of electrical cable?,Coaxial cable,Twisted pair cable,Fiber optic cable,All of the above,D
+What is the purpose of a wattmeter in an electrical circuit?,To measure power,To measure energy,To measure frequency,To measure phase,A
+Which of the following is a type of electrical breaker?,Circuit breaker,Fuse,GFCI breaker,All of the above,D
+What is the purpose of a potentiometer in an electrical circuit?,To measure voltage,To measure current,To measure resistance,To control voltage,D
+Which of the following is a type of electrical connector?,BNC connector,RCA connector,USB connector,All of the above,D
+What is the purpose of a thermistor in an electrical circuit?,To measure temperature,To measure humidity,To measure pressure,To measure light,A
+Which of the following is a type of electrical inductor?,Air-core inductor,Iron-core inductor,Ferrite-core inductor,All of the above,D
+What is the purpose of a rectifier in an electrical circuit?,To convert AC to DC,To amplify voltage,To filter out noise,To measure power,A
+Which of the following is a type of electrical oscillator?,RC oscillator,LC oscillator,Crystal oscillator,All of the above,D
+What is the purpose of a comparator in an electrical circuit?,To compare two voltages,To amplify current,To generate a square wave,To measure frequency,A
+Which of the following is a type of electrical amplifier?,Operational amplifier,Audio amplifier,RF amplifier,All of the above,D
+What is the purpose of a filter capacitor in a power supply?,To filter out AC ripple,To increase voltage,To measure current,To generate heat,A
+Which of the following is a type of electrical sensor?,Hall effect sensor,Strain gauge,Piezoelectric sensor,All of the above,D
+What is the purpose of a voltage regulator in an electrical circuit?,To increase voltage,To decrease voltage,To maintain a constant voltage,To measure voltage,C
+Which of the following is a type of electrical motor?,Brushless DC motor,Servo motor,Stepper motor,All of the above,D
+What is the purpose of a zener diode in an electrical circuit?,To regulate voltage,To amplify current,To generate light,To measure resistance,A
+Which of the following is a type of electrical sensor?,Photodiode,Phototransistor,Photoresistor,All of the above,D
+What is the purpose of a logic gate in a digital circuit?,To perform Boolean operations,To amplify voltage,To generate a clock signal,To measure current,A
+Which of the following is a type of electrical connector?,HDMI connector,DisplayPort connector,Ethernet connector,All of the above,D
+What is the purpose of a microcontroller in an electrical circuit?,To control and process signals,To amplify voltage,To generate a clock signal,To measure resistance,A
+Which of the following is a type of electrical sensor?,Accelerometer,Gyroscope,Magnetometer,All of the above,D
+What is the purpose of a power MOSFET in an electrical circuit?,To switch high currents,To amplify voltage,To generate a clock signal,To measure resistance,A
+Which of the following is a type of electrical connector?,XLR connector,TRS connector,RJ45 connector,All of the above,D
+What is the purpose of a potentiometer in an electrical circuit?,To measure voltage,To measure current,To measure resistance,To control voltage,D
+Which of the following is a type of electrical connector?,BNC connector,RCA connector,USB connector,All of the above,D
+What is the purpose of a thermistor in an electrical circuit?,To measure temperature,To measure humidity,To measure pressure,To measure light,A
+Which of the following is a type of electrical inductor?,Air-core inductor,Iron-core inductor,Ferrite-core inductor,All of the above,D
+What is the purpose of a rectifier in an electrical circuit?,To convert AC to DC,To amplify voltage,To filter out noise,To measure power,A
+Which of the following is a type of electrical oscillator?,RC oscillator,LC oscillator,Crystal oscillator,All of the above,D
+What is the purpose of a comparator in an electrical circuit?,To compare two voltages,To amplify current,To generate a square wave,To measure frequency,A
+Which of the following is a type of electrical amplifier?,Operational amplifier,Audio amplifier,RF amplifier,All of the above,D
+What is the purpose of a filter capacitor in a power supply?,To filter out AC ripple,To increase voltage,To measure current,To generate heat,A
+Which of the following is a type of electrical sensor?,Hall effect sensor,Strain gauge,Piezoelectric sensor,All of the above,D
+What is the purpose of a voltage regulator in an electrical circuit?,To increase voltage,To decrease voltage,To maintain a constant voltage,To measure voltage,C
+Which of the following is a type of electrical motor?,Brushless DC motor,Servo motor,Stepper motor,All of the above,D
+What is the purpose of a zener diode in an electrical circuit?,To regulate voltage,To amplify current,To generate light,To measure resistance,A
+Which of the following is a type of electrical sensor?,Photodiode,Phototransistor,Photoresistor,All of the above,D
+What is the purpose of a logic gate in a digital circuit?,To perform Boolean operations,To amplify voltage,To generate a clock signal,To measure current,A
+Which of the following is a type of electrical connector?,HDMI connector,DisplayPort connector,Ethernet connector,All of the above,D
+What is the purpose of a microcontroller in an electrical circuit?,To control and process signals,To amplify voltage,To generate a clock signal,To measure resistance,A
+Which of the following is a type of electrical sensor?,Accelerometer,Gyroscope,Magnetometer,All of the above,D
+What is the purpose of a power MOSFET in an electrical circuit?,To switch high currents,To amplify voltage,To generate a clock signal,To measure resistance,A
+Which of the following is a type of electrical connector?,XLR connector,TRS connector,RJ45 connector,All of the above,D
+Which of the following is a type of electrical sensor?,Strain gauge,Load cell,Pressure sensor,All of the above,D
+What is the purpose of a potentiometer in an electrical circuit?,To measure voltage,To measure current,To control resistance,To amplify signals,C
+Which of the following is a type of electrical connector?,BNC connector,SMA connector,TNC connector,All of the above,D
+What is the purpose of a thermistor in an electrical circuit?,To measure temperature,To measure humidity,To measure pressure,To measure light intensity,A
+Which of the following is a type of electrical inductor?,Air-core inductor,Iron-core inductor,Ferrite-core inductor,All of the above,D
+What is the purpose of a rectifier in an electrical circuit?,To convert AC to DC,To amplify voltage,To filter out noise,To measure power,A
+Which of the following is a type of electrical oscillator?,RC oscillator,LC oscillator,Crystal oscillator,All of the above,D
+What is the purpose of a comparator in an electrical circuit?,To compare two voltages,To amplify current,To generate a square wave,To measure frequency,A
+Which of the following is a type of electrical amplifier?,Operational amplifier,Audio amplifier,RF amplifier,All of the above,D
+What is the purpose of a filter capacitor in a power supply?,To filter out AC ripple,To increase voltage,To measure current,To generate heat,A
+Which of the following is a type of electrical sensor?,Hall effect sensor,Strain gauge,Piezoelectric sensor,All of the above,D
+What is the purpose of a voltage regulator in an electrical circuit?,To increase voltage,To decrease voltage,To maintain a constant voltage,To measure voltage,C
+Which of the following is a type of electrical motor?,Brushless DC motor,Servo motor,Stepper motor,All of the above,D
+What is the purpose of a zener diode in an electrical circuit?,To regulate voltage,To amplify current,To generate light,To measure resistance,A
+Which of the following is a type of electrical sensor?,Photodiode,Phototransistor,Photoresistor,All of the above,D
+What is the purpose of a logic gate in a digital circuit?,To perform Boolean operations,To amplify voltage,To generate a clock signal,To measure current,A
+Which of the following is a type of electrical connector?,HDMI connector,DisplayPort connector,Ethernet connector,All of the above,D
+What is the purpose of a microcontroller in an electrical circuit?,To control and process signals,To amplify voltage,To generate a clock signal,To measure resistance,A
+Which of the following is a type of electrical sensor?,Accelerometer,Gyroscope,Magnetometer,All of the above,D
+What is the purpose of a power MOSFET in an electrical circuit?,To switch high currents,To amplify voltage,To generate a clock signal,To measure resistance,A
+What is the purpose of a voltage multiplier in an electrical circuit?,To increase voltage,To decrease voltage,To regulate voltage,To measure voltage,A
+Which of the following is a type of electrical transformer?,Step-up transformer,Step-down transformer,Isolation transformer,All of the above,D
+What is the purpose of a current limiter in an electrical circuit?,To limit current,To increase voltage,To regulate voltage,To measure current,A
+Which of the following is a type of electrical switch?,SPST switch,SPDT switch,DPDT switch,All of the above,D
+What is the purpose of a voltage doubler in an electrical circuit?,To double voltage,To halve voltage,To regulate voltage,To measure voltage,A
+Which of the following is a type of electrical sensor?,Proximity sensor,Infrared sensor,Ultrasonic sensor,All of the above,D
+What is the purpose of a power factor correction (PFC) circuit in an electrical circuit?,To improve power factor,To increase voltage,To regulate voltage,To measure current,A
+Which of the following is a type of electrical relay?,Electromagnetic relay,Solid-state relay,Reed relay,All of the above,D
+What is the purpose of a voltage regulator in an electrical circuit?,To regulate voltage,To increase voltage,To decrease voltage,To measure voltage,A
+Which of the following is a type of electrical motor?,DC motor,AC motor,Stepper motor,All of the above,D
+What is the purpose of a current sensor in an electrical circuit?,To measure current,To measure voltage,To regulate voltage,To amplify current,A
+Which of the following is a type of electrical connector?,USB connector,HDMI connector,Ethernet connector,All of the above,D
+What is the purpose of a voltage stabilizer in an electrical circuit?,To stabilize voltage,To increase voltage,To decrease voltage,To measure voltage,A
+Which of the following is a type of electrical sensor?,Temperature sensor,Humidity sensor,Pressure sensor,All of the above,D
+What is the purpose of a power amplifier in an electrical circuit?,To amplify power,To increase voltage,To regulate voltage,To measure current,A
+Which of the following is a type of electrical switch?,Toggle switch,Push button switch,Rotary switch,All of the above,D
+What is the purpose of a voltage multiplier in an electrical circuit?,To increase voltage,To decrease voltage,To regulate voltage,To measure voltage,A
+Which of the following is a type of electrical transformer?,Step-up transformer,Step-down transformer,Isolation transformer,All of the above,D
+What is the purpose of a current limiter in an electrical circuit?,To limit current,To increase voltage,To regulate voltage,To measure current,A
+Which of the following is a type of electrical switch?,SPST switch,SPDT switch,DPDT switch,All of the above,D
+What is the purpose of a voltage doubler in an electrical circuit?,To double voltage,To halve voltage,To regulate voltage,To measure voltage,A
+Which of the following is a type of electrical sensor?,Proximity sensor,Infrared sensor,Ultrasonic sensor,All of the above,D
+What is the purpose of a power factor correction (PFC) circuit in an electrical circuit?,To improve power factor,To increase voltage,To regulate voltage,To measure current,A
+What is the purpose of a surge protector in an electrical circuit?,To regulate voltage,To protect against voltage spikes,To amplify current,To measure resistance,B
+Which of the following is a type of electrical relay?,Latching relay,Mercury relay,Solid-state relay,All of the above,D
+What is the purpose of a shunt resistor in an electrical circuit?,To measure voltage,To measure current,To regulate voltage,To amplify current,B
+Which of the following is a type of electrical connector?,D-sub connector,Mini USB connector,Thunderbolt connector,All of the above,D
+What is the purpose of a solenoid in an electrical circuit?,To store energy,To convert electrical energy to mechanical energy,To measure resistance,To generate light,B
+Which of the following is a type of electrical switch?,Toggle switch,Rotary switch,Push button switch,All of the above,D
+What is the purpose of a piezoelectric transducer in an electrical circuit?,To measure temperature,To generate electricity from mechanical stress,To amplify current,To regulate voltage,B
+Which of the following is a type of electrical connector?,SCART connector,VGA connector,DisplayPort connector,All of the above,D
+What is the purpose of a current transformer in an electrical circuit?,To measure current,To measure voltage,To regulate voltage,To amplify current,A
+Which of the following is a type of electrical switch?,Mercury switch,Reed switch,Limit switch,All of the above,D
+What is the purpose of a varistor in an electrical circuit?,To regulate voltage,To protect against voltage surges,To amplify current,To measure resistance,B
+Which of the following is a type of electrical connector?,SCSI connector,HDMI connector,FireWire connector,All of the above,D
+What is the purpose of a Hall effect sensor in an electrical circuit?,To measure temperature,To detect magnetic fields,To amplify current,To regulate voltage,B
+Which of the following is a type of electrical relay?,Time-delay relay,Thermal relay,Polarized relay,All of the above,D
+What is the purpose of a neon lamp in an electrical circuit?,To measure voltage,To generate light,To amplify current,To regulate voltage,B
+Which of the following is a type of electrical connector?,SCSI connector,Thunderbolt connector,MIDI connector,All of the above,D
+What is the purpose of a reed relay in an electrical circuit?,To switch high currents,To measure voltage,To detect magnetic fields,To regulate voltage,A
+Which of the following is a type of electrical switch?,Foot switch,Key switch,Toggle switch,All of the above,D
+What is the purpose of a thermocouple in an electrical circuit?,To measure temperature,To measure humidity,To amplify current,To regulate voltage,A
+What is the purpose of a transformer in an electrical circuit?,To convert AC to DC,To increase or decrease voltage,To measure current,To generate electricity,B
+Which of the following is a type of electrical motor?,DC motor,AC motor,Stepper motor,All of the above,D
+What is the purpose of a capacitor in an electrical circuit?,To store energy,To block DC signals,To filter out AC signals,All of the above,D
+Which of the following is a type of electrical generator?,Synchronous generator,Induction generator,DC generator,All of the above,D
+What is the purpose of a resistor in an electrical circuit?,To limit current,To amplify voltage,To generate heat,To store energy,A
+Which of the following is a type of electrical relay?,Electromagnetic relay,Solid-state relay,Reed relay,All of the above,D
+What is the purpose of a diode in an electrical circuit?,To convert AC to DC,To amplify voltage,To generate light,To measure current,A
+Which of the following is a type of electrical sensor?,Temperature sensor,Pressure sensor,Light sensor,All of the above,D
+What is the purpose of a transistor in an electrical circuit?,To amplify or switch signals,To convert AC to DC,To measure voltage,To generate heat,A
+Which of the following is a type of electrical power supply?,AC power supply,DC power supply,Regulated power supply,All of the above,D
+What is the purpose of a voltmeter in an electrical circuit?,To measure current,To measure voltage,To measure resistance,To generate electricity,B
+Which of the following is a type of electrical cable?,Coaxial cable,Twisted pair cable,Fiber optic cable,All of the above,D
+What is the purpose of a wattmeter in an electrical circuit?,To measure power,To measure energy,To measure frequency,To measure phase,A
+Which of the following is a type of electrical breaker?,Circuit breaker,Fuse,GFCI breaker,All of the above,D
+What is the purpose of a potentiometer in an electrical circuit?,To measure voltage,To control resistance,To measure current,To amplify signals,B
+Which of the following is a type of electrical connector?,BNC connector,SMA connector,TNC connector,All of the above,D
+What is the purpose of a thermistor in an electrical circuit?,To measure temperature,To measure humidity,To measure pressure,To measure light intensity,A
+Which of the following is a type of electrical inductor?,Air-core inductor,Iron-core inductor,Ferrite-core inductor,All of the above,D
+What is the purpose of a rectifier in an electrical circuit?,To convert AC to DC,To amplify voltage,To filter out noise,To measure power,A
+What is the purpose of a transformer in an electrical circuit?,To convert AC to DC,To increase or decrease voltage,To measure current,To generate electricity,B
+Which of the following is a type of electrical motor?,DC motor,AC motor,Stepper motor,All of the above,D
+What is the purpose of a capacitor in an electrical circuit?,To store energy,To block DC signals,To filter out AC signals,All of the above,D
+Which of the following is a type of electrical generator?,Synchronous generator,Induction generator,DC generator,All of the above,D
+What is the purpose of a resistor in an electrical circuit?,To limit current,To amplify voltage,To generate heat,To store energy,A
+Which of the following is a type of electrical relay?,Electromagnetic relay,Solid-state relay,Reed relay,All of the above,D
+What is the purpose of a diode in an electrical circuit?,To convert AC to DC,To amplify voltage,To generate light,To measure current,A
+Which of the following is a type of electrical sensor?,Temperature sensor,Pressure sensor,Light sensor,All of the above,D
+What is the purpose of a transistor in an electrical circuit?,To amplify or switch signals,To convert AC to DC,To measure voltage,To generate heat,A
+Which of the following is a type of electrical power supply?,AC power supply,DC power supply,Regulated power supply,All of the above,D
+What is the purpose of a voltmeter in an electrical circuit?,To measure current,To measure voltage,To measure resistance,To generate electricity,B
+Which of the following is a type of electrical cable?,Coaxial cable,Twisted pair cable,Fiber optic cable,All of the above,D
+What is the purpose of a wattmeter in an electrical circuit?,To measure power,To measure energy,To measure frequency,To measure phase,A
+Which of the following is a type of electrical breaker?,Circuit breaker,Fuse,GFCI breaker,All of the above,D
+What is the purpose of a potentiometer in an electrical circuit?,To measure voltage,To control resistance,To measure current,To amplify signals,B
+Which of the following is a type of electrical connector?,BNC connector,SMA connector,TNC connector,All of the above,D
+What is the purpose of a thermistor in an electrical circuit?,To measure temperature,To measure humidity,To measure pressure,To measure light intensity,A
+Which of the following is a type of electrical inductor?,Air-core inductor,Iron-core inductor,Ferrite-core inductor,All of the above,D
+What is the purpose of a rectifier in an electrical circuit?,To convert AC to DC,To amplify voltage,To filter out noise,To measure power,A

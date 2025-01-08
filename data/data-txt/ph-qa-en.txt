@@ -1,0 +1,159 @@
+Q1: What is the unit of force?
+Q2: Which of the following is a vector quantity?
+Q3: What is the acceleration due to gravity on Earth?
+Q4: What is the first law of thermodynamics?
+Q5: Which law explains why we need to wear seat belts?
+Q6: What is the speed of light in a vacuum?
+Q7: What is the formula for kinetic energy?
+Q8: Which of the following is a scalar quantity?
+Q9: What is Ohm's Law?
+Q10: Which particle has no electric charge?
+Q11: What does a voltmeter measure?
+Q12: Which of the following best describes inertia?
+Q13: What is the unit of electrical resistance?
+Q14: Which wave phenomenon explains the bending of light as it passes through different mediums?
+Q15: What is the principle behind hydraulic systems?
+Q16: Which of the following is an example of potential energy?
+Q17: What does the slope of a distance-time graph represent?
+Q18: Which element is most essential for nuclear reactions in stars?
+Q19: What is the primary cause of tides on Earth?
+Q20: Which of the following is a unit of power?
+Q21: What is the primary function of a transformer?
+Q22: What type of lens converges light rays to a focal point?
+Q23: Which quantity is conserved in an elastic collision?
+Q24: What is the unit of frequency?
+Q25: Which principle states that the buoyant force on an object is equal to the weight of the fluid displaced by the object?
+Q26: What is the name given to the energy possessed by an object due to its motion?
+Q27: What is the charge of an electron?
+Q28: Which of the following elements is a good conductor of electricity?
+Q29: What is the SI unit of work?
+Q30: Which fundamental force is responsible for the attraction between protons and electrons?
+Q31: What is the term for materials that allow electricity to flow through them easily?
+Q32: What does the term 'absolute zero' refer to?
+Q33: What is the most common state of matter in the universe?
+Q34: Which law states that the pressure of a gas is inversely proportional to its volume?
+Q35: What is the potential difference between two points in a circuit called?
+Q36: Which type of wave requires a medium to travel through?
+Q37: What is the primary cause of electromagnetic induction?
+Q38: What does a spectrometer measure?
+Q39: Which property of light allows it to bend around obstacles?
+Q40: What is the unit of magnetic field strength?
+Q41: What is the main principle behind the operation of a lever?
+Q42: What property of a wave is measured in hertz?
+Q43: Which of the following is an example of a non-renewable energy source?
+Q44: What is the smallest unit of an element that retains its chemical properties?
+Q45: Which of the following is a unit of pressure?
+Q46: Which physical law states that energy cannot be created or destroyed?
+Q47: What is the primary purpose of a capacitor in an electrical circuit?
+Q48: What is the term for the change in direction of a wave when it passes from one medium to another?
+Q49: What is the unit of electric current?
+Q50: Which of the following particles is found in the nucleus of an atom?
+Q51: What type of mirror can produce a real image?
+Q52: What is the result of mixing all colors of light?
+Q53: What phenomenon explains why a pencil looks bent when placed in a glass of water?
+Q54: What does a Newton's cradle demonstrate?
+Q55: Which of the following quantities is measured in meters per second squared?
+Q56: What is the term for the amount of space an object occupies?
+Q57: Which type of electromagnetic wave has the highest energy?
+Q58: What is the phenomenon where a material emits light when heated?
+Q59: What type of quantity is speed?
+Q60: Which device is used to measure atmospheric pressure?
+Q61: What is the phenomenon where a wave changes direction due to a change in its speed?
+Q62: What is the unit of inductance?
+Q63: What is the term for the energy stored in an object due to its position or height?
+Q64: What is the force that opposes the relative motion or tendency of such motion of two surfaces in contact?
+Q65: What is the SI unit of power?
+Q66: What principle explains the lift force on an airplane wing?
+Q67: What is the rate of change of velocity called?
+Q68: Which law states that the current through a conductor between two points is directly proportional to the voltage across the two points?
+Q69: What is the property of a material that resists the flow of electric current?
+Q70: What is the unit of electric charge?
+Q71: What is the principle that states that the total energy of an isolated system remains constant?
+Q72: What type of current changes direction periodically?
+Q73: Which scientist is known for the three laws of motion?
+Q74: What is the term for the amount of matter in an object?
+Q75: What is the measure of the average kinetic energy of the particles in a substance?
+Q76: What is the relationship between voltage, current, and resistance in an electrical circuit?
+Q77: What is the speed of sound in air at room temperature?
+Q78: What is the effect of increasing the temperature of a gas at constant volume?
+Q79: What type of bond involves the sharing of electron pairs between atoms?
+Q80: What is the device used to detect and measure small electric currents?
+Q81: What type of wave is sound?
+Q82: Which scientist is known for his theory of relativity?
+Q83: What is the term for the force exerted by a fluid on an object moving through it?
+Q84: What is the unit of work in the International System of Units (SI)?
+Q85: What is the name of the effect where light spreads as it passes through a narrow opening?
+Q86: Which law of thermodynamics states that entropy of an isolated system always increases?
+Q87: What is the basic unit of electric charge?
+Q88: What is the principle behind the operation of a hydraulic lift?
+Q89: What is the frequency range of human hearing?
+Q90: What is the device used to measure the intensity of light?
+Q91: What happens to the wavelength of a wave as its frequency increases?
+Q92: What is the name of the phenomenon where two waves superpose to form a resultant wave?
+Q93: What is the property of a material that allows it to return to its original shape after being stretched or compressed?
+Q94: Which device is used to measure electric potential difference?
+Q95: What is the main component of the sun's energy production?
+Q96: What is the velocity of an object at rest?
+Q97: Which property measures the resistance of a liquid to flow?
+Q98: Which principle explains why the pressure in a moving fluid decreases as its velocity increases?
+Q99: What type of current is produced by a battery?
+Q100: What is the term for the transfer of heat through a fluid (liquid or gas) caused by molecular motion?
+Q101: What is the unit of magnetic flux?
+Q102: What is the phenomenon of producing an electromotive force across an electrical conductor in a changing magnetic field?
+Q103: Which particle is responsible for the strong nuclear force?
+Q104: What is the measure of the disorder or randomness in a system?
+Q105: Which law states that the volume of a gas is directly proportional to its temperature, provided the pressure remains constant?
+Q106: What is the term for the rate at which work is done?
+Q107: What is the property of a sound wave that determines its pitch?
+Q108: Which type of bond forms between atoms when electrons are transferred from one atom to another?
+Q109: What is the primary factor that determines the strength of gravitational force between two objects?
+Q110: What is the term for the number of protons in the nucleus of an atom?
+Q111: Which device converts electrical energy into mechanical energy?
+Q112: What is the principle that states that pressure applied to a confined fluid is transmitted undiminished in all directions?
+Q113: What is the term for the smallest quantity of electromagnetic radiation?
+Q114: Which scientist is credited with the discovery of the electron?
+Q115: What is the name of the hypothetical particle that mediates the gravitational force?
+Q116: What type of wave can travel through a vacuum?
+Q117: Which phenomenon causes a moving clock to run slower compared to a stationary clock?
+Q118: What is the term for the bending of light as it passes around an object or through a slit?
+Q119: What is the unit of electric potential difference?
+Q120: What is the principle that the buoyant force on an object is equal to the weight of the fluid displaced by the object?
+Q121: What is the SI unit of capacitance?
+Q122: Which of the following is a vector quantity?
+Q123: What is the SI unit of frequency?
+Q124: What is the phenomenon where a wave bounces off a surface?
+Q125: What is the property of a material that opposes the flow of electric current?
+Q126: Which of the following is an example of a force?
+Q127: What is the SI unit of magnetic flux density?
+Q128: What is the term for the force that opposes the relative motion or tendency of such motion between two surfaces in contact?
+Q129: What is the property of a material that allows it to deform under stress?
+Q130: What is the SI unit of pressure?
+Q131: What is the principle that states that an object submerged in a fluid experiences an upward buoyant force equal to the weight of the fluid displaced by the object?
+Q132: What is the formula for the period of a wave?
+Q133: Which of the following is a type of mechanical wave?
+Q134: What is the phenomenon where a wave bends as it passes from one medium to another at an angle?
+Q135: What is the SI unit of work and energy?
+Q136: Which law of thermodynamics states that the entropy of any isolated system always increases over time?
+Q137: What is the rate of change of displacement called?
+Q138: What is the SI unit of temperature?
+Q139: What is the measure of the amount of matter in an object?
+Q140: What is the term for the energy associated with the motion of an object?
+Q141: Which of the following is a unit of electric charge?
+Q142: What is the SI unit of force?
+Q143: What type of force holds the nucleus of an atom together?
+Q144: What is the formula for calculating density?
+Q145: What is the SI unit of electric current?
+Q146: What is the phenomenon where light waves change direction as they pass from one medium to another?
+Q147: What is the measure of the average kinetic energy of the particles in a substance?
+Q148: What is the SI unit of power?
+Q149: Which law states that the pressure of a gas is inversely proportional to its volume, given constant temperature?
+Q150: What is the force that opposes the motion of objects through a fluid?
+Q151: What is the phenomenon where an object continues in its state of rest or uniform motion unless acted upon by an external force?
+Q152: What is the name of the constant that relates the energy of a photon to its frequency?
+Q153: Which type of energy does an object possess due to its motion?
+Q154: What is the SI unit of electric potential difference?
+Q155: What is the property of a material that describes its ability to store electrical energy?
+Q156: Which law states that the total energy of an isolated system remains constant over time?
+Q157: What is the measure of the gravitational force exerted on an object?
+Q158: What is the SI unit of temperature?
+Q159: What is the phenomenon where light waves combine to form areas of increased and decreased amplitude?

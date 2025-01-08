@@ -1,0 +1,160 @@
+Q1: What is the purpose of a flywheel in an engine?
+Q2: What is the function of a piston in an engine?
+Q3: What is the purpose of a crankshaft in an engine?
+Q4: What is the function of a camshaft in an engine?
+Q5: What is the purpose of a radiator in an engine?
+Q6: What is the function of a carburetor in an engine?
+Q7: What is the purpose of a spark plug in an engine?
+Q8: What is the function of a transmission in a vehicle?
+Q9: What is the purpose of a differential in a vehicle?
+Q10: What is the function of a brake in a vehicle?
+Q11: What is the purpose of a shock absorber in a vehicle?
+Q12: What is the function of a steering system in a vehicle?
+Q13: What is the purpose of a suspension system in a vehicle?
+Q14: What is the function of a fuel system in an engine?
+Q15: What is the purpose of a lubrication system in an engine?
+Q16: What is the function of a cooling system in an engine?
+Q17: What is the purpose of a generator in a vehicle?
+Q18: What is the function of a battery in a vehicle?
+Q19: What is the purpose of a starter motor in an engine?
+Q20: What is the function of a clutch in a manual transmission?
+Q21: What is the purpose of a gear in a mechanical system?
+Q22: What is the function of a bearing in a mechanical system?
+Q23: What is the purpose of a pulley in a mechanical system?
+Q24: What is the function of a valve in a mechanical system?
+Q25: What is the purpose of a pump in a mechanical system?
+Q26: What is the function of a compressor in a mechanical system?
+Q27: What is the purpose of a turbine in a mechanical system?
+Q28: What is the function of a heat exchanger in a mechanical system?
+Q29: What is the purpose of a filter in a mechanical system?
+Q30: What is the function of a sensor in a mechanical system?
+Q31: What is the purpose of a controller in a mechanical system?
+Q32: What is the function of a motor in a mechanical system?
+Q33: What is the purpose of a generator in a mechanical system?
+Q34: What is the function of a transformer in a mechanical system?
+Q35: What is the purpose of a rectifier in a mechanical system?
+Q36: What is the function of a capacitor in a mechanical system?
+Q37: What is the purpose of a resistor in a mechanical system?
+Q38: What is the function of a diode in a mechanical system?
+Q39: What is the purpose of a transistor in a mechanical system?
+Q40: What is the function of a microprocessor in a mechanical system?
+Q41: What is the purpose of a thermocouple in a mechanical system?
+Q42: What is the function of a strain gauge in a mechanical system?
+Q43: What is the purpose of a pressure transducer in a mechanical system?
+Q44: What is the function of a flow meter in a mechanical system?
+Q45: What is the purpose of a level sensor in a mechanical system?
+Q46: What is the function of a proximity sensor in a mechanical system?
+Q47: What is the purpose of a limit switch in a mechanical system?
+Q48: What is the function of a solenoid valve in a mechanical system?
+Q49: What is the purpose of a hydraulic cylinder in a mechanical system?
+Q50: What is the function of a pneumatic cylinder in a mechanical system?
+Q51: What is the purpose of a linear actuator in a mechanical system?
+Q52: What is the function of a rotary actuator in a mechanical system?
+Q53: What is the purpose of a servo motor in a mechanical system?
+Q54: What is the function of a stepper motor in a mechanical system?
+Q55: What is the purpose of a gearbox in a mechanical system?
+Q56: What is the function of a chain drive in a mechanical system?
+Q57: What is the purpose of a belt drive in a mechanical system?
+Q58: What is the function of a universal joint in a mechanical system?
+Q59: What is the purpose of a constant velocity (CV) joint in a mechanical system?
+Q60: What is the function of a ball screw in a mechanical system?
+Q61: What is the purpose of a lead screw in a mechanical system?
+Q62: What is the function of a rack and pinion in a mechanical system?
+Q63: What is the purpose of a scotch yoke mechanism in a mechanical system?
+Q64: What is the function of a cam and follower mechanism in a mechanical system?
+Q65: What is the purpose of a four-bar linkage in a mechanical system?
+Q66: What is the function of a slider-crank mechanism in a mechanical system?
+Q67: What is the purpose of a Geneva mechanism in a mechanical system?
+Q68: What is the function of a ratchet and pawl mechanism in a mechanical system?
+Q69: What is the purpose of a toggle mechanism in a mechanical system?
+Q70: What is the function of a spring in a mechanical system?
+Q71: What is the purpose of a damper in a mechanical system?
+Q72: What is the function of a flywheel in a mechanical system?
+Q73: What is the purpose of a clutch in a mechanical system?
+Q74: What is the function of a brake in a mechanical system?
+Q75: What is the purpose of a bearing in a mechanical system?
+Q76: What is the function of a gear in a mechanical system?
+Q77: What is the purpose of a pulley in a mechanical system?
+Q78: What is the function of a chain drive in a mechanical system?
+Q79: What is the purpose of a belt drive in a mechanical system?
+Q80: What is the function of a universal joint in a mechanical system?
+Q81: What is the purpose of a constant velocity (CV) joint in a mechanical system?
+Q82: What is the function of a governor in a mechanical system?
+Q83: What is the purpose of a heat sink in a mechanical system?
+Q84: What is the function of a bellows in a mechanical system?
+Q85: What is the purpose of a shock absorber in a vehicle suspension system?
+Q86: What is the function of a torque converter in an automatic transmission?
+Q87: What is the purpose of a turbocharger in an engine?
+Q88: What is the function of a planetary gear system in a transmission?
+Q89: What is the purpose of a torque wrench in mechanical work?
+Q90: What is the function of a pressure relief valve in a hydraulic system?
+Q91: What is the purpose of a safety valve in a steam system?
+Q92: What is the function of a pneumatic actuator in a control system?
+Q93: What is the purpose of a hydraulic pump in a hydraulic system?
+Q94: What is the function of a check valve in a fluid system?
+Q95: What is the purpose of a cam in a camshaft system?
+Q96: What is the function of a sprocket in a chain drive system?
+Q97: What is the purpose of a torsion bar in a suspension system?
+Q98: What is the function of a centrifugal pump in a fluid system?
+Q99: What is the purpose of a manifold in an engine?
+Q100: What is the function of a worm gear in a mechanical system?
+Q101: What is the purpose of a pneumatic system in automation?
+Q102: What is the function of a hydraulic cylinder in a hydraulic system?
+Q103: What is the purpose of a bell crank in a mechanical system?
+Q104: What is the function of a solenoid in a control system?
+Q105: What is the purpose of a pneumatic valve in a pneumatic system?
+Q106: What is the function of a linear bearing in a mechanical system?
+Q107: What is the purpose of a torsion spring in a mechanical system?
+Q108: What is the function of a pressure gauge in a fluid system?
+Q109: What is the purpose of a linear encoder in a motion control system?
+Q110: What is the function of a pneumatic actuator in a robotics system?
+Q111: What is the purpose of a linear guide in a CNC machine?
+Q112: What is the function of a limit switch in an automated system?
+Q113: What is the purpose of a pneumatic gripper in a robotic arm?
+Q114: What is the function of a load cell in a weighing system?
+Q115: What is the purpose of a pneumatic conveyor in material handling?
+Q116: What is the function of a pneumatic cylinder in an industrial automation system?
+Q117: What is the purpose of a linear actuator in a robotic system?
+Q118: What is the function of a pneumatic regulator in a compressed air system?
+Q119: What is the purpose of a pneumatic solenoid valve in an automated system?
+Q120: What is the function of a pneumatic pressure regulator in a system?
+Q121: What is the purpose of a pneumatic filter in a compressed air system?
+Q122: What is the function of a pneumatic quick coupler in an air system?
+Q123: What is the purpose of a pneumatic flow control valve in a system?
+Q124: What is the function of a pneumatic pressure gauge in an air system?
+Q125: What is the purpose of a pneumatic directional control valve in automation?
+Q126: What is the function of a pneumatic accumulator in a system?
+Q127: What is the purpose of a pneumatic shuttle valve in a control system?
+Q128: What is the function of a pneumatic silencer in an air system?
+Q129: What is the purpose of a pneumatic check valve in a system?
+Q130: What is the function of a pneumatic pressure switch in an air system?
+Q131: What is the purpose of a pneumatic throttle valve in a control system?
+Q132: What is the function of a pneumatic pressure relief valve in an air system?
+Q133: What is the purpose of a pneumatic flow meter in a compressed air system?
+Q134: What is the function of a pneumatic pilot valve in an air system?
+Q135: What is the purpose of a pneumatic pressure transducer in a control system?
+Q136: What is the function of a pneumatic flow control valve in an air system?
+Q137: What is the purpose of a pneumatic pressure regulator in a system?
+Q138: What is the function of a pneumatic solenoid valve in an air system?
+Q139: What is the purpose of a pneumatic actuator in a control system?
+Q140: What is the function of a pneumatic pressure sensor in an air system?
+Q141: What is the purpose of a pneumatic shuttle valve in a pneumatic system?
+Q142: What is the function of a pneumatic flow control valve in an air system?
+Q143: What is the purpose of a pneumatic check valve in a system?
+Q144: What is the function of a pneumatic pressure relief valve in an air system?
+Q145: What is the purpose of a pneumatic flow meter in a compressed air system?
+Q146: What is the function of a pneumatic pilot valve in an air system?
+Q147: What is the purpose of a pneumatic pressure transducer in a control system?
+Q148: What is the function of a pneumatic flow control valve in an air system?
+Q149: What is the purpose of a pneumatic pressure regulator in a system?
+Q150: What is the function of a pneumatic solenoid valve in an air system?
+Q151: What is the purpose of a pneumatic actuator in a control system?
+Q152: What is the function of a pneumatic pressure sensor in an air system?
+Q153: What is the purpose of a pneumatic shuttle valve in a pneumatic system?
+Q154: What is the function of a pneumatic flow control valve in an air system?
+Q155: What is the purpose of a pneumatic check valve in a system?
+Q156: What is the function of a pneumatic pressure relief valve in an air system?
+Q157: What is the purpose of a pneumatic flow meter in a compressed air system?
+Q158: What is the function of a pneumatic pilot valve in an air system?
+Q159: What is the purpose of a pneumatic pressure transducer in a control system?
+Q160: What is the function of a pneumatic flow control valve in an air system?

@@ -1,0 +1,161 @@
+﻿question,A,B,C,D,answer
+What is the purpose of a flywheel in an engine?,To store energy,To convert rotational energy to linear energy,To reduce vibrations,To increase engine speed,A
+What is the function of a piston in an engine?,To convert rotational energy to linear energy,To store fuel,To reduce friction,To convert linear energy to rotational energy,A
+What is the purpose of a crankshaft in an engine?,To convert linear energy to rotational energy,To store fuel,To reduce friction,To convert rotational energy to linear energy,A
+What is the function of a camshaft in an engine?,To open and close the valves,To store fuel,To reduce friction,To convert rotational energy to linear energy,A
+What is the purpose of a radiator in an engine?,To store fuel,To reduce friction,To cool the engine,To convert rotational energy to linear energy,C
+What is the function of a carburetor in an engine?,To mix air and fuel,To store fuel,To reduce friction,To convert rotational energy to linear energy,A
+What is the purpose of a spark plug in an engine?,To ignite the fuel-air mixture,To store fuel,To reduce friction,To convert rotational energy to linear energy,A
+What is the function of a transmission in a vehicle?,To store fuel,To reduce friction,To change gears,To convert rotational energy to linear energy,C
+What is the purpose of a differential in a vehicle?,To store fuel,To reduce friction,To change gears,To allow the wheels to rotate at different speeds,D
+What is the function of a brake in a vehicle?,To store fuel,To reduce friction,To change gears,To slow down or stop the vehicle,D
+What is the purpose of a shock absorber in a vehicle?,To store fuel,To reduce friction,To change gears,To absorb shocks and improve ride comfort,D
+What is the function of a steering system in a vehicle?,To store fuel,To reduce friction,To change gears,To control the direction of the vehicle,D
+What is the purpose of a suspension system in a vehicle?,To store fuel,To reduce friction,To change gears,To support the weight of the vehicle and improve ride comfort,D
+What is the function of a fuel system in an engine?,To store fuel,To reduce friction,To change gears,To supply fuel to the engine,D
+What is the purpose of a lubrication system in an engine?,To store fuel,To reduce friction,To change gears,To reduce wear and tear on engine components,D
+What is the function of a cooling system in an engine?,To store fuel,To reduce friction,To change gears,To maintain the engine at the optimal operating temperature,D
+What is the purpose of a generator in a vehicle?,To store fuel,To reduce friction,To change gears,To generate electricity to power the vehicle's electrical systems,D
+What is the function of a battery in a vehicle?,To store fuel,To reduce friction,To change gears,To store electrical energy and provide power to the vehicle's electrical systems,D
+What is the purpose of a starter motor in an engine?,To store fuel,To reduce friction,To change gears,To start the engine,D
+What is the function of a clutch in a manual transmission?,To store fuel,To reduce friction,To engage and disengage the engine from the transmission,To change gears,C
+What is the purpose of a gear in a mechanical system?,To store energy,To convert rotational energy to linear energy,To change the speed or direction of rotation,To reduce friction,C
+What is the function of a bearing in a mechanical system?,To support a rotating shaft,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pulley in a mechanical system?,To change the speed or direction of rotation,To store energy,To convert rotational energy to linear energy,To transmit power from one shaft to another,D
+What is the function of a valve in a mechanical system?,To control the flow of a fluid,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pump in a mechanical system?,To control the flow of a fluid,To store energy,To convert rotational energy to linear energy,To move a fluid from one location to another,D
+What is the function of a compressor in a mechanical system?,To control the flow of a fluid,To store energy,To compress a gas,To reduce friction,C
+What is the purpose of a turbine in a mechanical system?,To control the flow of a fluid,To store energy,To convert the kinetic energy of a fluid into rotational energy,To reduce friction,C
+What is the function of a heat exchanger in a mechanical system?,To control the flow of a fluid,To store energy,To transfer heat from one fluid to another,To reduce friction,C
+What is the purpose of a filter in a mechanical system?,To control the flow of a fluid,To store energy,To remove contaminants from a fluid,To reduce friction,C
+What is the function of a sensor in a mechanical system?,To control the flow of a fluid,To measure a physical quantity,To convert rotational energy to linear energy,To reduce friction,B
+What is the purpose of a controller in a mechanical system?,To control the flow of a fluid,To measure a physical quantity,To make decisions based on sensor inputs,To reduce friction,C
+What is the function of a motor in a mechanical system?,To control the flow of a fluid,To convert electrical energy into rotational energy,To convert rotational energy to linear energy,To reduce friction,B
+What is the purpose of a generator in a mechanical system?,To control the flow of a fluid,To convert rotational energy into electrical energy,To convert rotational energy to linear energy,To reduce friction,B
+What is the function of a transformer in a mechanical system?,To control the flow of a fluid,To change the voltage of an electrical signal,To convert rotational energy to linear energy,To reduce friction,B
+What is the purpose of a rectifier in a mechanical system?,To control the flow of a fluid,To convert alternating current (AC) into direct current (DC),To convert rotational energy to linear energy,To reduce friction,B
+What is the function of a capacitor in a mechanical system?,To control the flow of a fluid,To store electrical energy,To convert rotational energy to linear energy,To reduce friction,B
+What is the purpose of a resistor in a mechanical system?,To control the flow of a fluid,To limit the flow of electrical current,To convert rotational energy to linear energy,To reduce friction,B
+What is the function of a diode in a mechanical system?,To control the flow of a fluid,To allow electrical current to flow in only one direction,To convert rotational energy to linear energy,To reduce friction,B
+What is the purpose of a transistor in a mechanical system?,To control the flow of a fluid,To amplify or switch electrical signals,To convert rotational energy to linear energy,To reduce friction,B
+What is the function of a microprocessor in a mechanical system?,To control the flow of a fluid,To process and execute instructions,To convert rotational energy to linear energy,To reduce friction,B
+What is the purpose of a thermocouple in a mechanical system?,To measure temperature,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a strain gauge in a mechanical system?,To measure force or pressure,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pressure transducer in a mechanical system?,To measure force or pressure,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a flow meter in a mechanical system?,To measure the flow rate of a fluid,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a level sensor in a mechanical system?,To measure the level of a fluid,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a proximity sensor in a mechanical system?,To detect the presence or absence of an object,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a limit switch in a mechanical system?,To detect the position of a moving part,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a solenoid valve in a mechanical system?,To control the flow of a fluid,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a hydraulic cylinder in a mechanical system?,To convert hydraulic energy into linear motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic cylinder in a mechanical system?,To convert pneumatic energy into linear motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a linear actuator in a mechanical system?,To convert energy into linear motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a rotary actuator in a mechanical system?,To convert energy into rotational motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a servo motor in a mechanical system?,To provide precise control of rotational motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a stepper motor in a mechanical system?,To provide precise control of rotational motion in discrete steps,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a gearbox in a mechanical system?,To change the speed or direction of rotation,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a chain drive in a mechanical system?,To transmit power from one shaft to another,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a belt drive in a mechanical system?,To transmit power from one shaft to another,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a universal joint in a mechanical system?,To allow the transmission of rotational motion between two shafts at an angle,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a constant velocity (CV) joint in a mechanical system?,To allow the transmission of rotational motion between two shafts at an angle while maintaining a constant velocity,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a ball screw in a mechanical system?,To convert rotational motion into linear motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a lead screw in a mechanical system?,To convert rotational motion into linear motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a rack and pinion in a mechanical system?,To convert rotational motion into linear motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a scotch yoke mechanism in a mechanical system?,To convert rotational motion into linear motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a cam and follower mechanism in a mechanical system?,To convert rotational motion into linear motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a four-bar linkage in a mechanical system?,To convert rotational motion into linear motion,To store energy,To convert rotational energy to linear energy,To provide a specific motion pattern,D
+What is the function of a slider-crank mechanism in a mechanical system?,To convert rotational motion into linear motion,To store energy,To convert rotational energy to linear energy,To provide a specific motion pattern,D
+What is the purpose of a Geneva mechanism in a mechanical system?,To convert rotational motion into intermittent rotational motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a ratchet and pawl mechanism in a mechanical system?,To allow motion in one direction and prevent motion in the opposite direction,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a toggle mechanism in a mechanical system?,To provide a mechanical advantage,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a spring in a mechanical system?,To store energy,To convert rotational energy to linear energy,To reduce friction,To provide a restoring force,D
+What is the purpose of a damper in a mechanical system?,To store energy,To convert rotational energy to linear energy,To reduce vibrations,To provide a restoring force,C
+What is the function of a flywheel in a mechanical system?,To store energy,To convert rotational energy to linear energy,To reduce vibrations,To provide a restoring force,A
+What is the purpose of a clutch in a mechanical system?,To engage and disengage a power source from a driven component,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a brake in a mechanical system?,To store energy,To convert rotational energy to linear energy,To reduce friction,To slow down or stop a moving component,D
+What is the purpose of a bearing in a mechanical system?,To support a rotating shaft,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a gear in a mechanical system?,To change the speed or direction of rotation,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pulley in a mechanical system?,To change the speed or direction of rotation,To store energy,To convert rotational energy to linear energy,To transmit power from one shaft to another,D
+What is the function of a chain drive in a mechanical system?,To transmit power from one shaft to another,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a belt drive in a mechanical system?,To transmit power from one shaft to another,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a universal joint in a mechanical system?,To allow the transmission of rotational motion between two shafts at an angle,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a constant velocity (CV) joint in a mechanical system?,To allow the transmission of rotational motion between two shafts at an angle while maintaining a constant velocity,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a governor in a mechanical system?,To regulate the speed of an engine,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a heat sink in a mechanical system?,To dissipate heat from electronic components,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a bellows in a mechanical system?,To provide flexibility in a system,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a shock absorber in a vehicle suspension system?,To dampen vibrations and impacts,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a torque converter in an automatic transmission?,To transfer power from the engine to the transmission,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a turbocharger in an engine?,To increase engine power by compressing air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a planetary gear system in a transmission?,To provide different gear ratios,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a torque wrench in mechanical work?,To apply a specific amount of torque to fasteners,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pressure relief valve in a hydraulic system?,To limit the pressure in a system,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a safety valve in a steam system?,To release excess pressure to prevent explosions,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic actuator in a control system?,To convert pneumatic energy into mechanical motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a hydraulic pump in a hydraulic system?,To generate flow of hydraulic fluid,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a check valve in a fluid system?,To allow flow in one direction only,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a cam in a camshaft system?,To control valve timing in an engine,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a sprocket in a chain drive system?,To transmit motion between chains,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a torsion bar in a suspension system?,To provide resistance to twisting forces,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a centrifugal pump in a fluid system?,To increase the pressure of a fluid by centrifugal force,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a manifold in an engine?,To distribute air or fuel to engine cylinders,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a worm gear in a mechanical system?,To provide high torque and reduce speed,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic system in automation?,To use compressed air to control mechanical motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a hydraulic cylinder in a hydraulic system?,To convert hydraulic energy into linear motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a bell crank in a mechanical system?,To change the direction of motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a solenoid in a control system?,To convert electrical energy into mechanical motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic valve in a pneumatic system?,To control the flow of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a linear bearing in a mechanical system?,To provide smooth linear motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a torsion spring in a mechanical system?,To store mechanical energy by twisting,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pressure gauge in a fluid system?,To measure the pressure of a fluid,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a linear encoder in a motion control system?,To provide position feedback in linear motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic actuator in a robotics system?,To convert pneumatic energy into mechanical motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a linear guide in a CNC machine?,To provide precise linear motion guidance,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a limit switch in an automated system?,To detect the position of a moving part,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic gripper in a robotic arm?,To grasp and manipulate objects using compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a load cell in a weighing system?,To measure the weight or force applied to it,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic conveyor in material handling?,To transport materials using compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic cylinder in an industrial automation system?,To convert pneumatic energy into linear motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a linear actuator in a robotic system?,To provide linear motion control in robots,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic regulator in a compressed air system?,To control and maintain air pressure,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic solenoid valve in an automated system?,To control the flow of compressed air in response to electrical signals,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic pressure regulator in a system?,To control and adjust the pressure of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic filter in a compressed air system?,To remove contaminants and particles from the air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic quick coupler in an air system?,To quickly connect and disconnect air lines,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic flow control valve in a system?,To regulate the speed of pneumatic actuators,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic pressure gauge in an air system?,To measure the pressure of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic directional control valve in automation?,To control the direction of airflow in pneumatic systems,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic accumulator in a system?,To store compressed air under pressure for peak demands,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic shuttle valve in a control system?,To switch between two pressure sources,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic silencer in an air system?,To reduce noise generated by pneumatic exhaust,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic check valve in a system?,To allow airflow in one direction only,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic pressure switch in an air system?,To sense pressure changes and activate/deactivate systems,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic throttle valve in a control system?,To regulate the flow of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic pressure relief valve in an air system?,To release excess pressure to prevent system damage,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic flow meter in a compressed air system?,To measure the flow rate of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic pilot valve in an air system?,To control the operation of larger valves,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic pressure transducer in a control system?,To convert pressure into an electrical signal,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic flow control valve in an air system?,To regulate the flow rate of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic pressure regulator in a system?,To control and adjust the pressure of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic solenoid valve in an air system?,To control the flow of compressed air in response to electrical signals,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic actuator in a control system?,To convert pneumatic energy into mechanical motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic pressure sensor in an air system?,To measure the pressure of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic shuttle valve in a pneumatic system?,To switch between two pressure sources,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic flow control valve in an air system?,To regulate the flow rate of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic check valve in a system?,To allow airflow in one direction only,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic pressure relief valve in an air system?,To release excess pressure to prevent system damage,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic flow meter in a compressed air system?,To measure the flow rate of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic pilot valve in an air system?,To control the operation of larger valves,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic pressure transducer in a control system?,To convert pressure into an electrical signal,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic flow control valve in an air system?,To regulate the flow rate of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic pressure regulator in a system?,To control and adjust the pressure of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic solenoid valve in an air system?,To control the flow of compressed air in response to electrical signals,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic actuator in a control system?,To convert pneumatic energy into mechanical motion,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic pressure sensor in an air system?,To measure the pressure of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic shuttle valve in a pneumatic system?,To switch between two pressure sources,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic flow control valve in an air system?,To regulate the flow rate of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic check valve in a system?,To allow airflow in one direction only,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic pressure relief valve in an air system?,To release excess pressure to prevent system damage,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic flow meter in a compressed air system?,To measure the flow rate of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic pilot valve in an air system?,To control the operation of larger valves,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the purpose of a pneumatic pressure transducer in a control system?,To convert pressure into an electrical signal,To store energy,To convert rotational energy to linear energy,To reduce friction,A
+What is the function of a pneumatic flow control valve in an air system?,To regulate the flow rate of compressed air,To store energy,To convert rotational energy to linear energy,To reduce friction,A

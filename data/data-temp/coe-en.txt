@@ -1,0 +1,161 @@
+{'question': "What is the primary function of a computer's CPU?", 'A': 'To store data', 'B': 'To display output', 'C': 'To process data', 'D': 'To provide power', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer memory?', 'A': 'Processor', 'B': 'RAM', 'C': 'Motherboard', 'D': 'Power Supply', 'answer': 'B'}
+{'question': 'What is the purpose of an operating system?', 'A': 'To manage computer hardware and software resources', 'B': 'To create programs', 'C': 'To store files', 'D': 'To connect to the internet', 'answer': 'A'}
+{'question': 'Which of the following is a type of input device?', 'A': 'Monitor', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'B'}
+{'question': 'What is the purpose of a computer program?', 'A': 'To provide power to the computer', 'B': 'To display images', 'C': 'To execute a set of instructions', 'D': 'To store data', 'answer': 'C'}
+{'question': 'Which of the following is a type of output device?', 'A': 'Mouse', 'B': 'Keyboard', 'C': 'Printer', 'D': 'Scanner', 'answer': 'C'}
+{'question': 'What is the purpose of a computer network?', 'A': 'To connect computers and share resources', 'B': 'To store data', 'C': 'To process data', 'D': 'To display output', 'answer': 'A'}
+{'question': 'Which of the following is a type of software?', 'A': 'Motherboard', 'B': 'Processor', 'C': 'Operating system', 'D': 'Power Supply', 'answer': 'C'}
+{'question': 'What is the purpose of a database?', 'A': 'To store and manage data', 'B': 'To process data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of programming language?', 'A': 'RAM', 'B': 'CPU', 'C': 'Java', 'D': 'Motherboard', 'answer': 'C'}
+{'question': 'What is the purpose of an algorithm?', 'A': 'To store data', 'B': 'To display output', 'C': 'To process data', 'D': 'To provide a step-by-step solution to a problem', 'answer': 'D'}
+{'question': 'Which of the following is a type of data structure?', 'A': 'Monitor', 'B': 'Array', 'C': 'Speaker', 'D': 'Printer', 'answer': 'B'}
+{'question': 'What is the purpose of a compiler?', 'A': 'To translate high-level programming language into machine-readable code', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer architecture?', 'A': 'Von Neumann architecture', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the purpose of a computer bus?', 'A': 'To connect components within a computer system', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer storage?', 'A': 'RAM', 'B': 'CPU', 'C': 'Java', 'D': 'Hard disk drive', 'answer': 'D'}
+{'question': 'What is the purpose of a computer firewall?', 'A': 'To protect a computer system from unauthorized access', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer interface?', 'A': 'Graphical User Interface (GUI)', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the purpose of a computer virus?', 'A': 'To protect a computer system', 'B': 'To improve performance', 'C': 'To cause harm or disrupt a computer system', 'D': 'To provide power', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer network topology?', 'A': 'Star topology', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the purpose of a computer motherboard?', 'A': 'To process data', 'B': 'To store data', 'C': 'To provide power', 'D': 'To connect all computer components', 'answer': 'D'}
+{'question': 'Which of the following is a type of computer peripheral?', 'A': 'RAM', 'B': 'Monitor', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'B'}
+{'question': 'What is the function of a computer graphics card?', 'A': 'To store data', 'B': 'To process data', 'C': 'To display images on a monitor', 'D': 'To provide power', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer input/output port?', 'A': 'USB', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer power supply unit?', 'A': 'To process data', 'B': 'To store data', 'C': 'To provide power to computer components', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer cooling system?', 'A': 'Keyboard', 'B': 'Fan', 'C': 'Speaker', 'D': 'Printer', 'answer': 'B'}
+{'question': 'What is the function of a computer mouse?', 'A': 'To display output', 'B': 'To process data', 'C': 'To provide power', 'D': 'To control cursor movement on a screen', 'answer': 'D'}
+{'question': 'Which of the following is a type of computer software application?', 'A': 'Microsoft Windows', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the purpose of a computer modem?', 'A': 'To connect to the internet', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer virus protection software?', 'A': 'Antivirus', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the function of a computer scanner?', 'A': 'To store data', 'B': 'To process data', 'C': 'To display output', 'D': 'To convert physical documents into digital images', 'answer': 'D'}
+{'question': 'Which of the following is a type of computer file format?', 'A': '.txt', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the purpose of a computer cache memory?', 'A': 'To store frequently accessed data for quick retrieval', 'B': 'To process data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer network protocol?', 'A': 'TCP/IP', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the function of a computer webcam?', 'A': 'To store data', 'B': 'To process data', 'C': 'To display output', 'D': 'To capture video or images', 'answer': 'D'}
+{'question': 'Which of the following is a type of computer display technology?', 'A': 'LCD', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer backup system?', 'A': 'To store data', 'B': 'To protect data by creating copies for recovery', 'C': 'To display output', 'D': 'To provide power', 'answer': 'B'}
+{'question': 'Which of the following is a type of computer input device?', 'A': 'Microphone', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer touchpad?', 'A': 'To display output', 'B': 'To process data', 'C': 'To provide power', 'D': 'To control cursor movement on a screen', 'answer': 'D'}
+{'question': 'Which of the following is a type of computer programming paradigm?', 'A': 'Object-Oriented Programming (OOP)', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the purpose of a computer firewall?', 'A': 'To protect a computer system from unauthorized access', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer interface?', 'A': 'Graphical User Interface (GUI)', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the purpose of a computer virus?', 'A': 'To protect a computer system', 'B': 'To improve performance', 'C': 'To cause harm or disrupt a computer system', 'D': 'To provide power', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer network topology?', 'A': 'Star topology', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer router?', 'A': 'To process data', 'B': 'To store data', 'C': 'To route data packets between computer networks', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer peripheral device?', 'A': 'RAM', 'B': 'Monitor', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'B'}
+{'question': 'What is the purpose of a computer BIOS?', 'A': 'To process data', 'B': 'To store data', 'C': 'To provide basic input/output system functions', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer network protocol?', 'A': 'HTTP', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the function of a computer optical drive?', 'A': 'To store data', 'B': 'To process data', 'C': 'To read and write data on optical discs', 'D': 'To provide power', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software license?', 'A': 'Freeware', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer cache memory?', 'A': 'To store frequently accessed data for quick retrieval', 'B': 'To process data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer network device?', 'A': 'Switch', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer microphone?', 'A': 'To store data', 'B': 'To process data', 'C': 'To capture audio input', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer display resolution?', 'A': '1080p', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer UPS (Uninterruptible Power Supply)?', 'A': 'To store data', 'B': 'To provide continuous power in case of outages', 'C': 'To display output', 'D': 'To process data', 'answer': 'B'}
+{'question': 'Which of the following is a type of computer input device?', 'A': 'Trackpad', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer firewall?', 'A': 'To protect a computer system from unauthorized access', 'B': 'To process data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer programming language?', 'A': 'Python', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the purpose of a computer webcam?', 'A': 'To store data', 'B': 'To process data', 'C': 'To display output', 'D': 'To capture video or images', 'answer': 'D'}
+{'question': 'Which of the following is a type of computer network security measure?', 'A': 'Firewall', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive encryption', 'answer': 'A'}
+{'question': 'What is the purpose of a computer algorithm?', 'A': 'To store data', 'B': 'To display output', 'C': 'To process data', 'D': 'To provide a step-by-step solution to a problem', 'answer': 'D'}
+{'question': 'Which of the following is a type of computer network architecture?', 'A': 'Client-server', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer joystick?', 'A': 'To store data', 'B': 'To process data', 'C': 'To control movement in games or simulations', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer file system?', 'A': 'NTFS', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network switch?', 'A': 'To process data', 'B': 'To store data', 'C': 'To connect multiple devices in a network', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer peripheral interface?', 'A': 'USB', 'B': 'Monitor', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the function of a computer barcode scanner?', 'A': 'To store data', 'B': 'To process data', 'C': 'To scan and read barcodes for identification', 'D': 'To provide power', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software development tool?', 'A': 'Integrated Development Environment (IDE)', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network router?', 'A': 'To connect to the internet', 'B': 'To store data', 'C': 'To route data between different networks', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer security authentication method?', 'A': 'Biometric authentication', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the function of a computer touch screen?', 'A': 'To display output', 'B': 'To process data', 'C': 'To provide power', 'D': 'To allow user interaction through touch gestures', 'answer': 'D'}
+{'question': 'Which of the following is a type of computer network protocol suite?', 'A': 'TCP/IP', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the purpose of a computer backup software?', 'A': 'To store data', 'B': 'To protect data by creating copies for recovery', 'C': 'To display output', 'D': 'To provide power', 'answer': 'B'}
+{'question': 'Which of the following is a type of computer input/output device?', 'A': 'Scanner', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the function of a computer virtual reality headset?', 'A': 'To store data', 'B': 'To process data', 'C': 'To provide an immersive virtual experience', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer display technology?', 'A': 'OLED', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer encryption software?', 'A': 'To store data', 'B': 'To protect data by encoding it for security', 'C': 'To display output', 'D': 'To provide power', 'answer': 'B'}
+{'question': 'Which of the following is a type of computer input device?', 'A': 'Graphics tablet', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer network hub?', 'A': 'To process data', 'B': 'To store data', 'C': 'To connect multiple devices in a network', 'D': 'To display output', 'answer': 'C'}
+{'question': 'What is the purpose of a computer operating system?', 'A': 'To manage computer hardware and software resources', 'B': 'To create programs', 'C': 'To store files', 'D': 'To connect to the internet', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer memory?', 'A': 'Processor', 'B': 'RAM', 'C': 'Motherboard', 'D': 'Power Supply', 'answer': 'B'}
+{'question': 'What is the function of a computer graphics processing unit (GPU)?', 'A': 'To store data', 'B': 'To process graphics-intensive tasks efficiently', 'C': 'To display output', 'D': 'To provide power', 'answer': 'B'}
+{'question': 'Which of the following is a type of computer file format?', 'A': '.pdf', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network firewall?', 'A': 'To protect a computer network from unauthorized access', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer input device?', 'A': 'Trackball', 'B': 'Monitor', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer network bridge?', 'A': 'To process data', 'B': 'To store data', 'C': 'To connect different network segments', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software license?', 'A': 'Open source', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network gateway?', 'A': 'To connect to the internet', 'B': 'To store data', 'C': 'To provide a point of interconnection between different networks', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer input/output interface?', 'A': 'HDMI', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the function of a computer network access control list (ACL)?', 'A': 'To store data', 'B': 'To process data', 'C': 'To control access to network resources', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software development methodology?', 'A': 'Agile', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network intrusion detection system (IDS)?', 'A': 'To protect a computer network from unauthorized access', 'B': 'To store data', 'C': 'To monitor network traffic for suspicious activity', 'D': 'To provide power', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer input/output bus?', 'A': 'PCI Express', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer network load balancer?', 'A': 'To process data', 'B': 'To store data', 'C': 'To distribute network traffic across multiple servers', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software development tool?', 'A': 'Version control system', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network virtual private network (VPN)?', 'A': 'To store data', 'B': 'To provide a secure connection over a public network', 'C': 'To display output', 'D': 'To process data', 'answer': 'B'}
+{'question': 'Which of the following is a type of computer input/output protocol?', 'A': 'I2C', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the function of a computer network intrusion prevention system (IPS)?', 'A': 'To store data', 'B': 'To process data', 'C': 'To monitor and prevent network attacks in real-time', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software development paradigm?', 'A': 'Functional programming', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network router?', 'A': 'To connect multiple networks', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer peripheral?', 'A': 'RAM', 'B': 'Monitor', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'B'}
+{'question': 'What is the function of a computer webcam?', 'A': 'To store data', 'B': 'To process data', 'C': 'To capture video or images', 'D': 'To provide power', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer network topology?', 'A': 'Mesh topology', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the purpose of a computer antivirus software?', 'A': 'To protect against malware and viruses', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer input device?', 'A': 'Stylus', 'B': 'Monitor', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer sound card?', 'A': 'To store data', 'B': 'To process data', 'C': 'To provide audio output', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software application?', 'A': 'Microsoft Office', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network switch?', 'A': 'To connect devices within a network', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer programming language?', 'A': 'Python', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the function of a computer touch screen?', 'A': 'To display output', 'B': 'To process data', 'C': 'To provide touch-based input', 'D': 'To provide power', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer network protocol?', 'A': 'FTP', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the purpose of a computer backup system?', 'A': 'To store data copies for recovery', 'B': 'To process data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer display technology?', 'A': 'LED', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the function of a computer network modem?', 'A': 'To store data', 'B': 'To process data', 'C': 'To connect to the internet', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer storage device?', 'A': 'SSD', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the purpose of a computer firewall?', 'A': 'To protect against unauthorized access', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer interface?', 'A': 'USB', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer optical mouse?', 'A': 'To display output', 'B': 'To process data', 'C': 'To provide power', 'D': 'To control cursor movement on a screen', 'answer': 'D'}
+{'question': 'Which of the following is a type of computer network security measure?', 'A': 'Encryption', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network access control list (ACL)?', 'A': 'To store data', 'B': 'To process data', 'C': 'To control access to network resources', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software development methodology?', 'A': 'Waterfall', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the function of a computer network intrusion prevention system (IPS)?', 'A': 'To store data', 'B': 'To process data', 'C': 'To monitor and prevent network attacks in real-time', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software development paradigm?', 'A': 'Object-Oriented Programming (OOP)', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network virtual private network (VPN)?', 'A': 'To store data', 'B': 'To provide a secure connection over a public network', 'C': 'To display output', 'D': 'To process data', 'answer': 'B'}
+{'question': 'Which of the following is a type of computer input/output protocol?', 'A': 'SATA', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer network load balancer?', 'A': 'To process data', 'B': 'To store data', 'C': 'To distribute network traffic across multiple servers', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software development tool?', 'A': 'Debugger', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network intrusion detection system (IDS)?', 'A': 'To protect a computer network from unauthorized access', 'B': 'To store data', 'C': 'To monitor network traffic for suspicious activity', 'D': 'To provide power', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer input/output bus?', 'A': 'USB', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the function of a computer network gateway?', 'A': 'To connect to the internet', 'B': 'To store data', 'C': 'To provide a point of interconnection between different networks', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software license?', 'A': 'Proprietary', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network bridge?', 'A': 'To process data', 'B': 'To store data', 'C': 'To connect different network segments', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer input device?', 'A': 'Drawing tablet', 'B': 'Monitor', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer network firewall?', 'A': 'To protect a computer network from unauthorized access', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer file format?', 'A': '.docx', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network gateway?', 'A': 'To connect to the internet', 'B': 'To store data', 'C': 'To provide a point of interconnection between different networks', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer input/output interface?', 'A': 'DisplayPort', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the function of a computer network access control list (ACL)?', 'A': 'To store data', 'B': 'To process data', 'C': 'To control access to network resources', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software development methodology?', 'A': 'Scrum', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network switch?', 'A': 'To connect devices within a network', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer programming language?', 'A': 'Java', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the function of a computer touch screen?', 'A': 'To display output', 'B': 'To process data', 'C': 'To provide touch-based input', 'D': 'To provide power', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer network protocol?', 'A': 'HTTP', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the purpose of a computer backup system?', 'A': 'To store data copies for recovery', 'B': 'To process data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer display technology?', 'A': 'OLED', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the function of a computer network modem?', 'A': 'To store data', 'B': 'To process data', 'C': 'To connect to the internet', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer storage device?', 'A': 'HDD', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the purpose of a computer firewall?', 'A': 'To protect against unauthorized access', 'B': 'To store data', 'C': 'To display output', 'D': 'To provide power', 'answer': 'A'}
+{'question': 'Which of the following is a type of computer interface?', 'A': 'HDMI', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer optical mouse?', 'A': 'To display output', 'B': 'To process data', 'C': 'To provide power', 'D': 'To control cursor movement on a screen', 'answer': 'D'}
+{'question': 'Which of the following is a type of computer network security measure?', 'A': 'Firewall', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network access control list (ACL)?', 'A': 'To store data', 'B': 'To process data', 'C': 'To control access to network resources', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software development methodology?', 'A': 'Agile', 'B': 'Motherboard', 'C': 'Processor', 'D': 'Power Supply', 'answer': 'A'}
+{'question': 'What is the function of a computer network intrusion prevention system (IPS)?', 'A': 'To store data', 'B': 'To process data', 'C': 'To monitor and prevent network attacks in real-time', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software development paradigm?', 'A': 'Functional programming', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network virtual private network (VPN)?', 'A': 'To store data', 'B': 'To provide a secure connection over a public network', 'C': 'To display output', 'D': 'To process data', 'answer': 'B'}
+{'question': 'Which of the following is a type of computer input/output protocol?', 'A': 'I2C', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}
+{'question': 'What is the function of a computer network load balancer?', 'A': 'To process data', 'B': 'To store data', 'C': 'To distribute network traffic across multiple servers', 'D': 'To display output', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer software development tool?', 'A': 'Version control system', 'B': 'RAM', 'C': 'CPU', 'D': 'Hard drive', 'answer': 'A'}
+{'question': 'What is the purpose of a computer network intrusion detection system (IDS)?', 'A': 'To protect a computer network from unauthorized access', 'B': 'To store data', 'C': 'To monitor network traffic for suspicious activity', 'D': 'To provide power', 'answer': 'C'}
+{'question': 'Which of the following is a type of computer input/output bus?', 'A': 'PCI Express', 'B': 'Keyboard', 'C': 'Speaker', 'D': 'Printer', 'answer': 'A'}

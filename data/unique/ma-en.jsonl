@@ -1,0 +1,133 @@
+{"question": "What is the value of pi?", "A": "3.14159", "B": "2.71828", "C": "1.41421", "D": "1.61803", "answer": "A"}
+{"question": "What is the square root of 16?", "A": "2", "B": "4", "C": "8", "D": "16", "answer": "B"}
+{"question": "What is the result of 5+7?", "A": "11", "B": "12", "C": "13", "D": "14", "answer": "B"}
+{"question": "What is the result of 9-4?", "A": "3", "B": "4", "C": "5", "D": "6", "answer": "C"}
+{"question": "What is the result of 7*6?", "A": "36", "B": "42", "C": "48", "D": "54", "answer": "B"}
+{"question": "What is the result of 36/6?", "A": "5", "B": "6", "C": "7", "D": "8", "answer": "B"}
+{"question": "What is the remainder of 17 divided by 5?", "A": "1", "B": "2", "C": "3", "D": "4", "answer": "B"}
+{"question": "What is the value of x in the equation 2x = 10?", "A": "3", "B": "4", "C": "5", "D": "6", "answer": "C"}
+{"question": "What is the value of y in the equation 4y + 3 = 15?", "A": "2", "B": "3", "C": "4", "D": "5", "answer": "B"}
+{"question": "What is the value of z in the equation 3z - 2 = 7?", "A": "2", "B": "3", "C": "4", "D": "5", "answer": "B"}
+{"question": "What is the area of a rectangle with length 7 and width 3?", "A": "18", "B": "21", "C": "24", "D": "27", "answer": "B"}
+{"question": "What is the perimeter of a rectangle with length 7 and width 3?", "A": "18", "B": "20", "C": "22", "D": "24", "answer": "B"}
+{"question": "What is the area of a circle with radius 3 (use pi = 3.14)?", "A": "18.84", "B": "28.26", "C": "37.68", "D": "47.1", "answer": "B"}
+{"question": "What is the circumference of a circle with radius 3 (use pi = 3.14)?", "A": "12.56", "B": "18.84", "C": "25.12", "D": "31.4", "answer": "B"}
+{"question": "What is the volume of a cube with side length 3?", "A": "9", "B": "18", "C": "27", "D": "36", "answer": "C"}
+{"question": "What is the volume of a rectangular prism with length 3, width 2, and height 4?", "A": "18", "B": "24", "C": "30", "D": "36", "answer": "B"}
+{"question": "What is the value of x in the equation 3x^2 = 27?", "A": "2", "B": "3", "C": "4", "D": "5", "answer": "B"}
+{"question": "What is the value of y in the equation sqrt(y) = 4?", "A": "8", "B": "12", "C": "16", "D": "20", "answer": "C"}
+{"question": "What is the value of z in the equation z^3 = 8?", "A": "1", "B": "2", "C": "3", "D": "4", "answer": "B"}
+{"question": "What is the value of x in the equation 2^x = 8?", "A": "1", "B": "2", "C": "3", "D": "4", "answer": "C"}
+{"question": "What is the value of x in the equation 5x = 25?", "A": "3", "B": "4", "C": "5", "D": "6", "answer": "C"}
+{"question": "What is the value of z in the equation 4z - 3 = 9?", "A": "2", "B": "3", "C": "4", "D": "5", "answer": "B"}
+{"question": "What is the volume of a rectangular prism with length 4, width 3, and height 5?", "A": "30", "B": "40", "C": "50", "D": "60", "answer": "C"}
+{"question": "What is the value of x in the equation 4x^2 = 36?", "A": "3", "B": "4", "C": "5", "D": "6", "answer": "A"}
+{"question": "What is the result of 14-6?", "A": "6", "B": "7", "C": "8", "D": "9", "answer": "C"}
+{"question": "What is the value of y in the equation 5y + 4 = 19?", "A": "2", "B": "3", "C": "4", "D": "5", "answer": "B"}
+{"question": "What is the value of z in the equation 5z - 3 = 12?", "A": "2", "B": "3", "C": "4", "D": "5", "answer": "B"}
+{"question": "What is the volume of a rectangular prism with length 5, width 4, and height 6?", "A": "60", "B": "80", "C": "100", "D": "120", "answer": "C"}
+{"question": "What is the value of x in the equation 5x^2 = 50?", "A": "3", "B": "4", "C": "5", "D": "6", "answer": "C"}
+{"question": "What is the value of x in the equation 4^x = 64?", "A": "2", "B": "3", "C": "4", "D": "5", "answer": "B"}
+{"question": "What is the result of 10+11?", "A": "19", "B": "20", "C": "21", "D": "22", "answer": "C"}
+{"question": "What is the remainder of 35 divided by 6?", "A": "1", "B": "2", "C": "3", "D": "4", "answer": "D"}
+{"question": "What is the value of y in the equation 6y + 5 = 23?", "A": "2", "B": "3", "C": "4", "D": "5", "answer": "B"}
+{"question": "What is the value of z in the equation 6z - 4 = 14?", "A": "2", "B": "3", "C": "4", "D": "5", "answer": "B"}
+{"question": "What is the area of a rectangle with length 10 and width 5?", "A": "30", "B": "40", "C": "50", "D": "60", "answer": "C"}
+{"question": "What is the perimeter of a rectangle with length 10 and width 5?", "A": "24", "B": "28", "C": "32", "D": "36", "answer": "D"}
+{"question": "What is the volume of a rectangular prism with length 6, width 5, and height 7?", "A": "120", "B": "160", "C": "210", "D": "260", "answer": "C"}
+{"question": "What is the value of x in the equation 6x^2 = 72?", "A": "3", "B": "4", "C": "5", "D": "6", "answer": "C"}
+{"question": "What is the value of z in the equation z^3 = 125?", "A": "3", "B": "4", "C": "5", "D": "6", "answer": "C"}
+{"question": "What is the result of 21-8?", "A": "11", "B": "12", "C": "13", "D": "14", "answer": "C"}
+{"question": "What is the result of 10*8?", "A": "70", "B": "80", "C": "90", "D": "100", "answer": "B"}
+{"question": "Which of the following numbers is NOT a multiple of 3?", "A": "9", "B": "12", "C": "15", "D": "18", "answer": "A"}
+{"question": "Simplify the expression: 3x + 5 when x = 4", "A": "17", "B": "23", "C": "7", "D": "11", "answer": "B"}
+{"question": "Which of the following numbers is prime?", "A": "15", "B": "17", "C": "21", "D": "23", "answer": "B,D"}
+{"question": "Solve for y: 2x + 3y = 10, when x = 2", "A": "1", "B": "2", "C": "3", "D": "4", "answer": "C"}
+{"question": "Which of the following is NOT a factor of 48?", "A": "3", "B": "4", "C": "6", "D": "8", "answer": "A"}
+{"question": "What is the percentage of 25/100 as a fraction in simplest form?", "A": "1/4", "B": "1/3", "C": "1/2", "D": "3/4", "answer": "C"}
+{"question": "Simplify the expression: (4^2) * (3^2)", "A": "72", "B": "108", "C": "144", "D": "192", "answer": "C"}
+{"question": "Which of the following is equal to 7%", "A": "0.07", "B": "0.7", "C": "7", "D": "70", "answer": "B"}
+{"question": "Find the mode of the following set of numbers: 3, 5, 7, 5, 8, 5, 10", "A": "5", "B": "7", "C": "8", "D": "10", "answer": "A"}
+{"question": "Which of the following numbers is NOT a square number?", "A": "9", "B": "16", "C": "25", "D": "36", "answer": "D"}
+{"question": "What is the sum of the first 5 odd numbers?", "A": "30", "B": "25", "C": "20", "D": "15", "answer": "A"}
+{"question": "What is the product of 2/3 and 4/5?", "A": "0.4", "B": "0.5", "C": "0.6", "D": "0.8", "answer": "B"}
+{"question": "Which of the following numbers is a palindrome?", "A": "123", "B": "202", "C": "345", "D": "6789", "answer": "B,D"}
+{"question": "Simplify the expression: 3!(4^2)", "A": "144", "B": "288", "C": "432", "D": "576", "answer": "A"}
+{"question": "What is the greatest common factor of 18 and 36?", "A": "6", "B": "9", "C": "12", "D": "18", "answer": "A"}
+{"question": "A rectangle has a length of 6 cm and a width of 4 cm. What is its area?", "A": "12 cm^2", "B": "24 cm^2", "C": "36 cm^2", "D": "48 cm^2", "answer": "B"}
+{"question": "Simplify the expression: sqrt(16) + 2^3", "A": "6", "B": "8", "C": "10", "D": "12", "answer": "C"}
+{"question": "Which of the following numbers is a multiple of both 4 and 6?", "A": "12", "B": "18", "C": "24", "D": "30", "answer": "A,C"}
+{"question": "What is the value of 5^2 * 3^3?", "A": "375", "B": "675", "C": "1125", "D": "2250", "answer": "B"}
+{"question": "What is the value of π (pi) to two decimal places?", "A": "2.14", "B": "3.14", "C": "4.14", "D": "5.14", "answer": "B"}
+{"question": "What is 5 + 7?", "A": "10", "B": "11", "C": "12", "D": "13", "answer": "C"}
+{"question": "What is 9 x 9?", "A": "72", "B": "81", "C": "90", "D": "99", "answer": "B"}
+{"question": "What is the value of 2^3?", "A": "6", "B": "8", "C": "9", "D": "12", "answer": "B"}
+{"question": "What is 15% of 200?", "A": "25", "B": "30", "C": "35", "D": "40", "answer": "B"}
+{"question": "Which of the following is a prime number?", "A": "9", "B": "15", "C": "17", "D": "21", "answer": "C"}
+{"question": "What is the sum of the angles in a triangle?", "A": "90 degrees", "B": "180 degrees", "C": "270 degrees", "D": "360 degrees", "answer": "B"}
+{"question": "What is the formula for the area of a circle?", "A": "πr^2", "B": "2πr", "C": "πd", "D": "2r", "answer": "A"}
+{"question": "What is 45 divided by 5?", "A": "7", "B": "8", "C": "9", "D": "10", "answer": "C"}
+{"question": "What is the next prime number after 7?", "A": "9", "B": "10", "C": "11", "D": "12", "answer": "C"}
+{"question": "What is the perimeter of a square with side length 4?", "A": "8", "B": "12", "C": "16", "D": "20", "answer": "C"}
+{"question": "What is the result of 7 - 3?", "A": "2", "B": "3", "C": "4", "D": "5", "answer": "C"}
+{"question": "If a triangle has sides of 3, 4, and 5, what type of triangle is it?", "A": "Equilateral", "B": "Isosceles", "C": "Scalene", "D": "Right", "answer": "D"}
+{"question": "What is the least common multiple (LCM) of 4 and 5?", "A": "10", "B": "15", "C": "20", "D": "25", "answer": "C"}
+{"question": "What is the decimal equivalent of 1/4?", "A": "0.5", "B": "0.25", "C": "0.75", "D": "0.2", "answer": "B"}
+{"question": "What is the result of 12 x 12?", "A": "124", "B": "144", "C": "154", "D": "164", "answer": "B"}
+{"question": "Which of the following is an even number?", "A": "13", "B": "17", "C": "21", "D": "24", "answer": "D"}
+{"question": "What is the mode of the set {3, 1, 3, 2, 4}?", "A": "1", "B": "2", "C": "3", "D": "4", "answer": "C"}
+{"question": "What is the value of 7 + 6 / 2?", "A": "6", "B": "8", "C": "10", "D": "13", "answer": "C"}
+{"question": "What is the definition of a prime number?", "A": "A number divisible by 1", "B": "A number divisible by itself and 1 only", "C": "A number with more than two factors", "D": "A number divisible by 2", "answer": "B"}
+{"question": "What is the least prime number?", "A": "0", "B": "1", "C": "2", "D": "3", "answer": "C"}
+{"question": "What is the smallest positive integer?", "A": "0", "B": "1", "C": "2", "D": "3", "answer": "B"}
+{"question": "What is the sum of the first five prime numbers?", "A": "18", "B": "26", "C": "28", "D": "30", "answer": "C"}
+{"question": "Which of the following is a rational number?", "A": "π", "B": "√2", "C": "0.75", "D": "e", "answer": "C"}
+{"question": "What is the value of the expression 2^5?", "A": "16", "B": "32", "C": "64", "D": "128", "answer": "B"}
+{"question": "What is the result of the expression 5! (5 factorial)?", "A": "20", "B": "60", "C": "100", "D": "120", "answer": "D"}
+{"question": "In a right-angled triangle, what is the side opposite the right angle called?", "A": "Adjacent", "B": "Hypotenuse", "C": "Opposite", "D": "Base", "answer": "B"}
+{"question": "What is the circumference of a circle with a radius of 4 (use π = 3.14)?", "A": "12.56", "B": "18.84", "C": "25.12", "D": "31.4", "answer": "B"}
+{"question": "What is the formula to calculate the slope of a line?", "A": "rise + run", "B": "rise - run", "C": "rise / run", "D": "run / rise", "answer": "C"}
+{"question": "What is the greatest common divisor (GCD) of 24 and 36?", "A": "6", "B": "8", "C": "12", "D": "18", "answer": "C"}
+{"question": "Which of the following is a linear equation?", "A": "y = 2x + 3", "B": "y = x^2 + 2", "C": "y = 3x^3", "D": "y = √x", "answer": "A"}
+{"question": "What is the next number in the sequence 1, 4, 9, 16, ...?", "A": "20", "B": "25", "C": "30", "D": "36", "answer": "B"}
+{"question": "What is the derivative of the function f(x) = x^2?", "A": "x", "B": "2x", "C": "x^2", "D": "2x^2", "answer": "B"}
+{"question": "What is the integral of the function f(x) = 2x?", "A": "x^2 + C", "B": "2x + C", "C": "2x^2 + C", "D": "x + C", "answer": "A"}
+{"question": "What is the name of a polygon with eight sides?", "A": "Hexagon", "B": "Heptagon", "C": "Octagon", "D": "Nonagon", "answer": "C"}
+{"question": "What is the value of the expression (2 + 3) * (4 - 1)?", "A": "15", "B": "20", "C": "25", "D": "30", "answer": "A"}
+{"question": "What is the solution to the equation 2x + 3 = 7?", "A": "1", "B": "2", "C": "3", "D": "4", "answer": "B"}
+{"question": "Which of the following represents an exponential function?", "A": "y = 3x + 2", "B": "y = 2x^2", "C": "y = e^x", "D": "y = log(x)", "answer": "C"}
+{"question": "What is the sum of the angles in a quadrilateral?", "A": "180 degrees", "B": "270 degrees", "C": "360 degrees", "D": "450 degrees", "answer": "C"}
+{"question": "What is the value of the expression 7 - 4 * 3?", "A": "9", "B": "11", "C": "-5", "D": "-7", "answer": "D"}
+{"question": "Which of the following is an irrational number?", "A": "0.75", "B": "√2", "C": "1.5", "D": "4", "answer": "B"}
+{"question": "What is the value of x in the equation 3x - 5 = 16?", "A": "5", "B": "6", "C": "7", "D": "8", "answer": "C"}
+{"question": "What is the perimeter of a triangle with sides 3, 4, and 5?", "A": "9", "B": "10", "C": "11", "D": "12", "answer": "D"}
+{"question": "What is the measure of each interior angle of a regular hexagon?", "A": "90 degrees", "B": "108 degrees", "C": "120 degrees", "D": "135 degrees", "answer": "C"}
+{"question": "Which of the following is a solution to the equation x^2 = 16?", "A": "2", "B": "-2", "C": "4", "D": "-4", "answer": "C"}
+{"question": "What is the formula for the area of a triangle?", "A": "base * height", "B": "1/2 * base * height", "C": "base + height", "D": "1/3 * base * height", "answer": "B"}
+{"question": "What is the value of the expression 10/2 + 5?", "A": "5", "B": "7", "C": "10", "D": "12", "answer": "D"}
+{"question": "Which of the following is an odd number?", "A": "14", "B": "22", "C": "27", "D": "30", "answer": "C"}
+{"question": "What is the value of 0.1 + 0.2?", "A": "0.2", "B": "0.3", "C": "0.4", "D": "0.5", "answer": "B"}
+{"question": "What is the reciprocal of 5?", "A": "1/2", "B": "1/3", "C": "1/4", "D": "1/5", "answer": "D"}
+{"question": "What is the slope of a horizontal line?", "A": "0", "B": "1", "C": "Undefined", "D": "Infinite", "answer": "A"}
+{"question": "What is the value of the expression 4 + 3 * (2 - 1)?", "A": "5", "B": "7", "C": "10", "D": "11", "answer": "B"}
+{"question": "Which of the following represents the associative property of addition?", "A": "(a + b) + c = a + (b + c)", "B": "a + b = b + a", "C": "a * b = b * a", "D": "a * (b + c) = a * b + a * c", "answer": "A"}
+{"question": "What is the midpoint of the line segment with endpoints (2, 3) and (4, 7)?", "A": "(3, 5)", "B": "(3, 6)", "C": "(3, 5.5)", "D": "(3, 4.5)", "answer": "A"}
+{"question": "What is the value of 3 + 2?", "A": "4", "B": "5", "C": "6", "D": "7", "answer": "B"}
+{"question": "What is the cube of 2?", "A": "4", "B": "6", "C": "8", "D": "10", "answer": "C"}
+{"question": "What is the value of x if 3x = 15?", "A": "3", "B": "4", "C": "5", "D": "6", "answer": "C"}
+{"question": "What is the product of 7 and 5?", "A": "30", "B": "35", "C": "40", "D": "45", "answer": "B"}
+{"question": "What is the sum of the angles in a rectangle?", "A": "90 degrees", "B": "180 degrees", "C": "270 degrees", "D": "360 degrees", "answer": "D"}
+{"question": "What is 12 divided by 4?", "A": "2", "B": "3", "C": "4", "D": "5", "answer": "B"}
+{"question": "Simplify the expression: 6 * (2 + 3)", "A": "18", "B": "24", "C": "30", "D": "36", "answer": "C"}
+{"question": "What is the result of 45 / 5?", "A": "9", "B": "10", "C": "11", "D": "12", "answer": "A"}
+{"question": "What comes next in the series: 2, 4, 6, 8, ...?", "A": "10", "B": "11", "C": "12", "D": "14", "answer": "A"}
+{"question": "What is the outcome of (12 - 4) + 3?", "A": "7", "B": "8", "C": "10", "D": "11", "answer": "D"}
+{"question": "How many sides does a hexagon have?", "A": "4", "B": "5", "C": "6", "D": "7", "answer": "C"}
+{"question": "What is the result when 6 is subtracted from 15?", "A": "7", "B": "8", "C": "9", "D": "10", "answer": "C"}
+{"question": "What is the sum of 9 and 10?", "A": "18", "B": "19", "C": "20", "D": "21", "answer": "B"}
+{"question": "Simplify the expression: 8 - (3 + 2)", "A": "1", "B": "2", "C": "3", "D": "4", "answer": "C"}
+{"question": "What is the result of 100 / 20?", "A": "4", "B": "5", "C": "6", "D": "7", "answer": "B"}
+{"question": "What comes next in the series: 5, 10, 15, 20, ...?", "A": "25", "B": "30", "C": "35", "D": "40", "answer": "A"}
+{"question": "What is the outcome of (15 + 5) - 4?", "A": "15", "B": "16", "C": "17", "D": "18", "answer": "C"}
+{"question": "How many vertices does a pentagon have?", "A": "3", "B": "4", "C": "5", "D": "6", "answer": "C"}
+{"question": "What is the difference when 20 is subtracted from 50?", "A": "20", "B": "25", "C": "30", "D": "35", "answer": "C"}

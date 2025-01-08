@@ -1,0 +1,80 @@
+<!-- /templates/purchase-ai-city.html -->
+{% extends "base.html" %}
+
+{% block title %}Purchase AI City - Coming Soon{% endblock %}
+
+{% block content %}
+  <div id="content-ar" style="display: none;">
+    <div class="coming-soon">
+      <h1>متوفر على المتاجر الالكترونية التالية</h1>
+      <p>نتمنى لكم تجربة تسوق ممتعة</p>
+    </div>
+  </div>
+
+  <div id="content-en" style="display: none;">
+    <div class="coming-soon">
+      <h1>Available on the following online stores</h1>
+      <p>We wish you a pleasant shopping</p>
+    </div>
+  </div>
+
+  <div id="store-selection" class="store-selection">
+    <div class="store-links">
+      <a href="https://www.amazon.sa/dp/B07XWJPJLB" target="_blank">
+        <img src="/static/image/amazon-3.png" alt="Buy on Amazon">
+      </a>
+      <a href="https://salla.sa/ai-fun-learning/ePBvyEX" target="_blank">
+        <img src="/static/image/sallah-3.png" alt="Buy on Sallah">
+      </a>
+    </div>
+  </div>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const lang = urlParams.get('lang') || 'ar';
+
+        if (lang === 'en') {
+            document.getElementById('content-en').style.display = 'block';
+            document.getElementById('content-ar').style.display = 'none';
+        } else {
+            document.getElementById('content-en').style.display = 'none';
+            document.getElementById('content-ar').style.display = 'block';
+        }
+    });
+  </script>
+
+  <style>
+    .store-selection {
+        text-align: center;
+        margin-top: 20px;
+        padding: 0 20px; /* Add padding for better layout on small screens */
+    }
+
+    .store-links {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* Allow wrapping to handle smaller screens */
+        gap: 20px;
+    }
+
+    .store-links a {
+        display: inline-block;
+        flex: 1 1 45%; /* Make links responsive */
+        margin: 10px 0; /* Add margin for small screens */
+    }
+
+    .store-links img {
+        max-width: 100%; /* Fluid images */
+        height: auto;
+        display: block;
+    }
+
+    @media (max-width: 600px) {
+        .store-links {
+            flex-direction: column;
+            gap: 10px; /* Adjust gap for smaller screens */
+        }
+    }
+  </style>
+{% endblock %}

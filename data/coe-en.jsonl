@@ -1,0 +1,140 @@
+{"question": "What is the primary function of a computer's CPU?", "A": "To store data", "B": "To display output", "C": "To process data", "D": "To provide power", "answer": "C"}
+{"question": "Which of the following is a type of computer memory?", "A": "Processor", "B": "RAM", "C": "Motherboard", "D": "Power Supply", "answer": "B"}
+{"question": "What is the purpose of an operating system?", "A": "To manage computer hardware and software resources", "B": "To create programs", "C": "To store files", "D": "To connect to the internet", "answer": "A"}
+{"question": "Which of the following is a type of input device?", "A": "Monitor", "B": "Keyboard", "C": "Speaker", "D": "Printer", "answer": "B"}
+{"question": "What is the purpose of a computer program?", "A": "To provide power to the computer", "B": "To display images", "C": "To execute a set of instructions", "D": "To store data", "answer": "C"}
+{"question": "Which of the following is a type of output device?", "A": "Mouse", "B": "Keyboard", "C": "Printer", "D": "Scanner", "answer": "C"}
+{"question": "What is the purpose of a computer network?", "A": "To connect computers and share resources", "B": "To store data", "C": "To process data", "D": "To display output", "answer": "A"}
+{"question": "Which of the following is a type of software?", "A": "Motherboard", "B": "Processor", "C": "Operating system", "D": "Power Supply", "answer": "C"}
+{"question": "What is the purpose of a database?", "A": "To store and manage data", "B": "To process data", "C": "To display output", "D": "To provide power", "answer": "A"}
+{"question": "Which of the following is a type of programming language?", "A": "RAM", "B": "CPU", "C": "Java", "D": "Motherboard", "answer": "C"}
+{"question": "What is the purpose of an algorithm?", "A": "To store data", "B": "To display output", "C": "To process data", "D": "To provide a step-by-step solution to a problem", "answer": "D"}
+{"question": "Which of the following is a type of data structure?", "A": "Monitor", "B": "Array", "C": "Speaker", "D": "Printer", "answer": "B"}
+{"question": "What is the purpose of a compiler?", "A": "To translate high-level programming language into machine-readable code", "B": "To store data", "C": "To display output", "D": "To provide power", "answer": "A"}
+{"question": "Which of the following is a type of computer architecture?", "A": "Von Neumann architecture", "B": "Keyboard", "C": "Speaker", "D": "Printer", "answer": "A"}
+{"question": "What is the purpose of a computer bus?", "A": "To connect components within a computer system", "B": "To store data", "C": "To display output", "D": "To provide power", "answer": "A"}
+{"question": "Which of the following is a type of computer storage?", "A": "RAM", "B": "CPU", "C": "Java", "D": "Hard disk drive", "answer": "D"}
+{"question": "What is the purpose of a computer firewall?", "A": "To protect a computer system from unauthorized access", "B": "To store data", "C": "To display output", "D": "To provide power", "answer": "A"}
+{"question": "Which of the following is a type of computer interface?", "A": "Graphical User Interface (GUI)", "B": "Keyboard", "C": "Speaker", "D": "Printer", "answer": "A"}
+{"question": "What is the purpose of a computer virus?", "A": "To protect a computer system", "B": "To improve performance", "C": "To cause harm or disrupt a computer system", "D": "To provide power", "answer": "C"}
+{"question": "Which of the following is a type of computer network topology?", "A": "Star topology", "B": "Keyboard", "C": "Speaker", "D": "Printer", "answer": "A"}
+{"question": "What is the purpose of a computer motherboard?", "A": "To process data", "B": "To store data", "C": "To provide power", "D": "To connect all computer components", "answer": "D"}
+{"question": "Which of the following is a type of computer peripheral?", "A": "RAM", "B": "Monitor", "C": "CPU", "D": "Hard drive", "answer": "B"}
+{"question": "What is the function of a computer graphics card?", "A": "To store data", "B": "To process data", "C": "To display images on a monitor", "D": "To provide power", "answer": "C"}
+{"question": "Which of the following is a type of computer input/output port?", "A": "USB", "B": "RAM", "C": "CPU", "D": "Hard drive", "answer": "A"}
+{"question": "What is the purpose of a computer power supply unit?", "A": "To process data", "B": "To store data", "C": "To provide power to computer components", "D": "To display output", "answer": "C"}
+{"question": "Which of the following is a type of computer cooling system?", "A": "Keyboard", "B": "Fan", "C": "Speaker", "D": "Printer", "answer": "B"}
+{"question": "What is the function of a computer mouse?", "A": "To display output", "B": "To process data", "C": "To provide power", "D": "To control cursor movement on a screen", "answer": "D"}
+{"question": "Which of the following is a type of computer software application?", "A": "Microsoft Windows", "B": "Motherboard", "C": "Processor", "D": "Power Supply", "answer": "A"}
+{"question": "What is the purpose of a computer modem?", "A": "To connect to the internet", "B": "To store data", "C": "To display output", "D": "To provide power", "answer": "A"}
+{"question": "Which of the following is a type of computer virus protection software?", "A": "Antivirus", "B": "RAM", "C": "CPU", "D": "Hard drive", "answer": "A"}
+{"question": "What is the function of a computer scanner?", "A": "To store data", "B": "To process data", "C": "To display output", "D": "To convert physical documents into digital images", "answer": "D"}
+{"question": "Which of the following is a type of computer file format?", "A": ".txt", "B": "Keyboard", "C": "Speaker", "D": "Printer", "answer": "A"}
+{"question": "What is the purpose of a computer cache memory?", "A": "To store frequently accessed data for quick retrieval", "B": "To process data", "C": "To display output", "D": "To provide power", "answer": "A"}
+{"question": "Which of the following is a type of computer network protocol?", "A": "TCP/IP", "B": "Motherboard", "C": "Processor", "D": "Power Supply", "answer": "A"}
+{"question": "What is the function of a computer webcam?", "A": "To store data", "B": "To process data", "C": "To display output", "D": "To capture video or images", "answer": "D"}
+{"question": "Which of the following is a type of computer display technology?", "A": "LCD", "B": "RAM", "C": "CPU", "D": "Hard drive", "answer": "A"}
+{"question": "What is the purpose of a computer backup system?", "A": "To store data", "B": "To protect data by creating copies for recovery", "C": "To display output", "D": "To provide power", "answer": "B"}
+{"question": "Which of the following is a type of computer input device?", "A": "Microphone", "B": "Keyboard", "C": "Speaker", "D": "Printer", "answer": "A"}
+{"question": "What is the function of a computer touchpad?", "A": "To display output", "B": "To process data", "C": "To provide power", "D": "To control cursor movement on a screen", "answer": "D"}
+{"question": "Which of the following is a type of computer programming paradigm?", "A": "Object-Oriented Programming (OOP)", "B": "Motherboard", "C": "Processor", "D": "Power Supply", "answer": "A"}
+{"question": "What is the function of a computer router?", "A": "To process data", "B": "To store data", "C": "To route data packets between computer networks", "D": "To display output", "answer": "C"}
+{"question": "Which of the following is a type of computer peripheral device?", "A": "RAM", "B": "Monitor", "C": "CPU", "D": "Hard drive", "answer": "B"}
+{"question": "What is the purpose of a computer BIOS?", "A": "To process data", "B": "To store data", "C": "To provide basic input/output system functions", "D": "To display output", "answer": "C"}
+{"question": "What is the function of a computer optical drive?", "A": "To store data", "B": "To process data", "C": "To read and write data on optical discs", "D": "To provide power", "answer": "C"}
+{"question": "Which of the following is a type of computer software license?", "A": "Freeware", "B": "RAM", "C": "CPU", "D": "Hard drive", "answer": "A"}
+{"question": "Which of the following is a type of computer network device?", "A": "Switch", "B": "Keyboard", "C": "Speaker", "D": "Printer", "answer": "A"}
+{"question": "What is the function of a computer microphone?", "A": "To store data", "B": "To process data", "C": "To capture audio input", "D": "To display output", "answer": "C"}
+{"question": "Which of the following is a type of computer display resolution?", "A": "1080p", "B": "RAM", "C": "CPU", "D": "Hard drive", "answer": "A"}
+{"question": "What is the purpose of a computer UPS (Uninterruptible Power Supply)?", "A": "To store data", "B": "To provide continuous power in case of outages", "C": "To display output", "D": "To process data", "answer": "B"}
+{"question": "What is the function of a computer firewall?", "A": "To protect a computer system from unauthorized access", "B": "To process data", "C": "To display output", "D": "To provide power", "answer": "A"}
+{"question": "Which of the following is a type of computer programming language?", "A": "Python", "B": "Motherboard", "C": "Processor", "D": "Power Supply", "answer": "A"}
+{"question": "What is the purpose of a computer webcam?", "A": "To store data", "B": "To process data", "C": "To display output", "D": "To capture video or images", "answer": "D"}
+{"question": "Which of the following is a type of computer network security measure?", "A": "Firewall", "B": "RAM", "C": "CPU", "D": "Hard drive encryption", "answer": "A"}
+{"question": "What is the purpose of a computer algorithm?", "A": "To store data", "B": "To display output", "C": "To process data", "D": "To provide a step-by-step solution to a problem", "answer": "D"}
+{"question": "Which of the following is a type of computer network architecture?", "A": "Client-server", "B": "Keyboard", "C": "Speaker", "D": "Printer", "answer": "A"}
+{"question": "What is the function of a computer joystick?", "A": "To store data", "B": "To process data", "C": "To control movement in games or simulations", "D": "To display output", "answer": "C"}
+{"question": "Which of the following is a type of computer file system?", "A": "NTFS", "B": "RAM", "C": "CPU", "D": "Hard drive", "answer": "A"}
+{"question": "What is the purpose of a computer network switch?", "A": "To process data", "B": "To store data", "C": "To connect multiple devices in a network", "D": "To display output", "answer": "C"}
+{"question": "Which of the following is a type of computer peripheral interface?", "A": "USB", "B": "Monitor", "C": "CPU", "D": "Hard drive", "answer": "A"}
+{"question": "What is the function of a computer barcode scanner?", "A": "To store data", "B": "To process data", "C": "To scan and read barcodes for identification", "D": "To provide power", "answer": "C"}
+{"question": "Which of the following is a type of computer software development tool?", "A": "Integrated Development Environment (IDE)", "B": "Motherboard", "C": "Processor", "D": "Power Supply", "answer": "A"}
+{"question": "What is the purpose of a computer network router?", "A": "To connect to the internet", "B": "To store data", "C": "To route data between different networks", "D": "To display output", "answer": "C"}
+{"question": "Which of the following is a type of computer security authentication method?", "A": "Biometric authentication", "B": "RAM", "C": "CPU", "D": "Hard drive", "answer": "A"}
+{"question": "What is the function of a computer touch screen?", "A": "To display output", "B": "To process data", "C": "To provide power", "D": "To allow user interaction through touch gestures", "answer": "D"}
+{"question": "Which of the following is a type of computer network protocol suite?", "A": "TCP/IP", "B": "Keyboard", "C": "Speaker", "D": "Printer", "answer": "A"}
+{"question": "What is the purpose of a computer backup software?", "A": "To store data", "B": "To protect data by creating copies for recovery", "C": "To display output", "D": "To provide power", "answer": "B"}
+{"question": "Which of the following is a type of computer input/output device?", "A": "Scanner", "B": "RAM", "C": "CPU", "D": "Hard drive", "answer": "A"}
+{"question": "What is the function of a computer virtual reality headset?", "A": "To store data", "B": "To process data", "C": "To provide an immersive virtual experience", "D": "To display output", "answer": "C"}
+{"question": "What is the purpose of a computer encryption software?", "A": "To store data", "B": "To protect data by encoding it for security", "C": "To display output", "D": "To provide power", "answer": "B"}
+{"question": "What is the function of a computer network hub?", "A": "To process data", "B": "To store data", "C": "To connect multiple devices in a network", "D": "To display output", "answer": "C"}
+{"question": "What is the purpose of a computer operating system?", "A": "To manage computer hardware and software resources", "B": "To create programs", "C": "To store files", "D": "To connect to the internet", "answer": "A"}
+{"question": "What is the function of a computer graphics processing unit (GPU)?", "A": "To store data", "B": "To process graphics-intensive tasks efficiently", "C": "To display output", "D": "To provide power", "answer": "B"}
+{"question": "What is the purpose of a computer network firewall?", "A": "To protect a computer network from unauthorized access", "B": "To store data", "C": "To display output", "D": "To provide power", "answer": "A"}
+{"question": "What is the function of a computer network bridge?", "A": "To process data", "B": "To store data", "C": "To connect different network segments", "D": "To display output", "answer": "C"}
+{"question": "What is the purpose of a computer network gateway?", "A": "To connect to the internet", "B": "To store data", "C": "To provide a point of interconnection between different networks", "D": "To display output", "answer": "C"}
+{"question": "Which of the following is a type of computer input/output interface?", "A": "HDMI", "B": "RAM", "C": "CPU", "D": "Hard drive", "answer": "A"}
+{"question": "What is the function of a computer network access control list (ACL)?", "A": "To store data", "B": "To process data", "C": "To control access to network resources", "D": "To display output", "answer": "C"}
+{"question": "Which of the following is a type of computer software development methodology?", "A": "Agile", "B": "Motherboard", "C": "Processor", "D": "Power Supply", "answer": "A"}
+{"question": "What is the purpose of a computer network intrusion detection system (IDS)?", "A": "To protect a computer network from unauthorized access", "B": "To store data", "C": "To monitor network traffic for suspicious activity", "D": "To provide power", "answer": "C"}
+{"question": "Which of the following is a type of computer input/output bus?", "A": "PCI Express", "B": "Keyboard", "C": "Speaker", "D": "Printer", "answer": "A"}
+{"question": "What is the function of a computer network load balancer?", "A": "To process data", "B": "To store data", "C": "To distribute network traffic across multiple servers", "D": "To display output", "answer": "C"}
+{"question": "What is the purpose of a computer network virtual private network (VPN)?", "A": "To store data", "B": "To provide a secure connection over a public network", "C": "To display output", "D": "To process data", "answer": "B"}
+{"question": "Which of the following is a type of computer input/output protocol?", "A": "I2C", "B": "Motherboard", "C": "Processor", "D": "Power Supply", "answer": "A"}
+{"question": "What is the function of a computer network intrusion prevention system (IPS)?", "A": "To store data", "B": "To process data", "C": "To monitor and prevent network attacks in real-time", "D": "To display output", "answer": "C"}
+{"question": "Which of the following is a type of computer software development paradigm?", "A": "Functional programming", "B": "RAM", "C": "CPU", "D": "Hard drive", "answer": "A"}
+{"question": "What is the purpose of a computer antivirus software?", "A": "To protect against malware and viruses", "B": "To store data", "C": "To display output", "D": "To provide power", "answer": "A"}
+{"question": "What is the function of a computer sound card?", "A": "To store data", "B": "To process data", "C": "To provide audio output", "D": "To display output", "answer": "C"}
+{"question": "What is the function of a computer network modem?", "A": "To store data", "B": "To process data", "C": "To connect to the internet", "D": "To display output", "answer": "C"}
+{"question": "Which of the following is a type of computer storage device?", "A": "SSD", "B": "Motherboard", "C": "Processor", "D": "Power Supply", "answer": "A"}
+{"question": "What is the function of a computer optical mouse?", "A": "To display output", "B": "To process data", "C": "To provide power", "D": "To control cursor movement on a screen", "answer": "D"}
+{"question": "What is the purpose of a computer network access control list (ACL)?", "A": "To store data", "B": "To process data", "C": "To control access to network resources", "D": "To display output", "answer": "C"}
+{"question": "What is the function of a computer network gateway?", "A": "To connect to the internet", "B": "To store data", "C": "To provide a point of interconnection between different networks", "D": "To display output", "answer": "C"}
+{"question": "What is the purpose of a computer network bridge?", "A": "To process data", "B": "To store data", "C": "To connect different network segments", "D": "To display output", "answer": "C"}
+{"question": "What is the function of a computer network firewall?", "A": "To protect a computer network from unauthorized access", "B": "To store data", "C": "To display output", "D": "To provide power", "answer": "A"}
+{"question": "What is the purpose of a heat sink in a computer system?", "A": "To cool down components", "B": "To amplify signals", "C": "To store data", "D": "To display images", "answer": "A"}
+{"question": "What does DDR stand for in computer memory?", "A": "Double Data Rate", "B": "Dual Data RAM", "C": "Dynamic Data Register", "D": "Direct Digital Read", "answer": "A"}
+{"question": "Which component is known as the brain of the computer?", "A": "CPU", "B": "RAM", "C": "Hard Drive", "D": "Motherboard", "answer": "A"}
+{"question": "What is the function of a solid-state drive (SSD)?", "A": "To store data", "B": "To process data", "C": "To display graphics", "D": "To connect to the internet", "answer": "A"}
+{"question": "What technology is used to read and write data on a hard drive?", "A": "Magnetic storage", "B": "Optical storage", "C": "Flash storage", "D": "Quantum storage", "answer": "A"}
+{"question": "What is the purpose of a network interface card (NIC)?", "A": "To connect a computer to a network", "B": "To store an operating system", "C": "To process graphical data", "D": "To manage power supply", "answer": "A"}
+{"question": "Which unit measures the speed of a CPU?", "A": "GHz", "B": "MB", "C": "GB", "D": "TB", "answer": "A"}
+{"question": "What is the main advantage of cloud computing?", "A": "Scalability", "B": "Increased electricity usage", "C": "Higher cost", "D": "Complex hardware setup", "answer": "A"}
+{"question": "What does GPU stand for?", "A": "Graphics Processing Unit", "B": "General Purpose Unit", "C": "Global Processing Unit", "D": "Graphics Performance Unit", "answer": "A"}
+{"question": "What is the purpose of RAID in computer storage?", "A": "To provide data redundancy", "B": "To amplify audio signals", "C": "To increase screen resolution", "D": "To cool the processor", "answer": "A"}
+{"question": "What does ALU stand for in a computer processor?", "A": "Arithmetic Logic Unit", "B": "Automatic Logic Unit", "C": "Artificial Logic Unit", "D": "Arithmetic Link Unit", "answer": "A"}
+{"question": "Which component manages communication between the CPU and other computer components?", "A": "Network Interface Card", "B": "Motherboard", "C": "Power Supply Unit", "D": "Hard Drive", "answer": "B"}
+{"question": "What type of memory is used for temporary storage while the computer is running?", "A": "ROM", "B": "RAM", "C": "SSD", "D": "HDD", "answer": "B"}
+{"question": "What is the primary purpose of a graphics card?", "A": "To process and render images", "B": "To provide power to the computer", "C": "To store large amounts of data", "D": "To manage network connections", "answer": "A"}
+{"question": "Which computer component is responsible for executing instructions and processing data?", "A": "Hard Drive", "B": "RAM", "C": "CPU", "D": "Motherboard", "answer": "C"}
+{"question": "What is the function of a cooling fan in a computer system?", "A": "To increase processing speed", "B": "To cool down the internal components", "C": "To store data temporarily", "D": "To provide additional power", "answer": "B"}
+{"question": "Which type of storage retains data even when the power is turned off?", "A": "RAM", "B": "Cache", "C": "Hard Disk Drive (HDD)", "D": "CPU Registers", "answer": "C"}
+{"question": "Which interface is commonly used for connecting peripherals to a computer?", "A": "HDMI", "B": "VGA", "C": "USB", "D": "Ethernet", "answer": "C"}
+{"question": "What is the purpose of the BIOS in a computer?", "A": "To load the operating system", "B": "To run applications", "C": "To process graphics", "D": "To provide network connectivity", "answer": "A"}
+{"question": "Which technology allows multiple processor cores to work on different tasks simultaneously?", "A": "Multi-threading", "B": "Hyper-threading", "C": "Multi-core processing", "D": "Single-core processing", "answer": "C"}
+{"question": "What is the primary function of RAM?", "A": "To store data permanently", "B": "To process data", "C": "To store data temporarily", "D": "To manage power", "answer": "C"}
+{"question": "Which of the following is a type of volatile memory?", "A": "ROM", "B": "RAM", "C": "Hard Disk", "D": "SSD", "answer": "B"}
+{"question": "What unit measures the clock speed of a CPU?", "A": "Hertz", "B": "Bytes", "C": "Watts", "D": "Volts", "answer": "A"}
+{"question": "What is the purpose of a motherboard?", "A": "To connect all computer components", "B": "To store data", "C": "To process data", "D": "To enhance graphics", "answer": "A"}
+{"question": "Which of the following is not an input device?", "A": "Keyboard", "B": "Mouse", "C": "Printer", "D": "Scanner", "answer": "C"}
+{"question": "What is the storage capacity of a typical CD-ROM?", "A": "700 MB", "B": "4.7 GB", "C": "8.5 GB", "D": "1 GB", "answer": "A"}
+{"question": "Which port is commonly used for high-definition video output?", "A": "USB", "B": "Ethernet", "C": "HDMI", "D": "VGA", "answer": "C"}
+{"question": "What does BIOS stand for?", "A": "Basic Input Output System", "B": "Basic Internal Output System", "C": "Binary Input Output System", "D": "Basic Input Offline System", "answer": "A"}
+{"question": "What does CPU stand for?", "A": "Central Processing Unit", "B": "Central Process Unit", "C": "Core Processing Unit", "D": "Core Process Unit", "answer": "A"}
+{"question": "Which component manages data transfer between the CPU, memory, and peripherals?", "A": "Northbridge", "B": "Southbridge", "C": "BIOS", "D": "CMOS", "answer": "A"}
+{"question": "What is the primary function of the RAM in a computer system?", "A": "To provide temporary data storage", "B": "To permanently store data", "C": "To manage network connections", "D": "To control peripheral devices", "answer": "A"}
+{"question": "Which of the following is considered volatile memory?", "A": "ROM", "B": "RAM", "C": "EEPROM", "D": "Flash Memory", "answer": "B"}
+{"question": "What unit is used to measure the processing speed of a CPU?", "A": "Hertz (Hz)", "B": "Bytes", "C": "Watts", "D": "Volts", "answer": "A"}
+{"question": "What does SSD stand for in the context of computer storage?", "A": "Solid State Drive", "B": "Super Speed Disk", "C": "Serial Storage Device", "D": "System Storage Drive", "answer": "A"}
+{"question": "Which component is responsible for rendering graphics in a computer?", "A": "CPU", "B": "RAM", "C": "GPU", "D": "Motherboard", "answer": "C"}
+{"question": "What kind of storage retains data even when powered off?", "A": "RAM", "B": "Cache", "C": "HDD", "D": "CPU Registers", "answer": "C"}
+{"question": "Which interface is most commonly used to connect external devices to a computer?", "A": "HDMI", "B": "VGA", "C": "USB", "D": "Ethernet", "answer": "C"}
+{"question": "What does BIOS stand for in a computer system?", "A": "Basic Input Output System", "B": "Binary Input Output System", "C": "Basic Internal Output System", "D": "Binary Internal Output System", "answer": "A"}
+{"question": "What is the role of the cache memory in a computer?", "A": "To store data permanently", "B": "To store data temporarily for quick access", "C": "To process data", "D": "To connect devices", "answer": "B"}
+{"question": "What is the function of the power supply in a computer?", "A": "To process data", "B": "To connect peripheral devices", "C": "To supply power to all components", "D": "To store data", "answer": "C"}
+{"question": "Which of the following is a type of non-volatile memory?", "A": "RAM", "B": "ROM", "C": "Cache", "D": "CPU Register", "answer": "B"}
+{"question": "What does the Northbridge chipset do?", "A": "Handles high-speed communication between the CPU and RAM", "B": "Manages power supply", "C": "Connects to peripheral devices", "D": "Handles audio output", "answer": "A"}
+{"question": "What is the function of the BIOS in a computer system?", "A": "To load the operating system", "B": "To manage network connections", "C": "To enhance graphics quality", "D": "To provide power", "answer": "A"}
+{"question": "Which port is commonly used for connecting monitors?", "A": "Ethernet", "B": "USB", "C": "HDMI", "D": "RJ45", "answer": "C"}
+{"question": "What does the acronym HDD stand for?", "A": "High Definition Display", "B": "Hard Disk Drive", "C": "Heavy Duty Drive", "D": "High Data Drive", "answer": "B"}
+{"question": "What type of storage is primarily used for long-term data retention?", "A": "RAM", "B": "Cache", "C": "SSD", "D": "HDD", "answer": "D"}
