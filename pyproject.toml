@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "python-template"
+package-mode = false
 version = "0.1.0"
 description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.10.0,<3.11"
+python = "^3.10"
 flask = "^3.0.0"
 gunicorn = "^21.2.0"
 jsonlines = "^4.0.0"
