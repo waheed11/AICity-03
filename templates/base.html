@@ -24,6 +24,7 @@
             </nav>
         </div>
         <div class="header-right">
+            <div class="theme-switch" id="theme-switch" style="cursor: pointer; font-size: 24px; margin-right: 15px;">🌓</div>
             <div class="language-switch" id="language-switch">🌐</div>
         </div>
     </div>
@@ -41,6 +42,7 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const languageSwitch = document.getElementById('language-switch');
+            const themeSwitch = document.getElementById('theme-switch');
             const homeLink = document.getElementById('home-link');
             const homeBtn = document.getElementById('home-btn');
             const contentEn = document.getElementById('content-en');
@@ -50,21 +52,36 @@
 
             let currentLanguage = 'ar';
 
+            // Theme toggle logic
+            const savedTheme = localStorage.getItem('currentTheme');
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+            }
+
+            themeSwitch.addEventListener('click', function () {
+                document.body.classList.toggle('dark-mode');
+                if (document.body.classList.contains('dark-mode')) {
+                    localStorage.setItem('currentTheme', 'dark');
+                } else {
+                    localStorage.setItem('currentTheme', 'light');
+                }
+            });
+
             // Function to set the text and href based on language
             function setLanguage(lang) {
                 if (lang === 'en') {
                     currentLanguage = 'en';
                     homeBtn.innerHTML = '<i class="fas fa-home"></i>';
-                    contentEn.style.display = 'block';
-                    contentAr.style.display = 'none';
+                    if (contentEn) contentEn.style.display = 'block';
+                    if (contentAr) contentAr.style.display = 'none';
                     // Switch menu text to English
                     arTexts.forEach(el => el.style.display = 'none');
                     enTexts.forEach(el => el.style.display = 'inline-block');
                 } else {
                     currentLanguage = 'ar';
                     homeBtn.innerHTML = '<i class="fas fa-home"></i>';
-                    contentEn.style.display = 'none';
-                    contentAr.style.display = 'block';
+                    if (contentEn) contentEn.style.display = 'none';
+                    if (contentAr) contentAr.style.display = 'block';
                     // Switch menu text to Arabic
                     arTexts.forEach(el => el.style.display = 'inline-block');
                     enTexts.forEach(el => el.style.display = 'none');
