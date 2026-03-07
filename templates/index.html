@@ -27,16 +27,16 @@
   </div>
 
   <script>
-    window.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener("DOMContentLoaded", function () {
         const urlParams = new URLSearchParams(window.location.search);
-        const lang = urlParams.get('lang') || 'ar';
+        const lang = urlParams.get("lang") || "ar";
         
-        if (lang === 'en') {
-            document.getElementById('content-en').style.display = 'block';
-            document.getElementById('content-ar').style.display = 'none';
+        if (lang === "en") {
+            document.getElementById("content-en").style.display = "block";
+            document.getElementById("content-ar").style.display = "none";
         } else {
-            document.getElementById('content-en').style.display = 'none';
-            document.getElementById('content-ar').style.display = 'block';
+            document.getElementById("content-en").style.display = "none";
+            document.getElementById("content-ar").style.display = "block";
         }
     });
   </script>
