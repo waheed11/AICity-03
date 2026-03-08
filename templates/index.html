@@ -1,43 +1,234 @@
-<!-- /templates/index.html -->
-{% extends "base.html" %}
-
-{% block title %}Home - AI Learning Platform{% endblock %}
-
-{% block content %}
-  <div id="content-ar" style="display: block;">
-    <div class="value-proposition">
-      <h1>حول التعلم الى متعة معززة بالذكاء الاصطناعي</h1>
-      <p>أطلق العنان لقدراتك من خلال منصتنا عبر الإنترنت، حيث يلتقي الذكاء الاصطناعي بالترفيه لإحداث ثورة في تجربة التعلم الخاصة بك. تمزج منتجاتنا المبتكرة بين أحدث تقنيات الذكاء الاصطناعي والمحتوى التفاعلي الجذاب، مما يجعل التعليم ممتعًا وفعالاً للمتعلمين من جميع الأعمار</p>
-    </div>
-    <div class="call-to-action">
-      <a href="/ai-city?lang=ar" class="cta-button" id="learn-more-ar">اكتشف المزيد</a>
-    </div>
-    <img src="/static/image/2-logo.png" alt="AI Learning Platform Logo" class="logo">
-  </div>
-  
-  <div id="content-en" style="display: none;">
-    <div class="value-proposition">
-      <h1>Transform Learning with AI-Powered Fun</h1>
-      <p>Unlock your potential with our online platform, where artificial intelligence meets entertainment to revolutionize your learning experience. Our innovative products blend cutting-edge AI technology with engaging, interactive content, making education enjoyable and effective for learners of all ages.</p>
-    </div>
-    <div class="call-to-action">
-      <a href="/ai-city?lang=en" class="cta-button" id="learn-more-en">Learn More</a>
-    </div>
-    <img src="/static/image/2-logo.png" alt="AI Learning Platform Logo" class="logo">
-  </div>
-
-  <script>
-    window.addEventListener("DOMContentLoaded", function () {
-        const urlParams = new URLSearchParams(window.location.search);
-        const lang = urlParams.get("lang") || "ar";
+<!DOCTYPE html>
+<html lang="ar" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fun Learning Platform</title>
+    <link rel="stylesheet" href="/static/css/next-gen-styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    
+    <script type="text/babel">
+        const { useState, useEffect } = React;
         
-        if (lang === "en") {
-            document.getElementById("content-en").style.display = "block";
-            document.getElementById("content-ar").style.display = "none";
-        } else {
-            document.getElementById("content-en").style.display = "none";
-            document.getElementById("content-ar").style.display = "block";
-        }
-    });
-  </script>
-{% endblock %}
+        // Header Component
+        const Header = ({ currentLang, toggleLang, currentTheme, toggleTheme }) => {
+            return (
+                <header className="header">
+                    <div className="header-left">
+                        <nav className="nav-links">
+                            <a href="/" className="nav-link home-link">
+                                <i className="fas fa-home"></i>
+                            </a>
+                            <a href="/about" className="nav-link">
+                                {currentLang === 'ar' ? 'من نحن' : 'About Us'}
+                            </a>
+                            <a href="/contact" className="nav-link">
+                                {currentLang === 'ar' ? 'اتصل بنا' : 'Contact Us'}
+                            </a>
+                        </nav>
+                    </div>
+                    <div className="header-center">
+                        <span className="brand-name">AI Fun Learning</span>
+                    </div>
+                    <div className="header-right">
+                        <button className="icon-btn theme-toggle" onClick={toggleTheme}>
+                            {currentTheme === 'light' ? '🌙' : '☀️'}
+                        </button>
+                        <button className="icon-btn lang-toggle" onClick={toggleLang}>
+                            {currentLang === 'ar' ? 'EN' : 'عربي'}
+                        </button>
+                    </div>
+                </header>
+            );
+        };
+        
+        // Hero Section Component
+        const HeroSection = ({ currentLang }) => {
+            const content = {
+                ar: {
+                    badge: "✨ منصة تعليمية مبتكرة",
+                    title: "حوّل التعلم إلى",
+                    titleAccent: "متعة وإبداع",
+                    subtitle: "مع الذكاء الاصطناعي",
+                    description: "اكتشف عالماً جديداً من التعلم التفاعلي حيث يلتقي الإبداع البشري بالقوة الهائلة للذكاء الاصطناعي",
+                    cta: "ابدأ رحلتك الآن",
+                    ctaLink: "/ai-city?lang=ar"
+                },
+                en: {
+                    badge: "✨ Innovative Learning Platform",
+                    title: "Transform Learning Into",
+                    titleAccent: "Fun & Creativity",
+                    subtitle: "with Artificial Intelligence",
+                    description: "Discover a new world of interactive learning where human creativity meets the immense power of artificial intelligence",
+                    cta: "Start Your Journey",
+                    ctaLink: "/ai-city?lang=en"
+                }
+            };
+            
+            const langContent = content[currentLang];
+            
+            return (
+                <section className="hero-section">
+                    <div className="hero-badge">{langContent.badge}</div>
+                    <h1 className="hero-title">
+                        {langContent.title}
+                        <br />
+                        <span className="gradient-text">{langContent.titleAccent}</span>
+                    </h1>
+                    <h2 className="hero-subtitle">{langContent.subtitle}</h2>
+                    <p className="hero-description">{langContent.description}</p>
+                    <div className="hero-cta">
+                        <a href={langContent.ctaLink} className="btn btn-primary">
+                            {langContent.cta} <i className="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                    <div className="hero-icons">
+                        <div className="icon-pulse">🎮</div>
+                        <div className="icon-pulse">🤖</div>
+                        <div className="icon-pulse">🎲</div>
+                    </div>
+                </section>
+            );
+        };
+        
+        // Features Section Component
+        const FeaturesSection = ({ currentLang }) => {
+            const features = {
+                ar: [
+                    { icon: "🎮", title: "تعلم تفاعلي", desc: "ألعاب تعليمية ممتعة مع الذكاء الاصطناعي" },
+                    { icon: "🤖", title: "مساعد ذكي", desc: "وكيل AI يساعدك في رحلة التعلم" },
+                    { icon: "🌍", title: "محتوى متنوع", desc: "تعلم بأكثر من لغة ومنهج" },
+                    { icon: "⚡", title: "سرعة فائقة", desc: "تقنيات حديثة للأداء الأمثل" }
+                ],
+                en: [
+                    { icon: "🎮", title: "Interactive Learning", desc: "Fun educational games with AI" },
+                    { icon: "🤖", title: "Smart Assistant", desc: "AI agent to help your learning journey" },
+                    { icon: "🌍", title: "Diverse Content", desc: "Learn in multiple languages and curricula" },
+                    { icon: "⚡", title: "Ultra Fast", desc: "Modern technologies for optimal performance" }
+                ]
+            };
+            
+            const sectionTitle = currentLang === 'ar' ? 'لماذا تختارنا؟' : 'Why Choose Us?';
+            
+            return (
+                <section className="features-section">
+                    <h3 className="section-title">{sectionTitle}</h3>
+                    <div className="features-grid">
+                        {features[currentLang].map((feature, index) => (
+                            <div key={index} className="feature-card">
+                                <div className="feature-icon">{feature.icon}</div>
+                                <h4 className="feature-title">{feature.title}</h4>
+                                <p className="feature-desc">{feature.desc}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            );
+        };
+        
+        // Footer Component
+        const Footer = ({ currentLang }) => {
+            return (
+                <footer className="footer">
+                    <div className="footer-content">
+                        <div className="footer-brand">
+                            <span className="footer-logo">🎲 AI Fun Learning</span>
+                            <p className="footer-tagline">
+                                {currentLang === 'ar' 
+                                    ? 'نصنع مستقبل التعليم' 
+                                    : 'Building the future of education'}
+                            </p>
+                        </div>
+                        <div className="footer-socials">
+                            <a href="https://www.tiktok.com/@aifunlearning" target="_blank">
+                                <i className="fab fa-tiktok"></i>
+                            </a>
+                            <a href="https://x.com/aifunlearning" target="_blank">
+                                <i className="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a href="https://instagram.com" target="_blank">
+                                <i className="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="footer-bottom">
+                        <p>© 2026 AI Fun Learning Platform</p>
+                        <p className="footer-links">
+                            <a href="/privacy">Privacy</a> • <a href="/terms">Terms</a>
+                        </p>
+                    </div>
+                </footer>
+            );
+        };
+        
+        // Main App Component
+        const App = () => {
+            const [currentLang, setCurrentLang] = useState('ar');
+            const [currentTheme, setCurrentTheme] = useState('light');
+            
+            useEffect(() => {
+                // Load theme from localStorage
+                const savedTheme = localStorage.getItem('currentTheme');
+                if (savedTheme) {
+                    setCurrentTheme(savedTheme);
+                    document.documentElement.setAttribute('data-theme', savedTheme);
+                }
+                
+                // Load language from URL or localStorage
+                const urlParams = new URLSearchParams(window.location.search);
+                const langParam = urlParams.get('lang');
+                const savedLang = localStorage.getItem('currentLanguage');
+                const initialLang = langParam || savedLang || 'ar';
+                setCurrentLang(initialLang);
+                document.documentElement.lang = initialLang;
+                document.documentElement.dir = initialLang === 'ar' ? 'rtl' : 'ltr';
+            }, []);
+            
+            const toggleTheme = () => {
+                const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+                setCurrentTheme(newTheme);
+                localStorage.setItem('currentTheme', newTheme);
+                document.documentElement.setAttribute('data-theme', newTheme);
+            };
+            
+            const toggleLang = () => {
+                const newLang = currentLang === 'ar' ? 'en' : 'ar';
+                setCurrentLang(newLang);
+                localStorage.setItem('currentLanguage', newLang);
+                document.documentElement.lang = newLang;
+                document.documentElement.dir = newLang === 'ar' ? 'rtl' : 'ltr';
+                
+                // Update URL without reload
+                const url = new URL(window.location);
+                url.searchParams.set('lang', newLang);
+                window.history.pushState({}, '', url);
+            };
+            
+            return (
+                <div className="app">
+                    <Header 
+                        currentLang={currentLang} 
+                        toggleLang={toggleLang}
+                        currentTheme={currentTheme}
+                        toggleTheme={toggleTheme}
+                    />
+                    <main className="main-content">
+                        <HeroSection currentLang={currentLang} />
+                        <FeaturesSection currentLang={currentLang} />
+                    </main>
+                    <Footer currentLang={currentLang} />
+                </div>
+            );
+        };
+        
+        ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+    </script>
+</body>
+</html>
