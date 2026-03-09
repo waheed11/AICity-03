@@ -1,5 +1,5 @@
 import random
-import jsonlines
+import json
 from flask import Flask, jsonify, redirect, render_template, request, session
 from dotenv import load_dotenv
 import os
@@ -30,9 +30,15 @@ subjects = ["ce", "ee", "me", "coe", "ph", "ma", "bi", "ch"]
 for subject in subjects:
     for lang in languages:
         filename = f'data/{subject}-{lang}.jsonl'
-        with jsonlines.open(filename) as reader:
-            for question in reader:
-                questions[subject][lang].append(question)
+        try:
+            with open(filename, 'r', encoding='utf-8') as f:
+                for line in f:
+                    if line.strip():
+                        questions[subject][lang].append(json.loads(line))
+        except FileNotFoundError:
+            print(f"Warning: {filename} not found.")
+        except Exception as e:
+            print(f"Error loading {filename}: {e}")
 
 @app.route('/')
 def home():
@@ -46,6 +52,44 @@ def ai_city():
 @app.route('/purchase-ai-city')
 def purchase_ai_city():
     return render_template('purchase-ai-city.html')
+
+@app.route('/course')
+def course_waitlist():
+    return render_template('waitlist.html')
+
+@app.route('/api/waitlist', methods=['POST'])
+def api_waitlist():
+    data = request.get_json()
+    email = data.get('email')
+    
+    if not email:
+        return jsonify({'error': 'Email is required'}), 400
+        
+    # Append to local file for the Marketer agent to read
+    try:
+        with open('data/waitlist_emails.txt', 'a') as f:
+            f.write(email + '\n')
+    except Exception as e:
+        print(f"Error saving waitlist: {e}")
+        
+    # Trigger the send-email skill to notify the user immediately
+    try:
+        import subprocess
+        subject = f"New AI Automation Waitlist Signup: {email}"
+        body = f"Success! A new user has joined the waitlist for the AI Automation Course.\n\nUser Email: {email}\n\nThe marketer agent can view the full list at data/waitlist_emails.txt and reach out to them when ready."
+        
+        script_path = os.path.expanduser('~/.openclaw/skills/send-email/send_email.py')
+        
+        subprocess.Popen([
+            'python3', script_path,
+            '--to', 'aiabzaydi@gmail.com',
+            '--subject', subject,
+            '--body', body
+        ])
+    except Exception as e:
+        print(f"Error dispatching email: {e}")
+
+    return jsonify({'success': True})
 
 @app.route('/<subject>-<lang>')
 def subject_qa(subject, lang="en"):
