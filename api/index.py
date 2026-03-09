@@ -7,7 +7,10 @@ import os
 # Load environment variables from .env file
 load_dotenv()
 
-app = Flask(__name__, template_folder='../templates', static_folder='../static')
+basedir = os.path.abspath(os.path.dirname(__file__))
+app = Flask(__name__, 
+            template_folder=os.path.join(basedir, '..', 'templates'), 
+            static_folder=os.path.join(basedir, '..', 'static'))
 
 # Set the secret key to the value from the .env file
 app.secret_key = os.getenv('SECRET_KEY', 'default-secret-key-for-dev')
