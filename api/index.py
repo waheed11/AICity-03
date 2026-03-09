@@ -45,6 +45,10 @@ def home():
     # Just renders the welcome page without any question
     return render_template('index.html')
 
+@app.route('/debug-vercel')
+def debug_vercel():
+    return "Vercel Sub-Route Logic is ACTIVE"
+
 @app.route('/ai-city')
 def ai_city():
     return render_template('ai-city.html')
