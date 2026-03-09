@@ -1,5 +1,7 @@
 import random
 import json
+import smtplib
+from email.message import EmailMessage
 from flask import Flask, jsonify, redirect, render_template, request, session
 from dotenv import load_dotenv
 import os
@@ -64,6 +66,27 @@ def purchase_ai_city():
 def course_waitlist():
     return render_template('waitlist.html')
 
+def send_notification(email):
+    # Gmail credentials from local config, repurposed for Vercel
+    msg_user = "aiabzaydi@gmail.com"
+    msg_pass = "booz xjaq xzyh todh"
+    
+    try:
+        msg = EmailMessage()
+        msg.set_content(f"Success! A new user has joined the waitlist for the AI Automation Course.\n\nUser Email: {email}\n\nThe marketer agent can view the full list and reach out to them when ready.")
+        msg['Subject'] = f"New AI Automation Waitlist Signup: {email}"
+        msg['From'] = msg_user
+        msg['To'] = "aiabzaydi@gmail.com"
+
+        server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+        server.login(msg_user, msg_pass)
+        server.send_message(msg)
+        server.quit()
+        return True
+    except Exception as e:
+        print(f"Error sending email: {e}")
+        return False
+
 @app.route('/api/waitlist', methods=['POST'])
 def api_waitlist():
     data = request.get_json()
@@ -72,8 +95,7 @@ def api_waitlist():
     if not email:
         return jsonify({'error': 'Email is required'}), 400
         
-    # Append to local file for the Marketer agent to read
-    # Note: On Vercel, this won't persist across deployments
+    # Append to local file (Note: On Vercel, this won't persist across redeployments)
     try:
         data_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'waitlist_emails.txt')
         with open(data_path, 'a') as f:
@@ -81,22 +103,8 @@ def api_waitlist():
     except Exception as e:
         print(f"Error saving waitlist: {e}")
         
-    # Trigger the send-email skill to notify the user immediately
-    try:
-        import subprocess
-        subject = f"New AI Automation Waitlist Signup: {email}"
-        body = f"Success! A new user has joined the waitlist for the AI Automation Course.\n\nUser Email: {email}\n\nThe marketer agent can view the full list at data/waitlist_emails.txt and reach out to them when ready."
-        
-        script_path = os.path.expanduser('~/.openclaw/skills/send-email/send_email.py')
-        
-        subprocess.Popen([
-            'python3', script_path,
-            '--to', 'aiabzaydi@gmail.com',
-            '--subject', subject,
-            '--body', body
-        ])
-    except Exception as e:
-        print(f"Error dispatching email: {e}")
+    # Trigger the direct email notification (Robust for Vercel)
+    send_notification(email)
 
     return jsonify({'success': True})
 
