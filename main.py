@@ -91,6 +91,26 @@ def api_waitlist():
 
     return jsonify({'success': True})
 
+
+# AR Experience Routes for AI City Game
+@app.route('/ar-hisouby')
+def ar_hisouby():
+    subject = request.args.get('subject', 'ce')
+    lang = request.args.get('lang', 'ar')
+    qid = request.args.get('qid', 1)
+    return render_template('ar-hisouby.html', subject=subject, lang=lang, qid=qid)
+
+@app.route('/get_question')
+def get_question_api():
+    subject = request.args.get('subject', 'ce')
+    lang = request.args.get('lang', 'ar')
+    qid = int(request.args.get('qid', 1)) - 1
+    
+    if subject in questions and lang in questions[subject]:
+        if 0 <= qid < len(questions[subject][lang]):
+            return jsonify(questions[subject][lang][qid])
+    return jsonify({"error": "Question not found"}), 404
+
 @app.route('/<subject>-<lang>')
 def subject_qa(subject, lang="en"):
     question_id = request.args.get('qid', type=int)  # Get question ID from query parameters
@@ -148,6 +168,12 @@ def test():
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+
+@app.route('/ar-biology')
+def ar_biology():
+    """AR demo for Biology card with Hisouby"""
+    return render_template('ar-biology-demo.html')
 
 @app.route('/contact')
 def contact():

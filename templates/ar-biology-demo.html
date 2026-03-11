@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>تجربة حسوبي - واقع معزز حقيقي</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.2/dist/mindar-image-aframe.prod.js"></script>
+    <style>
+        body { margin: 0; overflow: hidden; font-family: 'Segoe UI', Tahoma, sans-serif; }
+        #ui-layer {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 10; pointer-events: none;
+        }
+        #touch-hint {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(255,255,255,0.9);
+            color: #667eea;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 14px;
+            animation: pulse 2s infinite;
+            pointer-events: auto;
+            cursor: pointer;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: translateX(-50%) scale(1); }
+            50% { transform: translateX(-50%) scale(1.05); }
+        }
+        #question-panel {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 400px;
+            background: rgba(255,255,255,0.95);
+            border-radius: 20px;
+            padding: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            pointer-events: auto;
+            display: none;
+        }
+        #question-text {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        #options-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        .option-btn {
+            background: linear-gradient(145deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .option-btn.correct { background: linear-gradient(145deg, #11998e, #38ef7d); }
+        .option-btn.wrong { background: linear-gradient(145deg, #eb3349, #f45c43); }
+    </style>
+</head>
+<body>
+    <div id="ui-layer">
+        <div id="touch-hint" onclick="playQuestion()">
+            👆 المس الشاشة لتسمع السؤال
+        </div>
+        <div id="question-panel">
+            <h3 id="question-text">ما هي الوحدة الأساسية للحياة في الكائنات الحية؟</h3>
+            <div id="options-container">
+                <button class="option-btn" onclick="checkAnswer('A', this)">أ - النسيج</button>
+                <button class="option-btn" onclick="checkAnswer('B', this)">ب - العضو</button>
+                <button class="option-btn" onclick="checkAnswer('C', this)">ج - الخلية</button>
+                <button class="option-btn" onclick="checkAnswer('D', this)">د - النظام</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MindAR Scene -->
+    <a-scene mindar-image="imageTargetSrc: /static/ar/biology.mind; autoStart: true; uiScanning: yes;" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+        <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+        
+        <!-- Target Index 0 corresponds to the compiled image -->
+        <a-entity mindar-image-target="targetIndex: 0">
+            <!-- Hisouby Agent appearing ON TOP of the card -->
+            <a-image src="{{ url_for('static', filename='image/hisouby-agent.png') }}" position="0 0.5 0" height="1" width="1" rotation="0 0 0"></a-image>
+        </a-entity>
+    </a-scene>
+
+    <script>
+        let hasSpoken = false;
+        const correctAnswer = 'C';
+
+        function playQuestion() {
+            if (hasSpoken) return;
+            hasSpoken = true;
+            document.getElementById('touch-hint').style.display = 'none';
+            document.getElementById('question-panel').style.display = 'block';
+            
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+                const text = "أهلاً! أنا حسوبي. ما هي الوحدة الأساسية للحياة في الكائنات الحية؟ أ، النسيج. ب، العضو. ج، الخلية. د، النظام.";
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'ar-SA';
+                window.speechSynthesis.speak(utterance);
+            }
+        }
+
+        function checkAnswer(selected, btn) {
+            if (selected === correctAnswer) {
+                btn.classList.add('correct');
+                if ('speechSynthesis' in window) {
+                    const utterance = new SpeechSynthesisUtterance("إجابة صحيحة! أحسنت!");
+                    utterance.lang = 'ar-SA';
+                    window.speechSynthesis.speak(utterance);
+                }
+            } else {
+                btn.classList.add('wrong');
+            }
+        }
+    </script>
+</body>
+</html>
