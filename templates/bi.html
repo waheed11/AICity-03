@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ lang }}">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,38 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles-questions.css') }}">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <h1 class="title">AI City</h1>
-        
+
+        <div style="text-align: center; margin-bottom: 20px;">
+            <button type="button" onclick="switchToAR()" class="ar-switch-btn"
+                style="background: linear-gradient(45deg, #FF512F, #DD2476); color: white; border: none; padding: 10px 20px; border-radius: 25px; font-size: 16px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 15px rgba(0,0,0,0.2); animation: pulse 2s infinite;">
+                🌟 الواقع المعزز (AR)
+            </button>
+        </div>
+        <style>
+            @keyframes pulse {
+                0% {
+                    transform: scale(1);
+                }
+
+                50% {
+                    transform: scale(1.05);
+                }
+
+                100% {
+                    transform: scale(1);
+                }
+            }
+        </style>
+
         <div id="quiz" class="quiz-container">
             <div class="question">
                 <h2>{{ question.question }}</h2>
             </div>
-            
+
             <form id="quiz-form" class="options">
                 <div class="option">
                     <input type="radio" id="A" name="answer" value="A">
@@ -37,13 +61,27 @@
                 <button type="submit" id="submit-btn" class="submit-btn">Submit Answer</button>
             </form>
         </div>
-        
+
         <div id="result" class="result-container"></div>
         <div id="continue-message" class="continue-message"></div>
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        function switchToAR() {
+            const questionId = '{{ question_index }}';
+            const pathParts = window.location.pathname.replace(/^\/+/, '').split('-');
+            const subject = pathParts[0];
+            const lang = '{{ lang }}';
+            const storedSubmissionState = localStorage.getItem(`questionSubmitted_${questionId}`);
+
+            if (storedSubmissionState === 'true') {
+                window.location.href = `/ar?subject=${subject}&lang=${lang}&qid=${questionId}&v=${Date.now()}`;
+            } else {
+                alert("يرجى الإجابة على السؤال الحالي قبل الانتقال إلى الواقع المعزز (AR).");
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
             const questionId = '{{ question_index }}';
             const storedSubmissionState = localStorage.getItem(`questionSubmitted_${questionId}`);
             console.log('Stored Submission State:', storedSubmissionState, 'for Question ID:', questionId); // For debugging
@@ -65,14 +103,14 @@
             // Enable the submit button when an option is selected
             const radioButtons = document.querySelectorAll('input[type="radio"]');
             radioButtons.forEach(radio => {
-                radio.addEventListener('change', function() {
+                radio.addEventListener('change', function () {
                     submitButton.disabled = false;
                     submitButton.classList.remove('disabled');
                 });
             });
         });
 
-        document.getElementById('quiz-form').addEventListener('submit', function(e) {
+        document.getElementById('quiz-form').addEventListener('submit', function (e) {
             e.preventDefault();
             const formData = new FormData(this);
             const selectedAnswer = formData.get('answer');
@@ -114,27 +152,27 @@
                     lang: '{{ lang }}'
                 }),
             })
-            .then(response => response.json())
-            .then(data => {
-                const resultDiv = document.getElementById('result');
-                resultDiv.innerHTML = data.response;
-                resultDiv.classList.add('fade-in');
+                .then(response => response.json())
+                .then(data => {
+                    const resultDiv = document.getElementById('result');
+                    resultDiv.innerHTML = data.response;
+                    resultDiv.classList.add('fade-in');
 
-                if (data.response.includes('green')) {
-                    playAudio('/static/audio/correct_answer.wav');
-                    resultDiv.classList.add('correct');
-                } else {
-                    playAudio('/static/audio/wrong_answer.wav');
-                    resultDiv.classList.add('incorrect');
-                }
+                    if (data.response.includes('green')) {
+                        playAudio('/static/audio/correct_answer.wav');
+                        resultDiv.classList.add('correct');
+                    } else {
+                        playAudio('/static/audio/wrong_answer.wav');
+                        resultDiv.classList.add('incorrect');
+                    }
 
-                // Show continue message
-                showContinueMessage();
+                    // Show continue message
+                    showContinueMessage();
 
-                setTimeout(() => {
-                    resultDiv.classList.remove('fade-in', 'correct', 'incorrect');
-                }, 3000);
-            });
+                    setTimeout(() => {
+                        resultDiv.classList.remove('fade-in', 'correct', 'incorrect');
+                    }, 3000);
+                });
         });
 
         function playAudio(url) {
@@ -173,4 +211,5 @@
         }
     </script>
 </body>
+
 </html>

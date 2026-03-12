@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI City AR</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.2/dist/mindar-image-aframe.prod.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            font-family: 'Roboto', Arial, sans-serif;
+        }
+
+        #question-panel {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.85);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+            z-index: 1000;
+            display: none;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            border: 2px solid #38bdf8;
+        }
+
+        #top-controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            gap: 10px;
+        }
+
+        button {
+            background: #38bdf8;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, background 0.2s;
+        }
+
+        button:hover {
+            background: #0284c7;
+            transform: scale(1.05);
+        }
+
+        .back-btn {
+            background: #ef4444;
+        }
+
+        .back-btn:hover {
+            background: #b91c1c;
+        }
+
+        #result-message {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            display: none;
+        }
+
+        .options-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .option-btn {
+            background: #475569;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 14px;
+            border: 1px solid #64748b;
+        }
+
+        .option-btn:hover {
+            background: #64748b;
+        }
+
+        #fikory-panel {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.9);
+            color: gold;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            z-index: 2000;
+            display: none;
+            border: 3px solid gold;
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+        }
+
+        #start-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            z-index: 10000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            backdrop-filter: blur(5px);
+        }
+
+        #start-btn {
+            background: linear-gradient(45deg, #38bdf8, #818cf8);
+            padding: 15px 40px;
+            font-size: 20px;
+            border-radius: 30px;
+            animation: pulse 2s infinite;
+        }
+
+        #start-btn:hover {
+            background: linear-gradient(45deg, #818cf8, #38bdf8);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Start Overlay to Unlock Audio -->
+    <div id="start-overlay">
+        <h2 style="margin-bottom: 20px;">استعد للواقع المعزز</h2>
+        <button id="start-btn" onclick="startAR()">👆 ابدأ التجربة</button>
+    </div>
+
+    <div id="ui-layer"
+        style="position: absolute; top:0; left:0; width:100%; height:100%; z-index: 9999; pointer-events: none;">
+        <div id="top-controls" style="pointer-events: auto;">
+            <button class="back-btn" onclick="goBackToQR()">🔙 العودة للأسئلة</button>
+            <button id="audio-btn" style="display: none;" onclick="playAudio()">🔊 استمع مجدداً</button>
+        </div>
+
+        <!-- Normal Question Panel -->
+        <div id="question-panel" style="pointer-events: auto;">
+            <h3 id="narrative-text" style="color: #38bdf8; margin-top: 0;"></h3>
+            <p id="question-text" style="font-size: 16px; line-height: 1.4;"></p>
+
+            <div class="options-grid" id="options-grid">
+                <!-- Options injected here -->
+            </div>
+
+            <div id="result-message"></div>
+            <button id="continue-btn" style="display: none; margin-top: 15px; width: 100%; background: #22c55e;"
+                onclick="continuePlaying()">➡️ متابعة اللعب</button>
+        </div>
+
+        <!-- Fikory Special Panel -->
+        <div id="fikory-panel" style="pointer-events: auto;">
+            <h2>🎉 مكافأة فكوري! 🎉</h2>
+            <p id="fikory-text" style="font-size: 18px; line-height: 1.5;"></p>
+            <div style="font-size: 50px; margin: 15px 0;">🪙 🪙</div>
+            <button onclick="continuePlaying()" style="background: gold; color: black;">متابعة اللعب</button>
+        </div>
+    </div>
+
+    <!-- MindAR Scene -->
+    <a-scene
+        mindar-image="imageTargetSrc: /static/ar/all_cards.mind; filterMinCF:0.0001; filterBeta: 0.001; uiScanning: yes; autoStart: true;"
+        color-space="sRGB"
+        renderer="colorManagement: true; physicallyCorrectLights: true; toneMapping: ACESFilmic; exposure: 2.0;"
+        vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
+
+        <a-assets>
+            <a-asset-item id="agentModel" src="/static/3d/{{ agent.id }}.glb"></a-asset-item>
+            <a-asset-item id="fikoryModel" src="/static/3d/Fikory.glb"></a-asset-item>
+        </a-assets>
+
+        <!-- Lighting for bright 3D models -->
+        <a-light type="ambient" color="#ffffff" intensity="1.5"></a-light>
+        <a-light type="directional" position="1 2 1" intensity="1.0" color="#ffffff"></a-light>
+
+        <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+
+        <!-- Target 0: Biologist (Because the compiler generated it first) -->
+        <a-entity mindar-image-target="targetIndex: 0" data-subject="bi">
+            <!-- Professional Name & Narrative Board -->
+            <a-plane position="0 -0.8 0" height="0.4" width="1.5" color="#1e293b" opacity="0.8">
+                <a-text id="ar-board-text-0" value="Scan recognized..." align="center" color="#fbbf24"
+                    width="3"></a-text>
+            </a-plane>
+
+            <!-- Agent 3D Model: Tilted at 45 degrees for top-down scanning -->
+            <a-gltf-model class="agent-model" src="#agentModel" rotation="45 0 0" position="0 0 0"
+                scale="0.5 0.5 0.5"></a-gltf-model>
+        </a-entity>
+
+        <!-- Target 1: Civil Engineer -->
+        <a-entity mindar-image-target="targetIndex: 1" data-subject="ce">
+            <!-- Professional Name & Narrative Board -->
+            <a-plane position="0 -0.8 0" height="0.4" width="1.5" color="#1e293b" opacity="0.8">
+                <a-text id="ar-board-text-1" value="Scan recognized..." align="center" color="#fbbf24"
+                    width="3"></a-text>
+            </a-plane>
+
+            <!-- Agent 3D Model: Tilted at 45 degrees for top-down scanning -->
+            <a-gltf-model class="agent-model" src="#agentModel" rotation="45 0 0" position="0 0 0"
+                scale="0.5 0.5 0.5"></a-gltf-model>
+        </a-entity>
+    </a-scene>
+
+    <script>
+        // Default initial subject, but changes on detect
+        let currentSubject = "{{ subject }}";
+        const lang = "{{ lang }}";
+        let qid = "{{ qid }}";
+
+        const agent = {
+            id: "{{ agent.id }}",
+            name_ar: "{{ agent.name_ar }}",
+            role: "{{ agent.role }}"
+        };
+
+        const professions = {
+            'ce': 'بش مهندس مدني',
+            'bi': 'عالم الاحياء',
+            'ee': 'بش مهندس كهرباء',
+            'me': 'بش مهندس ميكانيكا',
+            'coe': 'بش مهندس حاسب',
+            'ph': 'عالم الفيزياء',
+            'ma': 'عالم الرياضيات',
+            'ch': 'عالم الكيمياء'
+        };
+
+        const mindFiles = {
+            'ce': 'civil.mind',
+            'bi': 'biology.mind',
+            'ee': 'electrical.mind',
+            'me': 'mechanical.mind',
+            'coe': 'computer.mind',
+            'ph': 'physics.mind',
+            'ma': 'math.mind',
+            'ch': 'chemical.mind'
+        };
+
+        let currentQuestionData = null;
+        let isAnswered = false;
+        let audioUnlocked = false;
+
+        function logToScreen(msg) {
+            const el = document.getElementById('debug-log');
+            if (el) { el.innerHTML += '<br>' + msg; }
+            console.log(msg);
+        }
+
+        // Create a single global Audio instance bound directly to the user gesture
+        const globalAudioPlayer = new Audio();
+
+        function startAR() {
+            document.getElementById('start-overlay').style.display = 'none';
+
+            // Strictly bind the HTML5 Audio element to the UI interaction by playing a silent data URI
+            globalAudioPlayer.src = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA';
+            globalAudioPlayer.play().then(() => {
+                audioUnlocked = true;
+                console.log("Global Audio unlocked successfully on Start tap!");
+            }).catch(e => {
+                console.warn("Silent unlock failed:", e);
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const sceneEl = document.querySelector('a-scene');
+            const targets = sceneEl.querySelectorAll('[mindar-image-target]');
+
+            targets.forEach((targetEl) => {
+                targetEl.addEventListener("targetFound", event => {
+                    try {
+                        logToScreen("MindAR Event: targetFound fired!");
+                        let idx = '0';
+                        const attr = targetEl.getAttribute('mindar-image-target');
+
+                        if (typeof attr === 'string') {
+                            idx = attr.split(':')[1].trim();
+                        } else if (attr && typeof attr === 'object') {
+                            idx = attr.targetIndex;
+                        }
+
+                        const sub = targetEl.getAttribute('data-subject');
+                        logToScreen(`Target resolved: Index ${idx}, Subject ${sub}`);
+
+                        // Update currentSubject based on the detected target
+                        currentSubject = sub;
+
+                        if (isAnswered) {
+                            logToScreen("Question already answered, ignoring scan.");
+                            return; // Prevent re-triggering if an active question is already mounted
+                        }
+
+                        onMarkerFound(sub, idx);
+                    } catch (e) {
+                        logToScreen("CRITICAL ERROR in targetFound: " + e.message);
+                    }
+                });
+
+                targetEl.addEventListener("targetLost", event => {
+                    logToScreen("MindAR Event: targetLost");
+                });
+            });
+        });
+
+        async function fetchQuestion(sub) {
+            try {
+                logToScreen('fetchQ: start ' + sub);
+                // Fetch a new question safely from the server to guarantee we get matched, deterministically paired agents!
+                const response = await fetch(`/get_question?subject=${sub}&lang=${lang}&qid=random`);
+                if (!response.ok) throw new Error("Question not found");
+                const data = await response.json();
+
+                // Keep frontend state aligned with server's deterministic selections
+                qid = data.qid;
+                currentQuestionData = data;
+
+                // Mutate the local agent context
+                if (data.agent) {
+                    agent.id = data.agent.id;
+                    agent.name_ar = data.agent.name_ar;
+                    agent.role = data.agent.role;
+
+                    // Live Swap the 3D model!
+                    const models = document.querySelectorAll('.agent-model');
+                    models.forEach(m => m.setAttribute('src', `/static/3d/${agent.id}.glb`));
+                }
+
+                setupUI(data);
+            } catch (err) {
+                console.error(err);
+                alert("حدث خطأ في تحميل السؤال");
+            }
+        }
+
+        async function onMarkerFound(sub, targetIdx) {
+            try {
+                // Update global tracking context
+                currentSubject = sub;
+                const prof = professions[sub] || 'أيها الخبير';
+
+                // GUARANTEE we have context data for this subject FIRST
+                if (!currentQuestionData || currentQuestionData.subject !== sub) {
+                    await fetchQuestion(sub);
+                    if (currentQuestionData) currentQuestionData.subject = sub;
+                }
+
+                // Now that `agent` and `qid` match reality
+                if (agent.id === 'Fikory') {
+                    const fikText = `انا فكوري المنسق العام لوكالات الذكاء الاصطناعي اود اخبارك يا ${prof} ان تدريبك للانظمة يسير بشكل ممتاز وعليه قررت المدينة اعطاءك 2 عملة رقمية`;
+                    document.getElementById('fikory-text').innerText = fikText;
+                    document.getElementById('fikory-panel').style.display = 'block';
+                    document.getElementById(`ar-board-text-${targetIdx}`).setAttribute('value', "Fikory Reward!");
+                    playAgentAudio('Fikory', qid, fikText, sub);
+                    return; // Stop here, no question
+                }
+
+                // Normal Flow
+                const agentDepts = {
+                    'accountant': 'المحاسبة',
+                    'marketer': 'التسويق',
+                    'designer': 'التصميم',
+                    'coder': 'البرمجة',
+                    'writer': 'الكتابة',
+                    'planner': 'التخطيط',
+                    'researcher': 'البحث'
+                };
+                const dept = agentDepts[agent.id] || agent.role;
+                const isFemale = agent.name_ar.endsWith('ة') || agent.name_ar.endsWith('ه');
+                const agentTitle = isFemale ? 'وكيلة' : 'وكيل';
+
+                const narrative = `أهلاً يا ${prof}، أنا ${agentTitle} ${dept} في المدينة وأرجو منك مساعدتي في الإجابة على السؤال التالي...`;
+                document.getElementById('narrative-text').innerText = narrative;
+                document.getElementById(`ar-board-text-${targetIdx}`).setAttribute('value', `أنا ${agentTitle} ${dept}...`);
+
+                document.getElementById('question-panel').style.display = 'block';
+                document.getElementById('audio-btn').style.display = 'block';
+
+                // Play the deterministically matched audio!
+                logToScreen('Calling playAudio...');
+                playAgentAudio(agent.id, qid, narrative + " " + currentQuestionData.question, sub);
+                logToScreen('onMarkerFound complete.');
+            } catch (e) {
+                logToScreen('onMarkerFound CRITICAL ERR: ' + e.message);
+            }
+        }
+
+        function setupUI(data) {
+            document.getElementById('question-text').innerText = data.question;
+            const grid = document.getElementById('options-grid');
+            grid.innerHTML = '';
+
+            ['A', 'B', 'C', 'D'].forEach(opt => {
+                if (data[opt]) {
+                    const btn = document.createElement('button');
+                    btn.className = 'option-btn';
+                    btn.innerText = `${opt}: ${data[opt]}`;
+                    btn.onclick = () => checkAnswer(opt);
+                    grid.appendChild(btn);
+                }
+            });
+        }
+
+        function checkAnswer(selected) {
+            if (isAnswered) return;
+            const isCorrect = (selected === currentQuestionData.answer);
+            const resDiv = document.getElementById('result-message');
+            resDiv.style.display = 'block';
+
+            if (isCorrect) {
+                resDiv.innerHTML = `<span style='color: #4ade80;'>✅ إجابة صحيحة! شكراً لمساعدتك في تدريب النظام.</span>`;
+                isAnswered = true;
+
+                globalAudioPlayer.src = '/static/audio/correct_answer.wav';
+                globalAudioPlayer.play().catch(e => { });
+
+                document.getElementById('options-grid').style.display = 'none';
+                document.getElementById('continue-btn').style.display = 'block';
+                // Save to local storage
+                localStorage.setItem(`questionSubmitted_${qid}`, 'true');
+            } else {
+                globalAudioPlayer.src = '/static/audio/wrong_answer.wav';
+                globalAudioPlayer.play().catch(e => { });
+
+                resDiv.innerHTML = `<span style='color: #ef4444;'>❌ خطأ! الإجابة الصحيحة هي: ${currentQuestionData.answer}</span>`;
+            }
+        }
+
+        function playAgentAudio(agentId, questionId, fallbackText, sub = currentSubject) {
+            // We expect the script to have generated: /static/audio/{subject}_{lang}_{qid}_{agentId}.mp3
+            // If Fikory, we just use the static subject Fikory audio
+            let audioUrl;
+            if (agentId === 'Fikory') {
+                audioUrl = `/static/audio/${sub}_${lang}_Fikory.mp3`;
+            } else {
+                audioUrl = `/static/audio/${sub}_${lang}_${questionId}_${agentId}.mp3`;
+            }
+
+            // Use the globally unlocked audio player
+            globalAudioPlayer.src = audioUrl;
+            globalAudioPlayer.play().catch(e => {
+                console.log("Audio Play Error:", e.message, "Falling back to TTS...");
+
+                if ('speechSynthesis' in window) {
+                    window.speechSynthesis.cancel();
+                    const utterance = new SpeechSynthesisUtterance(fallbackText);
+                    utterance.lang = 'ar-SA';
+                    window.speechSynthesis.speak(utterance);
+                }
+            });
+        }
+
+        function playAudio() {
+            if (agent.id === 'Fikory') {
+                const prof = professions[currentSubject] || 'أيها الخبير';
+                const fikText = `انا فكوري المنسق العام لوكالات الذكاء الاصطناعي اود اخبارك يا ${prof} ان تدريبك للانظمة يسير بشكل ممتاز وعليه قررت المدينة اعطاءك 2 عملة رقمية`;
+                playAgentAudio(agent.id, qid, fikText, currentSubject);
+            } else if (currentQuestionData) {
+                const prof = professions[currentSubject] || 'أيها الخبير';
+
+                const agentDepts = {
+                    'accountant': 'المحاسبة', 'marketer': 'التسويق', 'designer': 'التصميم',
+                    'coder': 'البرمجة', 'writer': 'الكتابة', 'planner': 'التخطيط', 'researcher': 'البحث'
+                };
+                const dept = agentDepts[agent.id] || agent.role;
+                const isFemale = agent.name_ar.endsWith('ة') || agent.name_ar.endsWith('ه');
+                const agentTitle = isFemale ? 'وكيلة' : 'وكيل';
+
+                const narrative = `أهلاً يا ${prof}، أنا ${agentTitle} ${dept} في المدينة وأرجو منك مساعدتي في الإجابة على السؤال التالي...`;
+                playAgentAudio(agent.id, qid, narrative + " " + currentQuestionData.question, currentSubject);
+            }
+        }
+
+        function goBackToQR() {
+            window.location.href = `/${currentSubject}-${lang}?qid=${qid}`;
+        }
+
+        async function continuePlaying() {
+            // Stay in AR mode: reset UI, hide panels, and fetch a new random question
+            document.getElementById('question-panel').style.display = 'none';
+            document.getElementById('fikory-panel').style.display = 'none';
+            document.getElementById('result-message').style.display = 'none';
+            document.getElementById('options-grid').style.display = 'grid';
+            document.getElementById('continue-btn').style.display = 'none';
+            document.getElementById('audio-btn').style.display = 'none';
+
+            // clear the text on the cards to prepare for next scan
+            for (let i = 0; i < 8; i++) { // Assuming 8 possible targets
+                const arBoardText = document.getElementById(`ar-board-text-${i}`);
+                if (arBoardText) {
+                    arBoardText.setAttribute('value', "Scanning...");
+                }
+            }
+
+            isAnswered = false;
+            currentQuestionData = null;
+
+            // Randomize next qid locally so next scan fetches a new question
+            // In a full app, you'd want the server to assign this or keep track
+            qid = Math.floor(Math.random() * 90) + 1;
+
+            // Pre-fetch next question for the *current* subject
+            try {
+                const response = await fetch(`/get_question?subject=${currentSubject}&lang=${lang}&qid=${qid}`);
+                if (response.ok) {
+                    currentQuestionData = await response.json();
+                }
+            } catch (err) { }
+        }
+    </script>
+</body>
+
+</html>

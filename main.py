@@ -1,5 +1,8 @@
 import random
 import json
+import logging
+from bs4 import BeautifulSoup
+from functools import wraps
 from flask import Flask, jsonify, redirect, render_template, request, session
 from dotenv import load_dotenv
 import os
@@ -8,6 +11,20 @@ import os
 load_dotenv()
 
 app = Flask(__name__)
+
+@app.after_request
+def add_header(response):
+    # Disable caching for AR routes to ensure instant updates
+    if request.path.startswith('/ar') or request.path.startswith('/get_question'):
+        response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+        response.headers['Pragma'] = 'no-cache'
+        response.headers['Expires'] = '0'
+    return response
+
+# Ensure static files get updated
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+
+logging.basicConfig(level=logging.DEBUG)
 
 # Set the secret key to the value from the .env file
 app.secret_key = os.getenv('SECRET_KEY')
@@ -93,22 +110,82 @@ def api_waitlist():
 
 
 # AR Experience Routes for AI City Game
-@app.route('/ar-hisouby')
-def ar_hisouby():
+@app.route('/ar')
+def ar_mode():
     subject = request.args.get('subject', 'ce')
     lang = request.args.get('lang', 'ar')
     qid = request.args.get('qid', 1)
-    return render_template('ar-hisouby.html', subject=subject, lang=lang, qid=qid)
+    
+    # Map subject to mind file
+    mind_map = {
+        'ce': 'civil.mind',
+        'bi': 'biology.mind',
+        'ee': 'electrical.mind',
+        'me': 'mechanical.mind',
+        'coe': 'computer.mind',
+        'ph': 'physics.mind',
+        'ma': 'math.mind',
+        'ch': 'chemical.mind'
+    }
+    target_mind = mind_map.get(subject, 'civil.mind')
+
+    # Agent selection logic
+    agents = [
+        {"id": "accountant", "name_ar": "حسوبي", "role": "المحاسب", "weight": 10},
+        {"id": "marketer", "name_ar": "مركوته", "role": "المسوقة", "weight": 10},
+        {"id": "designer", "name_ar": "رسومه", "role": "المصممة", "weight": 10},
+        {"id": "coder", "name_ar": "برموجي", "role": "المبرمج", "weight": 10},
+        {"id": "writer", "name_ar": "كتوبي", "role": "الكاتب", "weight": 10},
+        {"id": "planner", "name_ar": "خطوطي", "role": "المخطط", "weight": 10},
+        {"id": "researcher", "name_ar": "بحوثي", "role": "الباحث", "weight": 10},
+        # Fikory has lower probability (e.g., 5 weight out of 75 vs 10 for others)
+        {"id": "Fikory", "name_ar": "فكوري", "role": "المنسق العام", "weight": 5}
+    ]
+    
+    # Pick randomly but deterministically based on the question so we only need 1 audio file per question
+    random.seed(f"{subject}_{lang}_{qid}")
+    selected_agent = random.choices(agents, weights=[a['weight'] for a in agents], k=1)[0]
+    random.seed() # Reset seed
+    
+    return render_template('ar-qa.html', subject=subject, lang=lang, qid=qid, agent=selected_agent, target_mind=target_mind)
 
 @app.route('/get_question')
 def get_question_api():
+    import random
     subject = request.args.get('subject', 'ce')
     lang = request.args.get('lang', 'ar')
-    qid = int(request.args.get('qid', 1)) - 1
+    qid_param = request.args.get('qid')
     
     if subject in questions and lang in questions[subject]:
-        if 0 <= qid < len(questions[subject][lang]):
-            return jsonify(questions[subject][lang][qid])
+        max_q = len(questions[subject][lang])
+        if qid_param == 'random':
+            actual_qid = random.randint(1, max_q)
+        else:
+            actual_qid = int(qid_param or 1)
+            
+        list_index = actual_qid - 1
+
+        if 0 <= list_index < max_q:
+            # Re-run agent generation logic deterministically based on actual_qid
+            agents = [
+                {"id": "accountant", "name_ar": "حسوبي", "role": "المحاسب", "weight": 10},
+                {"id": "marketer", "name_ar": "مركوته", "role": "المسوقة", "weight": 10},
+                {"id": "designer", "name_ar": "رسومه", "role": "المصممة", "weight": 10},
+                {"id": "coder", "name_ar": "برموجي", "role": "المبرمج", "weight": 10},
+                {"id": "writer", "name_ar": "كتوبي", "role": "الكاتب", "weight": 10},
+                {"id": "planner", "name_ar": "خطوطي", "role": "المخطط", "weight": 10},
+                {"id": "researcher", "name_ar": "بحوثي", "role": "الباحث", "weight": 10},
+                {"id": "Fikory", "name_ar": "فكوري", "role": "المنسق العام", "weight": 5}
+            ]
+            random.seed(f"{subject}_{lang}_{actual_qid}")
+            selected_agent = random.choices(agents, weights=[a['weight'] for a in agents], k=1)[0]
+            random.seed() # reset
+
+            resp_data = questions[subject][lang][list_index].copy()
+            resp_data['agent'] = selected_agent
+            resp_data['qid'] = actual_qid
+            return jsonify(resp_data)
+            
     return jsonify({"error": "Question not found"}), 404
 
 @app.route('/<subject>-<lang>')
