@@ -421,27 +421,24 @@
 
         function checkAnswer(selected) {
             if (isAnswered) return;
+            isAnswered = true;
+
             const isCorrect = (selected === currentQuestionData.answer);
             const resDiv = document.getElementById('result-message');
             resDiv.style.display = 'block';
 
+            document.getElementById('options-grid').style.display = 'none';
+            document.getElementById('continue-btn').style.display = 'block';
+            localStorage.setItem(`questionSubmitted_${qid}`, 'true');
+
             if (isCorrect) {
                 resDiv.innerHTML = `<span style='color: #4ade80;'>✅ إجابة صحيحة! شكراً لمساعدتك في تدريب النظام.</span>`;
-                isAnswered = true;
-
                 globalAudioPlayer.src = '/static/audio/correct_answer.wav';
-                globalAudioPlayer.play().catch(e => { });
-
-                document.getElementById('options-grid').style.display = 'none';
-                document.getElementById('continue-btn').style.display = 'block';
-                // Save to local storage
-                localStorage.setItem(`questionSubmitted_${qid}`, 'true');
             } else {
-                globalAudioPlayer.src = '/static/audio/wrong_answer.wav';
-                globalAudioPlayer.play().catch(e => { });
-
                 resDiv.innerHTML = `<span style='color: #ef4444;'>❌ خطأ! الإجابة الصحيحة هي: ${currentQuestionData.answer}</span>`;
+                globalAudioPlayer.src = '/static/audio/wrong_answer.wav';
             }
+            globalAudioPlayer.play().catch(e => { });
         }
 
         function playAgentAudio(agentId, questionId, fallbackText, sub = currentSubject) {
