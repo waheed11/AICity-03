@@ -172,7 +172,7 @@ def get_question_api():
                 {"id": "marketer", "name_ar": "مركوته", "role": "المسوقة", "weight": 10},
                 {"id": "designer", "name_ar": "رسومه", "role": "المصممة", "weight": 10},
                 {"id": "coder", "name_ar": "برموجي", "role": "المبرمج", "weight": 10},
-                {"id": "writer", "name_ar": "كتوبي", "role": "الكاتب", "weight": 10},
+                {"id": "writer", "name_ar": "كتوبي", "role": "كاتب المحتوى", "weight": 10},
                 {"id": "planner", "name_ar": "خطوطي", "role": "المخطط", "weight": 10},
                 {"id": "researcher", "name_ar": "بحوثي", "role": "الباحث", "weight": 10},
                 {"id": "Fikory", "name_ar": "فكوري", "role": "المنسق العام", "weight": 5}

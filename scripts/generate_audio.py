@@ -29,7 +29,7 @@ AGENTS_CONFIG = [
     {"id": "marketer", "name_ar": "مركوته", "role": "المسوقة", "weight": 10},
     {"id": "designer", "name_ar": "رسومه", "role": "المصممة", "weight": 10},
     {"id": "coder", "name_ar": "برموجي", "role": "المبرمج", "weight": 10},
-    {"id": "writer", "name_ar": "كتوبي", "role": "الكاتب", "weight": 10},
+    {"id": "writer", "name_ar": "كتوبي", "role": "كاتب المحتوى", "weight": 10},
     {"id": "planner", "name_ar": "خطوطي", "role": "المخطط", "weight": 10},
     {"id": "researcher", "name_ar": "بحوثي", "role": "الباحث", "weight": 10},
     {"id": "Fikory", "name_ar": "فكوري", "role": "المنسق العام", "weight": 5}
@@ -66,11 +66,11 @@ subjects_to_test = {
     "ch": {"profession_ar": "عالم الكيمياء", "profession_en": "Chemistry"}
 }
 
-# English translations for roles
+# English translations for direct roles
 role_en_map = {
-    "المحاسب": "Accounting Agent", "المسوقة": "Marketing Agent", "المصممة": "Design Agent",
-    "المبرمج": "Programming Agent", "الكاتب": "Writing Agent", "المخطط": "Planning Agent",
-    "الباحث": "Research Agent"
+    "المحاسب": "Accountant", "المسوقة": "Marketer", "المصممة": "Designer",
+    "المبرمج": "Programmer", "كاتب المحتوى": "Content Writer", "المخطط": "Planner",
+    "الباحث": "Researcher"
 }
 
 # The user can run this script for either "ar" or "en"
@@ -79,7 +79,7 @@ LANG_TO_GENERATE = "ar" # Change to "en" for English
 # 1. Generate Global Fikory Audio
 for subject, info in subjects_to_test.items():
     if LANG_TO_GENERATE == 'ar':
-        fikory_text = f"انا فكوري المنسق العام لوكالات الذكاء الاصطناعي اود اخبارك يا {info['profession_ar']} ان تدريبك للانظمة يسير بشكل ممتاز وعليه قررت المدينة اعطاءك 2 عملة رقمية"
+        fikory_text = f"انا فكوري المنسق العام للمدينة، اود اخبارك يا {info['profession_ar']} ان تدريبك للانظمة يسير بشكل ممتاز وعليه قررت المدينة اعطاءك 2 عملة رقمية"
     else:
         fikory_text = f"Welcome {info['profession_en']} expert, I am Fikory the general coordinator of the city. Thank you for your efforts, you have earned two coins."
         
@@ -119,13 +119,8 @@ for subject, info in subjects_to_test.items():
         is_female = selected_agent["name_ar"] in ['مركوته', 'رسومه']
         
         if LANG_TO_GENERATE == 'ar':
-            agent_depts = {
-                'accountant': 'المحاسبة', 'marketer': 'التسويق', 'designer': 'التصميم',
-                'coder': 'البرمجة', 'writer': 'الكتابة', 'planner': 'التخطيط', 'researcher': 'البحث'
-            }
-            dept = agent_depts.get(selected_agent["id"], selected_agent["role"])
-            agent_title = 'وكيلة' if is_female else 'وكيل'
-            narrative = f"أهلاً يا {info['profession_ar']}، أنا {agent_title} {dept} في المدينة وأرجو منك مساعدتي في الإجابة على السؤال التالي."
+            role_ar = selected_agent["role"]
+            narrative = f"أهلاً يا {info['profession_ar']}، أنا {role_ar} في المدينة وأرجو منك مساعدتي في الإجابة على السؤال التالي."
         else:
             role_en = role_en_map.get(selected_agent["role"], selected_agent["role"])
             narrative = f"Hello {info['profession_en']} expert, I am the {role_en} in the city, and I need your help with this question."
