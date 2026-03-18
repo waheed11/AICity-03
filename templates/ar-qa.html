@@ -184,7 +184,7 @@
         vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
 
         <a-assets>
-            <a-asset-item id="agentModel" src="/static/3d/{{ agent.id }}.glb"></a-asset-item>
+            <a-asset-item id="agentModel" src="/static/3d/{% if agent.id == 'marketer' %}marketer_funny_robot{% else %}{{ agent.id }}{% endif %}.glb"></a-asset-item>
             <a-asset-item id="fikoryModel" src="/static/3d/Fikory.glb"></a-asset-item>
         </a-assets>
 
@@ -341,7 +341,8 @@
 
                     // Live Swap the 3D model!
                     const models = document.querySelectorAll('.agent-model');
-                    models.forEach(m => m.setAttribute('src', `/static/3d/${agent.id}.glb`));
+                    const modelFileName = agent.id === 'marketer' ? 'marketer_funny_robot' : agent.id;
+                    models.forEach(m => m.setAttribute('src', `/static/3d/${modelFileName}.glb`));
                 }
 
                 setupUI(data);
