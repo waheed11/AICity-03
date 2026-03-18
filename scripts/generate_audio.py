@@ -47,10 +47,7 @@ def generate_tts(text, voice_id, filepath):
             voice=voice_id,
             input=text
         )
-        response.with_streaming_response.method() # the correct stable implementation for OpenAI package
-        with open(filepath, 'wb') as f:
-            for chunk in response.iter_bytes():
-                f.write(chunk)
+        response.stream_to_file(filepath)
         print("Success!")
     except Exception as e:
         print(f"Error generating {filepath}: {e}")
@@ -74,66 +71,66 @@ role_en_map = {
 }
 
 # The user can run this script for either "ar" or "en"
-LANG_TO_GENERATE = "ar" # Change to "en" for English
-
-# 1. Generate Global Fikory Audio
-for subject, info in subjects_to_test.items():
-    if LANG_TO_GENERATE == 'ar':
-        fikory_text = f"انا فكوري المنسق العام للمدينة، اود اخبارك يا {info['profession_ar']} ان تدريبك للانظمة يسير بشكل ممتاز وعليه قررت المدينة اعطاءك 2 عملة رقمية"
-    else:
-        fikory_text = f"Welcome {info['profession_en']} expert, I am Fikory the general coordinator of the city. Thank you for your efforts, you have earned two coins."
-        
-    filepath = os.path.join(out_dir, f"{subject}_{LANG_TO_GENERATE}_Fikory.mp3")
-    generate_tts(fikory_text, AGENT_VOICES["Fikory"], filepath)
-
-# 2. Iterate Questions Data
-for subject, info in subjects_to_test.items():
-    data_path = f"../data/{subject}-{LANG_TO_GENERATE}.jsonl"
-    if not os.path.exists(data_path):
-        continue
-        
-    with open(data_path, "r", encoding="utf-8") as f:
-        lines = f.readlines()
-        
-    for i, line in enumerate(lines):
-        line = line.strip()
-        if not line:
-            continue
-            
-        try:
-            q = json.loads(line)
-        except Exception:
-            continue
-            
-        qid = i + 1
-        
-        # Exact identical seed logic to sync agents between frontend and audio gen
-        random.seed(f"{subject}_{LANG_TO_GENERATE}_{qid}")
-        selected_agent = random.choices(AGENTS_CONFIG, weights=[a['weight'] for a in AGENTS_CONFIG], k=1)[0]
-        random.seed()
-        
-        # Skip Fikory (handled above)
-        if selected_agent["id"] == "Fikory":
-            continue
-            
-        is_female = selected_agent["name_ar"] in ['مركوته', 'رسومه']
-        
+for LANG_TO_GENERATE in ["ar", "en"]:
+    print(f"\n--- Generating for language: {LANG_TO_GENERATE} ---")
+    # 1. Generate Global Fikory Audio
+    for subject, info in subjects_to_test.items():
         if LANG_TO_GENERATE == 'ar':
-            role_ar = selected_agent["role"]
-            narrative = f"أهلاً يا {info['profession_ar']}، أنا {role_ar} في المدينة وأرجو منك مساعدتي في الإجابة على السؤال التالي."
+            fikory_text = f"انا فكوري المنسق العام للمدينة، اود اخبارك يا {info['profession_ar']} ان تدريبك للانظمة يسير بشكل ممتاز وعليه قررت المدينة اعطاءك 2 عملة رقمية"
         else:
-            role_en = role_en_map.get(selected_agent["role"], selected_agent["role"])
-            narrative = f"Hello {info['profession_en']} expert, I am the {role_en} in the city, and I need your help with this question."
+            fikory_text = f"Welcome {info['profession_en']} expert, I am Fikory the general coordinator of the city. Thank you for your efforts, you have earned two coins."
+            
+        filepath = os.path.join(out_dir, f"{subject}_{LANG_TO_GENERATE}_Fikory.mp3")
+        generate_tts(fikory_text, AGENT_VOICES["Fikory"], filepath)
 
-        q_text = q.get("question", "")
-        
-        # We REMOVED reading out options A, B, C, D to save cost and make gameplay faster!
-        full_text = f"{narrative} {q_text}"
-        
-        filepath = os.path.join(out_dir, f"{subject}_{LANG_TO_GENERATE}_{qid}_{selected_agent['id']}.mp3")
-        generate_tts(full_text, AGENT_VOICES[selected_agent["id"]], filepath)
-        
-        # Sleep slightly to respect api limits on high volume (OpenAI limit is generous but good practice)
-        time.sleep(0.1)
+    # 2. Iterate Questions Data
+    for subject, info in subjects_to_test.items():
+        data_path = f"../data/{subject}-{LANG_TO_GENERATE}.jsonl"
+        if not os.path.exists(data_path):
+            continue
+            
+        with open(data_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+            
+        for i, line in enumerate(lines):
+            line = line.strip()
+            if not line:
+                continue
+                
+            try:
+                q = json.loads(line)
+            except Exception:
+                continue
+                
+            qid = i + 1
+            
+            # Exact identical seed logic to sync agents between frontend and audio gen
+            random.seed(f"{subject}_{LANG_TO_GENERATE}_{qid}")
+            selected_agent = random.choices(AGENTS_CONFIG, weights=[a['weight'] for a in AGENTS_CONFIG], k=1)[0]
+            random.seed()
+            
+            # Skip Fikory (handled above)
+            if selected_agent["id"] == "Fikory":
+                continue
+                
+            is_female = selected_agent["name_ar"] in ['مركوته', 'رسومه']
+            
+            if LANG_TO_GENERATE == 'ar':
+                role_ar = selected_agent["role"]
+                narrative = f"أهلاً يا {info['profession_ar']}، أنا {role_ar} في المدينة وأرجو منك مساعدتي في الإجابة على السؤال التالي."
+            else:
+                role_en = role_en_map.get(selected_agent["role"], selected_agent["role"])
+                narrative = f"Hello {info['profession_en']} expert, I am the {role_en} in the city, and I need your help with this question."
+
+            q_text = q.get("question", "")
+            
+            # We REMOVED reading out options A, B, C, D to save cost and make gameplay faster!
+            full_text = f"{narrative} {q_text}"
+            
+            filepath = os.path.join(out_dir, f"{subject}_{LANG_TO_GENERATE}_{qid}_{selected_agent['id']}.mp3")
+            generate_tts(full_text, AGENT_VOICES[selected_agent["id"]], filepath)
+            
+            # Sleep slightly to respect api limits on high volume (OpenAI limit is generous but good practice)
+            time.sleep(0.1)
 
 print("Batch processing complete.")
