@@ -365,7 +365,9 @@
 
                 // Now that `agent` and `qid` match reality
                 if (agent.id === 'Fikory') {
-                    const fikText = `انا فكوري المنسق العام لوكالات الذكاء الاصطناعي اود اخبارك يا ${prof} ان تدريبك للانظمة يسير بشكل ممتاز وعليه قررت المدينة اعطاءك 2 عملة رقمية`;
+                    const fikMsgAr = `انا فكوري المنسق العام للمدينة، اود اخبارك يا ${prof} ان تدريبك للانظمة يسير بشكل ممتاز وعليه قررت المدينة اعطاءك 2 عملة رقمية`;
+                    const fikMsgEn = `Welcome ${prof} expert, I am Fikory the general coordinator of the city. Thank you for your efforts, you have earned two coins.`;
+                    const fikText = lang === 'en' ? fikMsgEn : fikMsgAr;
                     document.getElementById('fikory-text').innerText = fikText;
                     document.getElementById('fikory-panel').style.display = 'block';
                     document.getElementById(`ar-board-text-${targetIdx}`).setAttribute('value', "Fikory Reward!");
@@ -374,22 +376,23 @@
                 }
 
                 // Normal Flow
-                const agentDepts = {
-                    'accountant': 'المحاسبة',
-                    'marketer': 'التسويق',
-                    'designer': 'التصميم',
-                    'coder': 'البرمجة',
-                    'writer': 'الكتابة',
-                    'planner': 'التخطيط',
-                    'researcher': 'البحث'
+                const roleEnMap = {
+                    "المحاسب": "Accountant", "المسوقة": "Marketer", "المصممة": "Designer",
+                    "المبرمج": "Programmer", "الكاتب": "Writer", "المخطط": "Planner",
+                    "الباحث": "Researcher"
                 };
-                const dept = agentDepts[agent.id] || agent.role;
-                const isFemale = agent.name_ar.endsWith('ة') || agent.name_ar.endsWith('ه');
-                const agentTitle = isFemale ? 'وكيلة' : 'وكيل';
 
-                const narrative = `أهلاً يا ${prof}، أنا ${agentTitle} ${dept} في المدينة وأرجو منك مساعدتي في الإجابة على السؤال التالي...`;
+                let narrative = "";
+                if (lang === 'ar') {
+                    narrative = `أهلاً يا ${prof}، أنا ${agent.role} في المدينة وأرجو منك مساعدتي في الإجابة على السؤال التالي...`;
+                    document.getElementById(`ar-board-text-${targetIdx}`).setAttribute('value', `أنا ${agent.role}...`);
+                } else {
+                    const roleEn = roleEnMap[agent.role] || agent.role;
+                    narrative = `Hello ${prof} expert, I am the ${roleEn} in the city, and I need your help with this question...`;
+                    document.getElementById(`ar-board-text-${targetIdx}`).setAttribute('value', `I am the ${roleEn}...`);
+                }
+
                 document.getElementById('narrative-text').innerText = narrative;
-                document.getElementById(`ar-board-text-${targetIdx}`).setAttribute('value', `أنا ${agentTitle} ${dept}...`);
 
                 document.getElementById('question-panel').style.display = 'block';
                 document.getElementById('audio-btn').style.display = 'block';
