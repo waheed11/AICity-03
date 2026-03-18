@@ -178,12 +178,12 @@
 
     <!-- MindAR Scene -->
     <a-scene
-        mindar-image="imageTargetSrc: /static/ar/all_cards.mind; filterMinCF:0.0001; filterBeta: 0.001; uiScanning: yes; autoStart: true;"
+        mindar-image="imageTargetSrc: /static/ar/{{ target_mind }}; filterMinCF:0.0001; filterBeta: 0.001; uiScanning: yes; autoStart: true;"
         color-space="sRGB"
         renderer="colorManagement: true; physicallyCorrectLights: true; toneMapping: ACESFilmic; exposure: 2.0;"
         vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
 
-        <a-assets>
+        <a-assets timeout="60000">
             <a-asset-item id="agentModel" src="/static/3d/{% if agent.id == 'marketer' %}marketer_funny_robot{% else %}{{ agent.id }}{% endif %}.glb"></a-asset-item>
             <a-asset-item id="fikoryModel" src="/static/3d/Fikory.glb"></a-asset-item>
         </a-assets>
@@ -194,24 +194,11 @@
 
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
-        <!-- Target 0: Biologist (Because the compiler generated it first) -->
-        <a-entity mindar-image-target="targetIndex: 0" data-subject="bi">
+        <!-- Active Context Target (Always index 0 for single mind files) -->
+        <a-entity mindar-image-target="targetIndex: 0" data-subject="{{ subject }}">
             <!-- Professional Name & Narrative Board -->
             <a-plane position="0 -0.8 0" height="0.4" width="1.5" color="#1e293b" opacity="0.8">
                 <a-text id="ar-board-text-0" value="Scan recognized..." align="center" color="#fbbf24"
-                    width="3"></a-text>
-            </a-plane>
-
-            <!-- Agent 3D Model: Tilted at 45 degrees for top-down scanning -->
-            <a-gltf-model class="agent-model" src="#agentModel" rotation="45 0 0" position="0 0 0"
-                scale="0.5 0.5 0.5"></a-gltf-model>
-        </a-entity>
-
-        <!-- Target 1: Civil Engineer -->
-        <a-entity mindar-image-target="targetIndex: 1" data-subject="ce">
-            <!-- Professional Name & Narrative Board -->
-            <a-plane position="0 -0.8 0" height="0.4" width="1.5" color="#1e293b" opacity="0.8">
-                <a-text id="ar-board-text-1" value="Scan recognized..." align="center" color="#fbbf24"
                     width="3"></a-text>
             </a-plane>
 
