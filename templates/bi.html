@@ -72,13 +72,9 @@
             const pathParts = window.location.pathname.replace(/^\/+/, '').split('-');
             const subject = pathParts[0];
             const lang = '{{ lang }}';
-            const storedSubmissionState = localStorage.getItem(`questionSubmitted_${questionId}`);
-
-            if (storedSubmissionState === 'true') {
-                window.location.href = `/ar?subject=${subject}&lang=${lang}&qid=${questionId}&v=${Date.now()}`;
-            } else {
-                alert("يرجى الإجابة على السؤال الحالي قبل الانتقال إلى الواقع المعزز (AR).");
-            }
+            
+            // Allow user to switch directly without requiring an answer
+            window.location.href = `/ar?subject=${subject}&lang=${lang}&qid=${questionId}&v=${Date.now()}`;
         }
 
         document.addEventListener('DOMContentLoaded', function () {
