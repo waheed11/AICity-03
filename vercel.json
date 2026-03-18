@@ -8,14 +8,18 @@
             }
         },
         {
-            "src": "public/**",
+            "src": "static/**",
             "use": "@vercel/static"
         }
     ],
     "routes": [
         {
+            "src": "/static/(.*)",
+            "dest": "/static/$1"
+        },
+        {
             "src": "/(.*)",
-            "dest": "/$1"
+            "dest": "/api/index.py"
         }
     ]
 }
