@@ -11,6 +11,20 @@
     <div class="container">
         <h1 class="title">AI City</h1>
         
+        <div style="text-align: center; margin-bottom: 20px;">
+            <button type="button" onclick="switchToAR()" class="ar-switch-btn"
+                style="background: linear-gradient(45deg, #FF512F, #DD2476); color: white; border: none; padding: 10px 20px; border-radius: 25px; font-size: 16px; font-weight: bold; cursor: pointer; box-shadow: 0 4px 15px rgba(0,0,0,0.2); animation: pulse 2s infinite;">
+                🌟 الواقع المعزز (AR)
+            </button>
+        </div>
+        <style>
+            @keyframes pulse {
+                0% { transform: scale(1); }
+                50% { transform: scale(1.05); }
+                100% { transform: scale(1); }
+            }
+        </style>
+        
         <div id="quiz" class="quiz-container">
             <div class="question">
                 <h2>{{ question.question }}</h2>
@@ -43,6 +57,14 @@
     </div>
 
     <script>
+        function switchToAR() {
+            const questionId = '{{ question_index }}';
+            const pathParts = window.location.pathname.replace(/^\/+/, '').split('-');
+            const subject = pathParts[0];
+            const lang = '{{ lang }}';
+            window.location.href = `/ar?subject=${subject}&lang=${lang}&qid=${questionId}&v=${Date.now()}`;
+        }
+
         document.addEventListener('DOMContentLoaded', function() {
             const questionId = '{{ question_index }}';
             const storedSubmissionState = localStorage.getItem(`questionSubmitted_${questionId}`);
