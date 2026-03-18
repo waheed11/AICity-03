@@ -2,12 +2,14 @@
     "builds": [
         {
             "src": "api/index.py",
-            "use": "@vercel/python",
-            "config": {
-                "excludeFiles": "static/**"
-            }
+            "use": "@vercel/python"
         }
     ],
+    "functions": {
+        "api/index.py": {
+            "excludeFiles": "static/**"
+        }
+    },
     "routes": [
         {
             "src": "/static/(.*)",
