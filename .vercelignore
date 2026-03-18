@@ -1,0 +1,6 @@
+static/**
+!static/css/**
+!static/scripts/**
+!static/image/**
+!static/target-images/**
+!static/icon/**
